@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    max-width: 1330px;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -83,7 +83,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-right: 50px;
+    margin-right: 50px
 }
 
 .header-phone-link {
@@ -97,7 +97,7 @@ body {
     font-size: 16px;
     line-height: 160%;
     color: white;
-    background: #3A71D1;
+    background: #5C8EE6;
     padding: 25px 60px;
     border: 0;
     display: inline-block;
@@ -152,9 +152,13 @@ body {
     position: relative;
 }
 
+.header-button {
+    padding: 26px 60px;
+}
+
 .header-features-items {
     width: 288px;
-    padding: 30px 50px;
+    padding: 28px 50px;
     border: 1px solid rgba(235, 235, 240, 0.2);
 }
 

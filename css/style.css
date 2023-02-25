@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1330px;
     margin: auto;
 }
 
@@ -41,13 +41,15 @@ body {
     background-image: url("/img/bg-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom -40px;
+    position: relative;
+    height: 970px;
 }
 
 .header-image::before {
     content: "";
     position: absolute;
-    background: rgba(41, 45, 51, 0.6);
+    background: rgba(41, 45, 51, 0.75);
     top: 0;
     left: 0;
     width: 100%;
@@ -105,6 +107,7 @@ body {
 .navbar-button {
     flex-shrink: 0;
     height: 102%;
+    padding: 25px 50px;
 }
 
 .separator {
@@ -126,6 +129,8 @@ body {
     font-size: 80px;
     line-height: 120%;
     margin: 30px 0;
+    letter-spacing: 0.8px;
+    word-spacing: -1.6px;
 }
 
 .header-text {
@@ -148,6 +153,7 @@ body {
 }
 
 .header-features-items {
+    width: 288px;
     padding: 30px 50px;
     border: 1px solid rgba(235, 235, 240, 0.2);
 }
@@ -156,6 +162,7 @@ body {
     font-size: 16px;
     line-height: 160%;
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 .header-featires-item:not(:last-child) {

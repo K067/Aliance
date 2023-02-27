@@ -206,6 +206,8 @@ body {
 
 .steps-item {
     max-width: 20.625rem;
+    padding-right: 1.875rem;
+
 }
 
 .steps-num {
@@ -266,14 +268,61 @@ body {
 @media(max-width:1700px) {
     html {
         font-size: 14px;
+    }
+
+    .header-image {
         background-position: center;
+    }
+}
+
+@media(max-width:1500px) {
+    html {
+        font-size: 12px;
+    }
+
+    .header-image {
+        background-position: center;
+    }
+
+    .container {
+        max-width: 97rem;
+    }
+
+    .logo-light {
+        width: 93px;
+    }
+
+    .header-features-icon {
+        width: 23px;
+    }
+
+    .phone-icon {
+        width: 13px;
     }
 }
 
 @media(max-width:1200px) {
     html {
         font-size: 10px;
-        background-position: center;
+    }
 
+    .header-image {
+        background-position: center;
+    }
+
+    .container {
+        max-width: 89rem;
+    }
+
+    .logo-light {
+        width: 90px;
+    }
+
+    .header-features-icon {
+        width: 25px;
+    }
+
+    .phone-icon {
+        width: 15px;
     }
 }

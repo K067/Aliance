@@ -1,5 +1,5 @@
 const navbar = document.querySelector('.navbar');
-const headerLogo = navbar.querySelector('.header-logo');
+const headerLogo = navbar.querySelector('.navbar-logo');
 const headerNav = navbar.querySelector('.header-nav');
 const logoDark = navbar.querySelector('.logo-light');
 const phoneLink = navbar.querySelector('.header-phone');
@@ -11,7 +11,7 @@ document.addEventListener('scroll', () => {
         navbar.style.backgroundColor = 'white';
         headerLogo.style.display = 'flex';
         headerLogo.style.alignItems = 'center';
-        navbar.style.height = '72px';
+        navbar.style.height = '4.5rem';
         headerNav.style.color = '#292D33';
         logoDark.src = './img/logo-dark.svg';
         phoneLink.style.color = '#292D33';

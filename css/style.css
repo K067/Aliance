@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 1rem;
+}
+
 @font-face {
     font-family: 'Bebas Neue Book';
     src: url('../font/BebasNeueBook.woff') format('woff');
@@ -14,7 +18,7 @@ body {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 90rem;
     margin: auto;
 }
 
@@ -22,18 +26,18 @@ body {
     display: flex;
     align-items: center;
     color: white;
-    height: 94px;
+    height: 5.875rem;
     position: fixed;
     z-index: 2;
     width: 100%;
     left: 0;
     top: 0;
-    border-bottom: 1px solid rgba(235, 235, 240, 0.2);
+    border-bottom: .0625rem solid rgba(235, 235, 240, 0.2);
     transition: background-color 0.2s, height 0.2s;
 }
 
 .header {
-    padding: 94px;
+    padding-top: 5.875rem;
     min-height: 100vh;
 }
 
@@ -41,9 +45,9 @@ body {
     background-image: url("/img/bg-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom -53px;
+    background-position: center bottom -3.3125rem;
     position: relative;
-    height: 970px;
+    height: 60.625rem;
 }
 
 .header-image::before {
@@ -57,9 +61,9 @@ body {
     z-index: 0;
 }
 
-.header-logo {
-    padding: 25px 50px;
-    border-right: 1px solid rgba(235, 235, 240, 0.2);
+.navbar-logo {
+    padding: 1.5625rem 3.125rem;
+    border-right: .0625rem solid rgba(235, 235, 240, 0.2);
     height: 100%;
 }
 
@@ -67,14 +71,18 @@ body {
     display: flex;
     flex-basis: 100%;
     list-style: none;
-    padding: 0 50px;
+    padding: 0;
+    padding-left: 3.125rem;
     margin: 0;
+}
+
+.header-nav-item {
+    margin-right: 4%;
 }
 
 .header-nav-link {
     text-decoration: none;
-    font-size: 16px;
-    margin-right: 50px;
+    font-size: 1rem;
     color: inherit;
 }
 
@@ -82,23 +90,23 @@ body {
     flex-shrink: 0;
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-right: 50px
+    gap: .625rem;
+    margin-right: 3.125rem
 }
 
 .header-phone-link {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     color: inherit;
 }
 
 .button {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
     color: white;
     background: #5C8EE6;
-    padding: 25px 60px;
+    padding: 1.5625rem 3.75rem;
     border: 0;
     display: inline-block;
     cursor: pointer;
@@ -107,68 +115,68 @@ body {
 .navbar-button {
     flex-shrink: 0;
     height: 102%;
-    padding: 25px 50px;
+    padding: 1.5625rem 3.125rem;
 }
 
 .separator {
     background: #5C8EE6;
-    width: 150px;
-    height: 2px;
+    width: 9.375rem;
+    height: .125rem;
 }
 
 .header-content {
-    padding-top: 150px;
+    padding-top: 9.375rem;
     position: relative;
     z-index: 1;
     color: white;
 }
 
 .header-title {
-    max-width: 1080px;
+    max-width: 67.5rem;
     font-family: 'Bebas Neue Book';
-    font-size: 80px;
+    font-size: 5rem;
     line-height: 120%;
-    margin: 23px 0;
-    letter-spacing: 0.8px;
-    word-spacing: -1.6px;
+    margin: 1.4375rem 0;
+    letter-spacing: .05rem;
+    word-spacing: -0.1rem;
 }
 
 .header-text {
-    max-width: 720px;
+    max-width: 45rem;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
-    margin-bottom: 50px;
-    margin-top: 36px;
+    margin-bottom: 3.125rem;
+    margin-top: 2.25rem;
 }
 
 .header-features {
     display: flex;
-    min-height: 168px;
+    min-height: 10.5rem;
     padding: 0;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     list-style: none;
     color: white;
     position: relative;
 }
 
 .header-button {
-    padding: 26px 60px;
+    padding: 1.625rem 3.75rem;
 }
 
 .header-features-items {
-    width: 288px;
-    padding: 30px 48px;
-    border: 1px solid rgba(235, 235, 240, 0.2);
+    width: 18rem;
+    padding: 1.875rem 3rem;
+    border: .0625rem solid rgba(235, 235, 240, 0.2);
 }
 
 .header-features-text {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
     font-weight: 400;
     margin-bottom: 0;
-    margin-top: 17px;
+    margin-top: 1.0625rem;
 }
 
 .header-featires-item:not(:last-child) {
@@ -176,34 +184,34 @@ body {
 }
 
 .section {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 9.375rem;
+    margin-bottom: 9.375rem;
 }
 
 .section-title {
     font-family: 'Bebas Neue Book';
     font-weight: 400;
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 120%;
     color: #292D33;
-    margin-top: 23px;
+    margin-top: 1.4375rem;
 }
 
 .steps {
     display: flex;
     list-style: none;
     padding: 0;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .steps-item {
-    max-width: 330px;
+    max-width: 20.625rem;
 }
 
 .steps-num {
     font-family: 'Bebas Neue Book';
-    font-weight: 400px;
-    font-size: 48px;
+    font-weight: 25rem;
+    font-size: 3rem;
     line-height: 120%;
     color: #5c8ee6;
     display: flex;
@@ -212,25 +220,25 @@ body {
 
 .steps-num:after {
     content: "";
-    height: 1px;
+    height: .0625rem;
     background: #EBEBF0;
     width: 100%;
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 
 .steps-title {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 160%;
     color: #292D33;
-    margin-top: 39px;
-    margin-bottom: 10px;
-    width: 100px;
+    margin-top: 2.4375rem;
+    margin-bottom: .625rem;
+    width: 6.25rem;
 }
 
 .steps-text {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
     color: #828A99;
     margin-top: auto;
@@ -241,16 +249,31 @@ body {
     align-items: center;
     text-decoration: none;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
     color: #5C8EE6;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .steps-link:before {
     content: "";
-    height: 1px;
-    width: 40px;
-    margin-right: 20px;
+    height: .0625rem;
+    width: 2.5rem;
+    margin-right: 1.25rem;
     background: #5C8EE6;
+}
+
+@media(max-width:1700px) {
+    html {
+        font-size: 14px;
+        background-position: center;
+    }
+}
+
+@media(max-width:1200px) {
+    html {
+        font-size: 10px;
+        background-position: center;
+
+    }
 }

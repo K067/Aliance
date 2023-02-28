@@ -10,12 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/main.js" defer></script>
+    <script src="./js/navbar.js" defer></script>
     <title>Aliance Production</title>
 </head>
 
 <body>
     <nav class="navbar">
+        <a href="" class="mobile-menu-toggle">
+            <div class="mobile-menu-line"></div>
+            <div class="mobile-menu-line"></div>
+            <div class="mobile-menu-line"></div>
+        </a>
         <a href="./" class="navbar-logo">
             <img src="./img/logo-light.svg" alt="Aliance Production" class="logo-light">
         </a>
@@ -42,7 +47,10 @@
                 +7 (499) 686-10-14
             </a>
         </div>
-        <button class="navbar-button button">Получить консультацию</button>
+        <button class="navbar-button button">
+            <img src="./img/white-phone.svg" alt="icon: phone" class="button-icon">
+            <span class="button-text">Получить консультацию</span>
+        </button>
     </nav>
     <header class="header header-image">
         <div class="container">

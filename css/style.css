@@ -65,6 +65,7 @@ body {
     padding: 1.5625rem 3.125rem;
     border-right: .0625rem solid rgba(235, 235, 240, 0.2);
     height: 100%;
+    display: flex;
 }
 
 .header-nav {
@@ -116,6 +117,10 @@ body {
     flex-shrink: 0;
     height: 102%;
     padding: 1.5625rem 3.125rem;
+}
+
+.navbar-button .button-icon {
+    display: none;
 }
 
 .separator {
@@ -275,54 +280,108 @@ body {
     }
 }
 
-@media(max-width:1500px) {
+@media(max-width:1460px) {
     html {
-        font-size: 12px;
+        font-size: 13px;
     }
 
-    .header-image {
-        background-position: center;
-    }
-
-    .container {
-        max-width: 97rem;
+    .header-log {
+        padding: 2rem;
     }
 
     .logo-light {
-        width: 93px;
+        max-width: 9rem;
     }
 
-    .header-features-icon {
-        width: 23px;
+    .header-nav {
+        padding-left: 2rem;
     }
 
-    .phone-icon {
-        width: 13px;
+    .header-nav-item:not(:last-child) {
+        margin-right: 1rem;
+    }
+
+    .header-phone {
+        margin-right: 2rem;
     }
 }
 
 @media(max-width:1200px) {
-    html {
-        font-size: 10px;
-    }
-
-    .header-image {
-        background-position: center;
-    }
-
     .container {
-        max-width: 89rem;
+        max-width: 70rem;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    .navbar {
+        height: 5rem;
     }
 
     .logo-light {
-        width: 90px;
+        max-width: 7rem;
     }
 
-    .header-features-icon {
-        width: 25px;
+
+    .navbar-button {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media(max-width:992px) {
+    hmtl {
+        font-size: 12px;
     }
 
-    .phone-icon {
-        width: 15px;
+    .container {
+        max-width: 60rem;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .navbar-logo {
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    .mobile-menu-toggle {
+        width: 80px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1.8rem;
+        border-right: 1px solid rgba(235, 235, 240, 0.2);
+    }
+
+    .mobile-menu-line .navbar {
+        background-color: #333;
+    }
+
+    .mobile-menu-line {
+        height: 1px;
+        background-color: white;
+        width: 100%;
+    }
+
+    .mobile-menu-line:nth-child(2) {
+        width: 80%;
+    }
+
+    .navbar-button .button-text {
+        display: none
+    }
+
+    .navbar-button .button-icon {
+        color: white;
+        display: block;
+    }
+
+    .button {
+        line-height: 0%;
     }
 }

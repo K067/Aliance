@@ -12,10 +12,20 @@ mobileMenuToggle.addEventListener('click', (e) => {
     e.preventDefault();
     mobileMenu.classList.toggle('is-open');
 
-    // mobileMenuLine.forEach(e => {
-    //     mobileMenu.classList.toggle('is-opn');
-    //     e.style.backgroundColor = '#333';
-    // });
+    if (document.querySelector('.is-open')) {
+        logoDark.src = './img/logo-dark.svg';
+
+        mobileMenuLine.forEach(e => {
+            e.style.backgroundColor = '#333';
+        });
+    } else {
+        logoDark.src = './img/logo-light.svg';
+
+        mobileMenuLine.forEach(e => {
+            e.style.backgroundColor = 'white';
+        });
+    }
+
 });
 
 document.addEventListener('scroll', () => {

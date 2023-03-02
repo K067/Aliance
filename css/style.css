@@ -371,11 +371,15 @@ body {
     .mobile-menu-line {
         height: 1px;
         background-color: white;
+        transition: transform 0.2s;
+    }
+
+    .mobile-menu-line:nth-child(1) {
         width: 100%;
     }
 
-    .mobile-menu-line:nth-child(2) {
-        width: 80%;
+    .mobile-menu-line:nth-child(3) {
+        width: 100%;
     }
 
     .navbar-button .button-text {

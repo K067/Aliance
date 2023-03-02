@@ -8,10 +8,11 @@ const phoneLink = navbar.querySelector('.header-phone');
 const mobileMenuLine = navbar.querySelectorAll('.mobile-menu-line');
 const mobileMenuToggle = navbar.querySelector('.mobile-menu-toggle');
 
-
+mobileMenuLine[1].style.width = '80%';
 
 mobileMenuToggle.addEventListener('click', (e) => {
     e.preventDefault();
+
     mobileMenu.classList.toggle('is-open');
     document.querySelector('body').classList.toggle('bye');
 
@@ -20,22 +21,28 @@ mobileMenuToggle.addEventListener('click', (e) => {
 
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = '#333';
+            e.style.position = 'relative';
+            e.style.right = '-5px';
         });
+        mobileMenuLine[0].style.transform = 'rotate(45deg) translateY(11px)';
+        mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-12px)';
+        mobileMenuLine[1].style.display = 'none';
     } else {
         logoDark.src = './img/logo-light.svg';
 
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = 'white';
+            e.style.position = '';
+            e.style.right = '';
         });
+        mobileMenuLine[0].style.transform = '';
+        mobileMenuLine[2].style.transform = '';
+        mobileMenuLine[1].style.display = 'block';
     }
 });
 
 document.addEventListener('scroll', () => {
     let current = window.scrollY;
-
-    if (window.innerWidth <= 375) {
-        return false;
-    }
 
     if (current >= 150) {
         mobileMenuLine.forEach(e => {

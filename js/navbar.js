@@ -8,9 +8,12 @@ const phoneLink = navbar.querySelector('.header-phone');
 const mobileMenuLine = navbar.querySelectorAll('.mobile-menu-line');
 const mobileMenuToggle = navbar.querySelector('.mobile-menu-toggle');
 
+
+
 mobileMenuToggle.addEventListener('click', (e) => {
     e.preventDefault();
     mobileMenu.classList.toggle('is-open');
+    document.querySelector('body').classList.toggle('bye');
 
     if (document.querySelector('.is-open')) {
         logoDark.src = './img/logo-dark.svg';
@@ -25,11 +28,14 @@ mobileMenuToggle.addEventListener('click', (e) => {
             e.style.backgroundColor = 'white';
         });
     }
-
 });
 
 document.addEventListener('scroll', () => {
     let current = window.scrollY;
+
+    if (window.innerWidth <= 375) {
+        return false;
+    }
 
     if (current >= 150) {
         mobileMenuLine.forEach(e => {

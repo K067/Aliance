@@ -335,6 +335,11 @@ body {
 }
 
 @media(max-width:992px) {
+
+    .bye {
+        overflow: hidden;
+    }
+
     hmtl {
         font-size: 12px;
     }

@@ -17,6 +17,11 @@ mobileMenuToggle.addEventListener('click', (e) => {
     document.querySelector('body').classList.toggle('bye');
 
     if (document.querySelector('.is-open')) {
+        navbar.style.backgroundColor = 'white';
+        headerLogo.style.display = 'flex';
+        headerLogo.style.alignItems = 'center';
+        navbar.style.height = '4.5rem';
+        headerNav.style.color = '#292D33';
         logoDark.src = './img/logo-dark.svg';
 
         mobileMenuLine.forEach(e => {
@@ -24,17 +29,25 @@ mobileMenuToggle.addEventListener('click', (e) => {
             e.style.position = 'relative';
             e.style.right = '-5px';
         });
-        mobileMenuLine[0].style.transform = 'rotate(45deg) translateY(11px)';
-        mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-12px)';
+
+        mobileMenuLine[0].style.transform = 'rotate(45deg) translateY(7px)';
+        mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-8px)';
         mobileMenuLine[1].style.display = 'none';
     } else {
-        logoDark.src = './img/logo-light.svg';
 
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = 'white';
             e.style.position = '';
             e.style.right = '';
         });
+
+        navbar.style.backgroundColor = '';
+        navbar.style.height = '';
+        headerLogo.style.display = '';
+        headerLogo.style.alignItems = '';
+        headerNav.style.color = '';
+        logoDark.src = './img/logo-light.svg';
+
         mobileMenuLine[0].style.transform = '';
         mobileMenuLine[2].style.transform = '';
         mobileMenuLine[1].style.display = 'block';

@@ -57,7 +57,7 @@ mobileMenuToggle.addEventListener('click', (e) => {
 document.addEventListener('scroll', () => {
     let current = window.scrollY;
 
-    if (current >= 150) {
+    if (current >= 36) {
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = '#333';
         });
@@ -79,5 +79,32 @@ document.addEventListener('scroll', () => {
         headerNav.style.color = '';
         logoDark.src = './img/logo-light.svg';
         phoneLink.style.color = '';
+    }
+});
+
+const swiper = new Swiper('.swiper', {
+    speed: 400,
+    autoHeight: true,
+    slidesPerView: 1,
+    navigation: {
+        nextEl: '.slider-button-next',
+        prevEl: '.slider-button-prev',
+    },
+    breakpoints: {
+        374: {
+            slidesPerView: 1.5,
+        },
+        576: {
+            slidesPerView: 2,
+        },
+        767: {
+            slidesPerView: 3,
+        },
+        1199: {
+            slidesPerView: 4,
+        },
+        1201: {
+            slidesPerView: 5,
+        }
     }
 });

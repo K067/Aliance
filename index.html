@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <head>
+    <script src="./js/swiper-bundle.min.js" defer></script>
     <script src="./js/navbar.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Aliance Production</title>
@@ -112,28 +114,34 @@
                     анализа существующих паттернов поведения.</p>
                 <div class="header-button button">Подробнее о компании</div>
             </div>
-            <ul class="header-features">
-                <li class="header-features-items">
-                    <img src="./img/features/timer.svg" alt="" class="header-features-icon">
-                    <p class="header-features-text">Непрерывная работа c 2017 года</p>
-                </li>
-                <li class="header-features-items">
-                    <img src="./img/features/paper.svg" alt="" class="header-features-icon">
-                    <p class="header-features-text">Вся продукция сертифицирована</p>
-                </li>
-                <li class="header-features-items">
-                    <img src="./img/features/man.svg" alt="" class="header-features-icon">
-                    <p class="header-features-text">Контроль качества на всех этапах</p>
-                </li>
-                <li class="header-features-items">
-                    <img src="./img/features/vector.svg" alt="" class="header-features-icon">
-                    <p class="header-features-text">Возможны поставки по всей России</p>
-                </li>
-                <li class="header-features-items">
-                    <img src="./img/features/speed.svg" alt="" class="header-features-icon">
-                    <p class="header-features-text">Оперативное производство</p>
-                </li>
-            </ul>
+            <div class="swiper">
+                <ul class="swiper-wrapper header-features">
+                    <li class="swiper-slide header-features-items">
+                        <img src="./img/features/timer.svg" alt="" class="header-features-icon">
+                        <p class="header-features-text">Непрерывная работа c 2017 года</p>
+                    </li>
+                    <li class="swiper-slide header-features-items">
+                        <img src="./img/features/paper.svg" alt="" class="header-features-icon">
+                        <p class="header-features-text">Вся продукция сертифицирована</p>
+                    </li>
+                    <li class="swiper-slide header-features-items">
+                        <img src="./img/features/man.svg" alt="" class="header-features-icon">
+                        <p class="header-features-text">Контроль качества на всех этапах</p>
+                    </li>
+                    <li class="swiper-slide header-features-items">
+                        <img src="./img/features/vector.svg" alt="" class="header-features-icon">
+                        <p class="header-features-text">Возможны поставки по всей России</p>
+                    </li>
+                    <li class="swiper-slide header-features-items">
+                        <img src="./img/features/speed.svg" alt="" class="header-features-icon">
+                        <p class="header-features-text">Оперативное производство</p>
+                    </li>
+                </ul>
+                <div class="slider-buttons">
+                    <div class="slider-button-prev"><img src="./img/arrow-left.svg" alt="left"></div>
+                    <div class="slider-button-next"><img src="./img/arrow-right.svg" alt="right"></div>
+                </div>
+            </div>
         </div>
     </header>
     <section class="section section-light">

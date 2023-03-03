@@ -42,7 +42,6 @@ body {
 
 .header {
     padding-top: 5.875rem;
-    min-height: 100vh;
 }
 
 .header-image {
@@ -51,7 +50,6 @@ body {
     background-repeat: no-repeat;
     background-position: center bottom -3.3125rem;
     position: relative;
-    height: 60.625rem;
 }
 
 .header-image::before {
@@ -177,7 +175,24 @@ body {
 .header-features-items {
     width: 18rem;
     padding: 1.875rem 3rem;
+    min-height: 100%;
     border: .0625rem solid rgba(235, 235, 240, 0.2);
+}
+
+.slider-buttons {
+    display: none;
+    height: 44px;
+}
+
+.slider-button-prev,
+.slider-button-next {
+    height: 100%;
+    flex-basis: 50%;
+    border: 1px solid rgba(235, 235, 240, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .header-features-text {
@@ -311,6 +326,10 @@ body {
 }
 
 @media(max-width:1200px) {
+    .slider-buttons {
+        display: flex;
+    }
+
     .container {
         max-width: 70rem;
     }
@@ -324,24 +343,27 @@ body {
     }
 
     .logo-light {
-        max-width: 7rem;
+        max-width: 9.5rem;
     }
 
 
     .navbar-button {
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 2.3rem;
+        padding-right: 2.3rem;
     }
 }
 
 @media(max-width:992px) {
-
-    .bye {
-        overflow: hidden;
+    body {
+        overflow-x: hidden;
     }
 
     hmtl {
         font-size: 12px;
+    }
+
+    .bye {
+        overflow: hidden;
     }
 
     .container {

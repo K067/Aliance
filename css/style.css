@@ -188,11 +188,32 @@ body {
 .slider-button-next {
     height: 100%;
     flex-basis: 50%;
-    border: 1px solid rgba(235, 235, 240, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.header-arrow,
+.header-arrow {
+    border: 1px solid rgba(235, 235, 240, 0.2);
+}
+
+.main-arrow,
+.main-arrow {
+    background: #5C8EE6;
+}
+
+.slider-buttons-main {
+    display: none;
+    height: 40px;
+    width: 120px;
+    float: right;
+}
+
+.main-arrow-literally {
+    width: 30px;
+    height: 20px;
 }
 
 .header-features-text {
@@ -201,10 +222,6 @@ body {
     font-weight: 400;
     margin-bottom: 0;
     margin-top: 1.0625rem;
-}
-
-.header-featires-item:not(:last-child) {
-    border-right: none;
 }
 
 .section {
@@ -327,6 +344,10 @@ body {
 
 @media(max-width:1200px) {
     .slider-buttons {
+        display: flex;
+    }
+
+    .slider-buttons-main {
         display: flex;
     }
 

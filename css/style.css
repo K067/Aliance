@@ -347,9 +347,6 @@ body {
         display: flex;
     }
 
-    .slider-buttons-main {
-        display: flex;
-    }
 
     .container {
         max-width: 70rem;
@@ -367,7 +364,6 @@ body {
         max-width: 9.5rem;
     }
 
-
     .navbar-button {
         padding-left: 2.3rem;
         padding-right: 2.3rem;
@@ -381,6 +377,10 @@ body {
 
     hmtl {
         font-size: 12px;
+    }
+
+    .slider-buttons-main {
+        display: flex;
     }
 
     .bye {

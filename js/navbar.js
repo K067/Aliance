@@ -93,18 +93,23 @@ const swiper = new Swiper('.swiper', {
     breakpoints: {
         374: {
             slidesPerView: 1.5,
+            // width: 360,
         },
         575: {
             slidesPerView: 2,
+            // width: 518,
         },
         767: {
             slidesPerView: 3,
+            // width: 520.0001,
         },
         1199: {
             slidesPerView: 4,
+            // width: 908,
         },
         1201: {
             slidesPerView: 5,
+            // width: 1170,
         }
     }
 });

@@ -311,6 +311,10 @@ body {
         font-size: 14px;
     }
 
+    .logo-light {
+        max-width: 9rem;
+    }
+
     .header-image {
         background-position: center;
     }
@@ -323,10 +327,6 @@ body {
 
     .header-log {
         padding: 2rem;
-    }
-
-    .logo-light {
-        max-width: 9rem;
     }
 
     .header-nav {

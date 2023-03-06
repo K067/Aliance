@@ -161,7 +161,7 @@ body {
 
 .header-features {
     display: flex;
-    min-height: 10.5rem;
+    align-items: stretch;
     padding: 0;
     margin-top: 6.25rem;
     list-style: none;
@@ -175,9 +175,17 @@ body {
 
 .header-features-items {
     width: 18rem;
-    padding: 1.875rem 3rem;
-    min-height: 100%;
+    height: auto;
+    padding: 1.75rem 3.125rem;
     border: .0625rem solid rgba(235, 235, 240, 0.2);
+}
+
+.header-features-text {
+    font-size: 1rem;
+    line-height: 160%;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 1.125rem;
 }
 
 .slider-buttons {
@@ -217,14 +225,6 @@ body {
     height: 20px;
 }
 
-.header-features-text {
-    font-size: 1rem;
-    line-height: 160%;
-    font-weight: 400;
-    margin-bottom: 0;
-    margin-top: 1.0625rem;
-}
-
 .section {
     margin-top: 9.375rem;
     margin-bottom: 9.375rem;
@@ -241,15 +241,16 @@ body {
 
 .steps {
     display: flex;
+    align-items: stretch;
     list-style: none;
     padding: 0;
     gap: 1.875rem;
 }
 
 .steps-item {
+    height: auto;
     max-width: 20.625rem;
     padding-right: 1.875rem;
-
 }
 
 .steps-num {

@@ -241,7 +241,6 @@ body {
 
 .steps {
     display: flex;
-    align-items: stretch;
     list-style: none;
     padding: 0;
     gap: 1.875rem;
@@ -250,7 +249,6 @@ body {
 .steps-item {
     height: auto;
     max-width: 20.625rem;
-    padding-right: 1.875rem;
 }
 
 .steps-num {

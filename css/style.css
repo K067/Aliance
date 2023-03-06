@@ -48,7 +48,7 @@ body {
     background-image: url("/img/bg-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom -3.3125rem;
+    background-position: center bottom -2.3125rem;
     position: relative;
 }
 
@@ -362,7 +362,7 @@ body {
     }
 
     .logo-light {
-        max-width: 9.5rem;
+        max-width: 9rem;
     }
 
     .navbar-button {

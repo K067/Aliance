@@ -30,6 +30,20 @@ mobileMenuToggle.addEventListener('click', e => {
         mobileMenuLine[0].style.transform = 'rotate(45deg) translateY(7px)';
         mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-8px)';
         mobileMenuLine[1].style.display = 'none';
+    } else if (window.scrollY >= 36) {
+        mobileMenuLine.forEach(e => {
+            e.style.backgroundColor = '#333';
+        });
+
+        navbar.style.backgroundColor = 'white';
+        navbar.style.height = '4.5rem';
+        headerNav.style.color = '#292D33';
+        logoDark.src = './img/logo-dark.svg';
+        phoneLink.style.color = '#292D33';
+
+        mobileMenuLine[0].style.transform = '';
+        mobileMenuLine[2].style.transform = '';
+        mobileMenuLine[1].style.display = 'block';
     } else {
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = 'white';

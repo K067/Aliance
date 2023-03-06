@@ -1,7 +1,6 @@
 const navbar = document.querySelector('.navbar');
 const mobileMenu = document.querySelector('.mobile-menu');
 
-const headerLogo = navbar.querySelector('.navbar-logo');
 const headerNav = navbar.querySelector('.header-nav');
 const logoDark = navbar.querySelector('.logo-light');
 const phoneLink = navbar.querySelector('.header-phone');
@@ -10,7 +9,7 @@ const mobileMenuToggle = navbar.querySelector('.mobile-menu-toggle');
 
 mobileMenuLine[1].style.width = '80%';
 
-mobileMenuToggle.addEventListener('click', (e) => {
+mobileMenuToggle.addEventListener('click', e => {
     e.preventDefault();
 
     mobileMenu.classList.toggle('is-open');
@@ -18,8 +17,6 @@ mobileMenuToggle.addEventListener('click', (e) => {
 
     if (document.querySelector('.is-open')) {
         navbar.style.backgroundColor = 'white';
-        headerLogo.style.display = 'flex';
-        headerLogo.style.alignItems = 'center';
         navbar.style.height = '4.5rem';
         headerNav.style.color = '#292D33';
         logoDark.src = './img/logo-dark.svg';
@@ -34,7 +31,6 @@ mobileMenuToggle.addEventListener('click', (e) => {
         mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-8px)';
         mobileMenuLine[1].style.display = 'none';
     } else {
-
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = 'white';
             e.style.position = '';
@@ -43,8 +39,6 @@ mobileMenuToggle.addEventListener('click', (e) => {
 
         navbar.style.backgroundColor = '';
         navbar.style.height = '';
-        headerLogo.style.display = '';
-        headerLogo.style.alignItems = '';
         headerNav.style.color = '';
         logoDark.src = './img/logo-light.svg';
 
@@ -61,9 +55,8 @@ document.addEventListener('scroll', () => {
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = '#333';
         });
+
         navbar.style.backgroundColor = 'white';
-        headerLogo.style.display = 'flex';
-        headerLogo.style.alignItems = 'center';
         navbar.style.height = '4.5rem';
         headerNav.style.color = '#292D33';
         logoDark.src = './img/logo-dark.svg';
@@ -72,10 +65,9 @@ document.addEventListener('scroll', () => {
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = 'white';
         });
+
         navbar.style.backgroundColor = '';
         navbar.style.height = '';
-        headerLogo.style.display = '';
-        headerLogo.style.alignItems = '';
         headerNav.style.color = '';
         logoDark.src = './img/logo-light.svg';
         phoneLink.style.color = '';

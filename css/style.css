@@ -145,10 +145,18 @@ body {
     cursor: pointer;
 }
 
+.button-text {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 160%;
+    padding-left: 1rem;
+}
+
 .navbar-button {
     flex-shrink: 0;
     height: 102%;
-    padding: 1.5625rem 3.125rem;
+    padding: .0625rem .0625rem;
+    width: 17.8125rem;
 }
 
 .navbar-button .button-icon {
@@ -166,13 +174,14 @@ body {
     position: relative;
     z-index: 1;
     color: white;
+    left: 10px;
 }
 
 .header-title {
     max-width: 67.5rem;
     font-family: 'Bebas Neue Book';
     font-weight: 800;
-    font-size: 5rem;
+    font-size: 75px;
     line-height: 120%;
     margin: 1.4375rem 0;
     letter-spacing: .1700rem;
@@ -186,7 +195,7 @@ body {
     font-size: 1rem;
     line-height: 160%;
     margin-bottom: 3.125rem;
-    margin-top: 2.25rem;
+    margin-top: 3.1rem;
 }
 
 .header-features {

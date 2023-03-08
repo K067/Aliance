@@ -149,7 +149,6 @@ body {
     font-weight: 600;
     font-size: 1rem;
     line-height: 160%;
-    padding-left: 1rem;
 }
 
 .navbar-button {
@@ -181,8 +180,8 @@ body {
     max-width: 67.5rem;
     font-family: 'Bebas Neue Book';
     font-weight: 800;
-    font-size: 75px;
-    line-height: 120%;
+    font-size: 4.6875rem;
+    line-height: 127%;
     margin: 1.4375rem 0;
     letter-spacing: .1700rem;
     word-spacing: -0.1rem;
@@ -195,7 +194,7 @@ body {
     font-size: 1rem;
     line-height: 160%;
     margin-bottom: 3.125rem;
-    margin-top: 3.1rem;
+    margin-top: 2.5rem;
 }
 
 .header-features {
@@ -206,6 +205,7 @@ body {
     list-style: none;
     color: white;
     position: relative;
+    left: 9px;
 }
 
 .header-button {
@@ -229,7 +229,7 @@ body {
 
 .slider-buttons {
     display: none;
-    height: 44px;
+    height: 2.75rem;
 }
 
 .slider-button-prev,
@@ -244,7 +244,7 @@ body {
 
 .header-arrow,
 .header-arrow {
-    border: 1px solid rgba(235, 235, 240, 0.2);
+    border: .0625rem solid rgba(235, 235, 240, 0.2);
 }
 
 .main-arrow,
@@ -265,8 +265,14 @@ body {
 }
 
 .section {
-    margin-top: 9.375rem;
+    margin-top: 8.4375rem;
+    margin-left: 1.25rem;
     margin-bottom: 9.375rem;
+}
+
+.production {
+    margin-top: -1.5625rem;
+    margin-left: 1.0625rem;
 }
 
 .section-title {
@@ -278,11 +284,20 @@ body {
     margin-top: 1.4375rem;
 }
 
+.second {
+    letter-spacing: .0187rem;
+}
+
+.third {
+    letter-spacing: .0313rem;
+}
+
 .steps {
     display: flex;
     list-style: none;
     padding: 0;
     gap: 1.875rem;
+    margin: auto;
 }
 
 .steps-item {
@@ -343,24 +358,27 @@ body {
     width: 2.5rem;
     margin-right: 1.25rem;
     background: #5C8EE6;
-    width: 40px;
+    width: 2.5rem;
     margin-right: 1rem;
     transition: width 0.2s;
 }
 
 .steps-link:hover:before {
-    width: 60px;
+    width: 3.75rem;
 }
 
 .cards {
+    width: 101%;
+    margin-top: 3.625rem;
     display: flex;
     flex-wrap: wrap;
 }
 
 .card {
+    height: 37rem;
     text-decoration: none;
     flex-basis: 33%;
-    border: 1px solid #EBEBF0;
+    border: .0625rem solid #EBEBF0;
     position: relative;
     transition: border 0.2s;
 }
@@ -374,7 +392,8 @@ body {
 }
 
 .card-content {
-    padding: 2.5rem 3.125rem;
+    padding: 2.5rem 0;
+    margin-left: 3.125rem
 }
 
 .card-title {
@@ -391,15 +410,55 @@ body {
     font-size: 1rem;
     line-height: 160%;
     color: #828a99;
-    margin-bottom: 24.625rem;
+    margin-top: .875rem;
+    padding-right: 5.625rem;
 }
 
 .card-image {
-    width: 90%;
+    width: 100%;
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: 0;
+}
+
+.card-brand {
+    padding-left: 50px;
+    height: 17.5rem;
+    text-decoration: none;
+    flex-basis: 50%;
+    border: .0625rem solid #EBEBF0;
+    position: relative;
+    transition: border 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.cards-brand {
+    margin-top: 3.625rem;
+    display: flex;
+    width: 100%;
+}
+
+.card-content-brand {
+    margin-top: -0.1875rem;
+    padding-left: 3rem;
+}
+
+.card-brand-image {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.card-brand:hover .card-title {
+    color: #5C8EE6;
+}
+
+.card-brand:hover {
+    border-color: #5C8EE6;
 }
 
 @media(max-width:1700px) {

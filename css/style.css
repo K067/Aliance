@@ -428,7 +428,6 @@ body {
     text-decoration: none;
     flex-basis: 50%;
     border: .0625rem solid #EBEBF0;
-    position: relative;
     transition: border 0.2s;
     display: flex;
     align-items: center;
@@ -445,9 +444,8 @@ body {
     padding-left: 3rem;
 }
 
-.card-brand-image {
-    position: absolute;
-    width: 100%;
+.card-image-brand {
+    max-width: 100%;
     bottom: 0;
     right: 0;
     z-index: 0;

@@ -271,11 +271,6 @@ body {
     margin-bottom: 9.375rem;
 }
 
-.production {
-    margin-top: -1.5625rem;
-    margin-left: 1.0625rem;
-}
-
 .section-title {
     font-family: 'Bebas Neue Book';
     font-weight: 800;
@@ -286,6 +281,7 @@ body {
 }
 
 .second {
+    margin-bottom: -15px;
     letter-spacing: .0187rem;
 }
 
@@ -372,6 +368,7 @@ body {
     margin-top: 3.625rem;
     display: flex;
     flex-wrap: wrap;
+    margin-left: -3px;
 }
 
 .card {
@@ -692,6 +689,7 @@ body {
 
     .card {
         flex-basis: 100%;
+        height: 429px;
     }
 
     .section {
@@ -717,6 +715,23 @@ body {
 
     .separator {
         width: 100px;
+    }
+
+    .card-title {
+        font-size: 20px;
+        padding-right: 50px;
+
+    }
+
+    .card-text {
+        font-size: 14px;
+        padding-right: 10px;
+        margin-top: 0;
+    }
+
+    .card-content {
+        padding: 18px 0;
+        margin-left: 2.125rem
     }
 }
 

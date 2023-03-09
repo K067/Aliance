@@ -165,7 +165,7 @@ body {
 
 .separator {
     background: #5C8EE6;
-    width: 9.375rem;
+    width: 100px;
     height: .125rem;
 }
 
@@ -202,12 +202,11 @@ body {
     display: flex;
     align-items: stretch;
     padding: 0;
-    margin-top: 6.25rem;
+    margin-top: 4.3rem;
     margin-bottom: auto;
     list-style: none;
     color: white;
     position: relative;
-    left: 9px;
 }
 
 .header-button {
@@ -231,7 +230,7 @@ body {
 
 .slider-buttons {
     display: none;
-    height: 2.75rem;
+    height: 3.5rem;
 }
 
 .slider-button-prev,
@@ -510,16 +509,11 @@ body {
     }
 
     .navbar {
-        height: 5rem;
+        height: 5.2rem;
     }
 
     .logo-light {
         max-width: 9rem;
-    }
-
-    .navbar-button {
-        padding-left: 2.3rem;
-        padding-right: 2.3rem;
     }
 
     .card {
@@ -552,6 +546,13 @@ body {
         display: none;
     }
 
+    .header-features {
+        margin-top: 4.3rem;
+    }
+
+    .slider-buttons {
+        height: 3.1rem
+    }
 
     .navbar-logo {
         display: flex;
@@ -566,7 +567,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 1.8rem;
+        padding: 2.05rem 2.3rem;
         border-right: 1px solid rgba(235, 235, 240, 0.2);
     }
 
@@ -591,10 +592,25 @@ body {
     .navbar-button .button-icon {
         color: white;
         display: block;
+        padding-left: 30px;
+    }
+
+    .navbar-button {
+        width: 80px;
     }
 
     .button {
-        line-height: 0%;
+        line-height: 18px;
+    }
+
+    .header-button {
+        display: flex;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        padding: 1.625rem 6rem;
+        width: 344px;
+        margin-top: -11px;
     }
 
     .is-open {
@@ -701,10 +717,19 @@ body {
     }
 
     .header-title {
-        font-size: 2rem;
+        margin-top: 17px;
+        font-size: 3.5rem;
+        letter-spacing: 1.5px;
+    }
+
+    .header-text {
+        font-size: 14px;
+        margin-top: -5px;
+        padding-right: 10px;
     }
 
     .header-content {
-        padding-top: 2rem;
+        margin-left: -13px;
+        padding-top: 3.2rem;
     }
 }

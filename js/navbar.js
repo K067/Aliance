@@ -21,20 +21,33 @@ mobileMenuToggle.addEventListener('click', e => {
         headerNav.style.color = '#292D33';
         logoDark.src = './img/logo-dark.svg';
 
-        mobileMenuLine.forEach(e => {
-            e.style.backgroundColor = '#333';
-            e.style.position = 'relative';
-            e.style.right = '-5px';
-        });
+        if (mobileMenuToggle.style.padding = "1.8rem 2.3rem") {
+            mobileMenuLine.forEach(e => {
+                e.style.backgroundColor = '#333';
+                e.style.position = 'relative';
+                e.style.right = '-5px';
+            });
 
-        mobileMenuLine[0].style.transform = 'rotate(45deg) translateY(7px)';
-        mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-8px)';
-        mobileMenuLine[1].style.display = 'none';
+            mobileMenuLine[0].style.transform = 'rotate(45deg) translateY(7px)';
+            mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-7.5px)';
+            mobileMenuLine[1].style.display = 'none';
+        } else {
+            mobileMenuLine.forEach(e => {
+                e.style.backgroundColor = '#333';
+                e.style.position = 'relative';
+                e.style.right = '-2px';
+            });
+
+            mobileMenuLine[0].style.transform = 'rotate(45deg) translateY(3px)';
+            mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-3.5px)';
+            mobileMenuLine[1].style.display = 'none';
+        }
     } else if (window.scrollY >= 36) {
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = '#333';
         });
 
+        mobileMenuToggle.style.padding = "1.8rem 2.3rem";
         navbar.style.backgroundColor = 'white';
         navbar.style.height = '4.5rem';
         headerNav.style.color = '#292D33';
@@ -51,6 +64,7 @@ mobileMenuToggle.addEventListener('click', e => {
             e.style.right = '';
         });
 
+        mobileMenuToggle.style.padding = "2.05rem 2.3rem";
         navbar.style.backgroundColor = '';
         navbar.style.height = '';
         headerNav.style.color = '';
@@ -70,6 +84,7 @@ document.addEventListener('scroll', () => {
             e.style.backgroundColor = '#333';
         });
 
+        mobileMenuToggle.style.padding = "1.8rem 2.3rem";
         navbar.style.backgroundColor = 'white';
         navbar.style.height = '4.5rem';
         headerNav.style.color = '#292D33';
@@ -80,6 +95,7 @@ document.addEventListener('scroll', () => {
             e.style.backgroundColor = 'white';
         });
 
+        mobileMenuToggle.style.padding = "2.05rem 2.3rem";
         navbar.style.backgroundColor = '';
         navbar.style.height = '';
         headerNav.style.color = '';

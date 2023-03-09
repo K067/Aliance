@@ -7,6 +7,34 @@ const phoneLink = navbar.querySelector('.header-phone');
 const mobileMenuLine = navbar.querySelectorAll('.mobile-menu-line');
 const mobileMenuToggle = navbar.querySelector('.mobile-menu-toggle');
 
+const alter = () => {
+    let current = window.scrollY;
+
+    if (current >= 36) {
+        mobileMenuLine.forEach(e => {
+            e.style.backgroundColor = '#333';
+        });
+
+        mobileMenuToggle.style.padding = "1.8rem 2.3rem";
+        navbar.style.backgroundColor = 'white';
+        navbar.style.height = '4.5rem';
+        headerNav.style.color = '#292D33';
+        logoDark.src = './img/logo-dark.svg';
+        phoneLink.style.color = '#292D33';
+    } else {
+        mobileMenuLine.forEach(e => {
+            e.style.backgroundColor = 'white';
+        });
+
+        mobileMenuToggle.style.padding = "2.05rem 2.3rem";
+        navbar.style.backgroundColor = '';
+        navbar.style.height = '';
+        headerNav.style.color = '';
+        logoDark.src = './img/logo-light.svg';
+        phoneLink.style.color = '';
+    }
+}
+
 mobileMenuLine[1].style.width = '80%';
 
 mobileMenuToggle.addEventListener('click', e => {
@@ -45,6 +73,8 @@ mobileMenuToggle.addEventListener('click', e => {
     } else if (window.scrollY >= 36) {
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = '#333';
+            e.style.position = '';
+            e.style.right = '';
         });
 
         mobileMenuToggle.style.padding = "1.8rem 2.3rem";
@@ -77,32 +107,9 @@ mobileMenuToggle.addEventListener('click', e => {
 });
 
 document.addEventListener('scroll', () => {
-    let current = window.scrollY;
-
-    if (current >= 36) {
-        mobileMenuLine.forEach(e => {
-            e.style.backgroundColor = '#333';
-        });
-
-        mobileMenuToggle.style.padding = "1.8rem 2.3rem";
-        navbar.style.backgroundColor = 'white';
-        navbar.style.height = '4.5rem';
-        headerNav.style.color = '#292D33';
-        logoDark.src = './img/logo-dark.svg';
-        phoneLink.style.color = '#292D33';
-    } else {
-        mobileMenuLine.forEach(e => {
-            e.style.backgroundColor = 'white';
-        });
-
-        mobileMenuToggle.style.padding = "2.05rem 2.3rem";
-        navbar.style.backgroundColor = '';
-        navbar.style.height = '';
-        headerNav.style.color = '';
-        logoDark.src = './img/logo-light.svg';
-        phoneLink.style.color = '';
-    }
+    alter();
 });
+alter();
 
 const swiper = new Swiper('.swiper', {
     speed: 400,

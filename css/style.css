@@ -165,7 +165,7 @@ body {
 
 .separator {
     background: #5C8EE6;
-    width: 100px;
+    width: 150px;
     height: .125rem;
 }
 
@@ -329,8 +329,7 @@ body {
     font-size: 1.75rem;
     line-height: 160%;
     color: #292D33;
-    margin-top: 2.4375rem;
-    margin-bottom: .625rem;
+    margin-top: 35px;
     width: 6.25rem;
 }
 
@@ -339,7 +338,7 @@ body {
     font-size: 1rem;
     line-height: 160%;
     color: #828A99;
-    margin-top: auto;
+    margin-top: -14px;
 }
 
 .steps-link {
@@ -592,7 +591,7 @@ body {
     .navbar-button .button-icon {
         color: white;
         display: block;
-        padding-left: 30px;
+        padding: 0 30px;
     }
 
     .navbar-button {
@@ -609,7 +608,6 @@ body {
         align-items: center;
         justify-content: center;
         padding: 1.625rem 6rem;
-        width: 344px;
         margin-top: -11px;
     }
 
@@ -694,6 +692,31 @@ body {
 
     .card {
         flex-basis: 100%;
+    }
+
+    .section {
+        margin: 100px 0 30px 0;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .steps-num {
+        font-size: 48px;
+    }
+
+    .steps-title {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .steps-text {
+        font-size: 14px;
+    }
+
+    .separator {
+        width: 100px;
     }
 }
 

@@ -433,6 +433,7 @@ body {
 .cards-brand {
     margin-top: 3.4375rem;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -732,6 +733,10 @@ body {
     .card-content {
         padding: 18px 0;
         margin-left: 2.125rem
+    }
+
+    .cards {
+        max-width: 102%;
     }
 }
 

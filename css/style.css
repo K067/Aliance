@@ -283,11 +283,6 @@ body {
 
 .second {
     margin-bottom: -15px;
-    letter-spacing: .0187rem;
-}
-
-.third {
-    letter-spacing: .0313rem;
 }
 
 .steps {
@@ -409,7 +404,7 @@ body {
     line-height: 160%;
     color: #828a99;
     margin-top: .875rem;
-    padding-right: 82px;
+    padding-right: 69px;
 }
 
 .card-image {
@@ -421,6 +416,7 @@ body {
 }
 
 .card-brand {
+    height: 280px;
     padding: 50px 48px;
     text-decoration: none;
     flex-basis: 50%;
@@ -523,6 +519,23 @@ body {
 
     .card {
         flex-basis: 50%;
+    }
+
+    .card-brand {
+        padding: 20px 20px;
+    }
+
+    .card-image-brand {
+        max-width: 30%;
+    }
+
+    .card-content-brand {
+        padding: 10px 0;
+        padding-left: 30px;
+    }
+
+    .card-text {
+        padding-right: 0;
     }
 }
 
@@ -747,6 +760,31 @@ body {
     .cards {
         width: 102%;
     }
+
+    .second {
+        margin-bottom: -27px;
+    }
+
+    .third {
+        margin-bottom: -10px;
+    }
+
+    .card-brand {
+        max-height: 269px;
+        flex-basis: 100%;
+        padding: 20px 0;
+    }
+
+    .card-image-brand {
+        margin-left: 25px;
+        margin-top: 9px;
+    }
+
+    .brand-title {
+        margin-top: -10px;
+        padding-right: 34px;
+        margin-left: 2px;
+    }
 }
 
 @media(max-width:768px) {
@@ -783,5 +821,18 @@ body {
     .header-content {
         margin-left: -13px;
         padding-top: 3.2rem;
+    }
+
+    .card-brand {
+        align-items: flex-start;
+    }
+
+    .brand-text {
+        margin-top: 64px;
+        margin-left: -129px;
+    }
+
+    .text-beta {
+        margin-top: 90px;
     }
 }

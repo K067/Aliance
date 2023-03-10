@@ -109,7 +109,7 @@ mobileMenuToggle.addEventListener('click', e => {
 document.addEventListener('scroll', () => {
     alter();
 });
-alter();
+// alter();
 
 const swiper = new Swiper('.swiper', {
     speed: 400,

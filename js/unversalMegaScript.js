@@ -1,11 +1,40 @@
 const navbar = document.querySelector('.navbar');
 const mobileMenu = document.querySelector('.mobile-menu');
+const trigger = document.querySelectorAll('.card-brand');
 
 const headerNav = navbar.querySelector('.header-nav');
 const logoDark = navbar.querySelector('.logo-light');
 const phoneLink = navbar.querySelector('.header-phone');
-const mobileMenuLine = navbar.querySelectorAll('.mobile-menu-line');
 const mobileMenuToggle = navbar.querySelector('.mobile-menu-toggle');
+const mobileMenuLine = navbar.querySelectorAll('.mobile-menu-line');
+
+const hover = (elem) => {
+    elem.forEach(e => {
+        const first = elem[0].querySelector('.card-image-brand');
+        const second = elem[1].querySelector('.card-image-brand');
+
+        e.addEventListener('mouseover', () => {
+            switch (e) {
+                case elem[0]:
+                    first.src = './img/AGTECH.png';
+                    break;
+                case elem[1]:
+                    second.src = './img/AP.png';
+                    break;
+            }
+        })
+        e.addEventListener('mouseout', () => {
+            switch (e) {
+                case elem[0]:
+                    first.src = './img/AGTECHA.png';
+                    break;
+                case elem[1]:
+                    second.src = './img/APA.png';
+                    break;
+            }
+        })
+    })
+}
 
 const alter = () => {
     let current = window.scrollY;
@@ -110,6 +139,7 @@ document.addEventListener('scroll', () => {
     alter();
 });
 
+
 const swiper = new Swiper('.swiper', {
     speed: 400,
     slidesPerView: 1,
@@ -142,3 +172,4 @@ const swiper = new Swiper('.swiper', {
 });
 
 alter();
+hover(trigger);

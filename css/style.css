@@ -418,21 +418,9 @@ body {
     z-index: 0;
 }
 
-.card-brand {
-    padding: 50px;
-    text-decoration: none;
-    flex-basis: 50%;
-    border: .0625rem solid #EBEBF0;
-    transition: border 0.2s;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
 .cards-brand {
     display: flex;
 }
-
 
 .card-brand:hover .card-title-brand {
     color: #5C8EE6;
@@ -440,6 +428,43 @@ body {
 
 .card-brand:hover {
     border-color: #5C8EE6;
+}
+
+.card-brand {
+    padding: 3.163rem;
+    text-decoration: none;
+    flex-basis: 50%;
+    border: 1px solid #EBEBF0;
+    transition: border 0.2s;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: auto 2fr;
+    grid-template-areas: "a b b" "a c c";
+    grid-column-gap: 3.125rem;
+}
+
+.card-image-brand {
+    width: 100%;
+    grid-area: a;
+}
+
+.card-title-brand {
+    grid-area: b;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 160%;
+    color: #292D33;
+    margin: 0;
+}
+
+.card-text-brand {
+    grid-area: c;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
+    color: #828A99;
+    margin-top: 10px;
 }
 
 .mobile-menu-toggle {
@@ -491,7 +516,6 @@ body {
         display: flex;
     }
 
-
     .container {
         max-width: 70rem;
     }
@@ -515,6 +539,10 @@ body {
     .card-text {
         padding-right: 0;
     }
+
+    .card-brand {
+        grid-template-columns: auto auto;
+    }
 }
 
 @media(max-width:992px) {
@@ -522,7 +550,7 @@ body {
         overflow-x: hidden;
     }
 
-    hmtl {
+    html {
         font-size: 12px;
     }
 
@@ -535,7 +563,7 @@ body {
     }
 
     .container {
-        max-width: 50rem;
+        max-width: 60rem;
     }
 
     .header-nav {
@@ -743,14 +771,8 @@ body {
         margin-bottom: -27px;
     }
 
-    .third {
-        margin-bottom: -10px;
-    }
-
-    .card-brand {
-        /* max-height: 269px; */
-        flex-basis: 100%;
-        padding: 20px 0;
+    .cards-brand {
+        flex-direction: column;
     }
 }
 
@@ -788,5 +810,20 @@ body {
     .header-content {
         margin-left: -13px;
         padding-top: 3.2rem;
+    }
+
+    .card-brand {
+        padding: 30px;
+        grid-template-areas:
+            "a b"
+            "c c";
+    }
+
+    .card-title-brand {
+        font-size: 20px;
+    }
+
+    .card-text-brand {
+        font-size: 14px;
     }
 }

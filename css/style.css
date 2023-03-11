@@ -821,9 +821,25 @@ body {
 
     .card-title-brand {
         font-size: 20px;
+        margin-left: -57px;
+        margin-top: -8px;
     }
 
     .card-text-brand {
         font-size: 14px;
+        margin: 0;
+        margin-top: 17px;
+        margin-left: -5px;
+    }
+
+    .cards-brand {
+        width: 345px;
+        height: 538px;
+    }
+
+    .card-image-brand {
+        width: 100px;
+        height: 100px;
+        margin-left: -5px;
     }
 }

@@ -253,16 +253,28 @@ body {
     border: .0625rem solid rgba(235, 235, 240, 0.2);
 }
 
-.main-arrow,
-.main-arrow {
+.main-button-prev,
+.main-button-next {
     background: #5C8EE6;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
-.slider-buttons-main {
+.steps-buttons {
     display: none;
+}
+
+.main-buttons {
     height: 40px;
-    width: 120px;
-    float: right;
+    justify-content: flex-end;
+}
+
+.blog-buttons {
+    display: flex;
 }
 
 .main-arrow-literally {
@@ -579,6 +591,59 @@ body {
     letter-spacing: 0.4px;
 }
 
+.blog-card {
+    display: flex;
+    position: relative;
+    min-height: 400px;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    justify-content: flex-end;
+    padding: 3.125rem;
+}
+
+.blog-card::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(41, 45, 51, 0.6);
+    z-index: -1;
+}
+
+.blog-card-title {
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 160%;
+    margin-bottom: 10px;
+}
+
+.blog-card-text {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
+    margin: 0;
+}
+
+.blog-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.blog-slider-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
 @media(max-width:1700px) {
     html {
         font-size: 14px;
@@ -674,7 +739,7 @@ body {
         font-size: 12px;
     }
 
-    .slider-buttons-main {
+    .steps-buttons {
         display: flex;
     }
 

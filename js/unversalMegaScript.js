@@ -140,7 +140,7 @@ document.addEventListener('scroll', () => {
 });
 
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.slider-features', {
     speed: 400,
     slidesPerView: 1,
     navigation: {
@@ -150,25 +150,55 @@ const swiper = new Swiper('.swiper', {
     breakpoints: {
         374: {
             slidesPerView: 1.5,
-            // width: 360,
         },
         575: {
             slidesPerView: 2,
-            // width: 518,
         },
         767: {
             slidesPerView: 3,
-            // width: 520.0001,
         },
         1199: {
             slidesPerView: 4,
-            // width: 908,
         },
         1201: {
             slidesPerView: 5,
-            // width: 1170,
         }
     }
+});
+const swiperSteps = new Swiper('.slider-steps', {
+    speed: 400,
+    slidesPerView: 1,
+    navigation: {
+        nextEl: '.steps-button-next',
+        prevEl: '.steps-button-prev',
+    },
+    breakpoints: {
+        374: {
+            slidesPerView: 1.5,
+        },
+        575: {
+            slidesPerView: 2,
+        },
+        767: {
+            slidesPerView: 3,
+        },
+        1199: {
+            slidesPerView: 4,
+        },
+        1201: {
+            slidesPerView: 5,
+        }
+    }
+});
+
+const swiperBlog = new Swiper('.slider-blog', {
+    speed: 400,
+    slidesPerView: 2,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: '.blog-button-next',
+        prevEl: '.blog-button-prev',
+    },
 });
 
 alter();

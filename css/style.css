@@ -291,6 +291,7 @@ body {
 
 .steps {
     display: flex;
+    justify-content: space-between;
     list-style: none;
     padding: 0;
     margin: auto;
@@ -336,7 +337,7 @@ body {
     margin-top: -14px;
 }
 
-.steps-link {
+.button-link {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -344,10 +345,10 @@ body {
     font-size: 1rem;
     line-height: 160%;
     color: #5C8EE6;
-    margin-top: 1.25rem;
+    margin-top: 2.05rem;
 }
 
-.steps-link:before {
+.button-link:before {
     content: "";
     height: .0625rem;
     width: 2.5rem;
@@ -358,7 +359,7 @@ body {
     transition: width 0.2s;
 }
 
-.steps-link:hover:before {
+.button-link:hover:before {
     width: 3.75rem;
 }
 
@@ -407,7 +408,7 @@ body {
     line-height: 160%;
     color: #828a99;
     margin-top: .875rem;
-    padding-right: 69px;
+    padding-right: 82px;
 }
 
 .card-image {
@@ -472,7 +473,103 @@ body {
 }
 
 .production {
-    margin-top: -26px;
+    margin-top: -42px;
+}
+
+.founder {
+    position: relative;
+    min-height: 41.25rem;
+}
+
+.founder-image {
+    position: absolute;
+    left: -20px;
+    width: 52.5rem;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+}
+
+.founder-content {
+    max-width: 45rem;
+    margin-top: 50px;
+}
+
+.founder-title {
+    width: 465px;
+    padding-right: 100px;
+}
+
+.founder-content-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.founder-text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 160%;
+    color: #828a99;
+    margin-top: -25px;
+}
+
+.text-beta {
+    margin-top: 22px;
+}
+
+.clients-list {
+    list-style-type: none;
+    padding: 0;
+    columns: 2 auto;
+    margin-top: -25px;
+    gap: 50px;
+}
+
+.clients-list-item {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
+    color: #292D33;
+    padding-top: 20px;
+}
+
+.clients-wrapper {
+    display: flex;
+    gap: 3.125rem;
+}
+
+.clients-content {
+    flex-basis: 50%;
+}
+
+.clients-logo-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+    margin-top: 33px;
+    margin-bottom: -50px;
+}
+
+.clients-logo {
+    flex-basis: 33%;
+    border: 1px solid #ebebf0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.burger-king {
+    max-width: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.clients-title {
+    letter-spacing: 0.4px;
 }
 
 @media(max-width:1700px) {
@@ -509,6 +606,14 @@ body {
     .header-phone {
         margin-right: 2rem;
     }
+
+    .founder-image {
+        width: 50%;
+    }
+
+    .founder-title {
+        width: 441px;
+    }
 }
 
 @media(max-width:1200px) {
@@ -542,6 +647,14 @@ body {
 
     .card-brand {
         grid-template-columns: auto auto;
+    }
+
+    .founder-content {
+        max-width: 50%;
+    }
+
+    .clients-content {
+        flex-basis: 60%;
     }
 }
 
@@ -774,6 +887,52 @@ body {
     .cards-brand {
         flex-direction: column;
     }
+
+    .clients-wrapper {
+        flex-direction: column;
+    }
+
+    .founder-title {
+        width: 335px;
+    }
+
+    .founder-content {
+        margin-top: 47px;
+    }
+
+    .founder-text {
+        margin-top: -18px;
+        margin-left: -3px;
+        font-size: 14px;
+        line-height: 158%;
+    }
+
+    .text-beta {
+        margin-top: -5px;
+    }
+
+    .clients-list {
+        margin-top: -16px;
+    }
+
+    .clients-list-item {
+        font-size: 14px;
+        padding-top: 15px;
+    }
+
+    .clients-logo-list {
+        margin-top: -18px;
+        margin-bottom: 0;
+    }
+
+    .clients-logo {
+        padding: 29.5px;
+    }
+
+    .burger-king {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 @media(max-width:768px) {
@@ -787,6 +946,19 @@ body {
 
     .header-content {
         padding-top: 3rem;
+    }
+
+    .founder-image {
+        position: relative;
+        width: 100%;
+    }
+
+    .founder-content {
+        max-width: 100%;
+    }
+
+    .founder-image {
+        left: 0;
     }
 }
 
@@ -841,5 +1013,13 @@ body {
         width: 100px;
         height: 100px;
         margin-left: -5px;
+    }
+
+    .clients-list {
+        columns: 1;
+    }
+
+    .clients-logo {
+        flex-basis: 50%;
     }
 }

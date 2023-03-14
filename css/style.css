@@ -17,11 +17,6 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
-.swiper {
-    margin-left: 10px;
-    margin-right: -10px;
-}
-
 .mobile-menu {
     display: none;
 }
@@ -275,6 +270,7 @@ body {
 
 .blog-buttons {
     display: flex;
+    height: 60px;
 }
 
 .main-arrow-literally {
@@ -357,7 +353,6 @@ body {
     font-size: 1rem;
     line-height: 160%;
     color: #5C8EE6;
-    margin-top: 2.05rem;
 }
 
 .button-link:before {
@@ -527,6 +522,7 @@ body {
 
 .text-beta {
     margin-top: 22px;
+    margin-bottom: 30px;
 }
 
 .clients-list {
@@ -642,6 +638,15 @@ body {
     align-items: center;
     margin-top: 30px;
     justify-content: space-between;
+}
+
+.blog {
+    padding: 56px 0;
+}
+
+.blog-button-prev,
+.blog-button-next {
+    width: 80px;
 }
 
 @media(max-width:1700px) {

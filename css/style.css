@@ -554,12 +554,18 @@ body {
 }
 
 .clients-logo {
+    filter: grayscale(100%);
     flex-basis: 33%;
     border: 1px solid #ebebf0;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    cursor: pointer;
+}
+
+.clients-logo:hover {
+    filter: grayscale(0%);
 }
 
 .burger-king {
@@ -567,6 +573,7 @@ body {
     width: 70px;
     height: 70px;
 }
+
 
 .clients-title {
     letter-spacing: 0.4px;
@@ -1021,5 +1028,9 @@ body {
 
     .clients-logo {
         flex-basis: 50%;
+    }
+
+    .clients-logo:nth-child(9) {
+        display: none;
     }
 }

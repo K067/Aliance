@@ -8,6 +8,26 @@ const phoneLink = navbar.querySelector('.header-phone');
 const mobileMenuToggle = navbar.querySelector('.mobile-menu-toggle');
 const mobileMenuLine = navbar.querySelectorAll('.mobile-menu-line');
 
+let elementArray = [
+    document.querySelectorAll('.header-nav-link'),
+    document.querySelectorAll('.button-link'),
+    document.querySelectorAll('.card'),
+    document.querySelectorAll('.card-title'),
+    document.querySelectorAll('.card-brand'),
+    document.querySelectorAll('.card-title-brand'),
+    document.querySelectorAll('.cliens-logo')
+];
+
+mobileMenuLine[1].style.width = '80%';
+
+const changing = (e) => {
+    e.forEach(el => {
+        el.forEach(ela => {
+            ela.style.pointerEvents = "none";
+        })
+    })
+}
+
 const hover = (elem) => {
     elem.forEach(e => {
         const first = elem[0].querySelector('.card-image-brand');
@@ -63,10 +83,7 @@ const alter = () => {
         phoneLink.style.color = '';
     }
 }
-
-mobileMenuLine[1].style.width = '80%';
-
-mobileMenuToggle.addEventListener('click', e => {
+const navbarFunc = (e) => {
     e.preventDefault();
 
     mobileMenu.classList.toggle('is-open');
@@ -133,12 +150,7 @@ mobileMenuToggle.addEventListener('click', e => {
         mobileMenuLine[2].style.transform = '';
         mobileMenuLine[1].style.display = 'block';
     }
-});
-
-document.addEventListener('scroll', () => {
-    alter();
-});
-
+}
 
 const swiper = new Swiper('.slider-features', {
     speed: 400,
@@ -199,6 +211,17 @@ const swiperBlog = new Swiper('.slider-blog', {
         nextEl: '.blog-button-next',
         prevEl: '.blog-button-prev',
     },
+});
+
+if (window.screen.width <= 992) {
+    changing(elementArray);
+}
+mobileMenuToggle.addEventListener('click', e => {
+    navbarFunc(e);
+});
+
+document.addEventListener('scroll', () => {
+    alter();
 });
 
 alter();

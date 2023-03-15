@@ -679,7 +679,7 @@ body {
 }
 
 .cta-form-title {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 60px;
     line-height: 120%;
     color: #292D33;
@@ -1147,6 +1147,54 @@ body {
     .burger-king {
         width: 50px;
         height: 50px;
+    }
+
+    .cta-image {
+        display: none;
+    }
+
+    .cta-form-wrapper {
+        margin-left: auto;
+        justify-content: normal;
+    }
+
+    .section-cta {
+        padding-top: 2.5rem;
+    }
+
+    .cta-form {
+        margin-left: -5px;
+    }
+
+    .cta-form-text {
+        padding-right: 60px;
+        font-size: 14px;
+        margin-top: 14px;
+    }
+
+    .input-group-wrapper {
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-top: -25px;
+    }
+
+    .cta-form-footer {
+        margin-top: 3.55rem;
+        flex-wrap: wrap;
+    }
+
+    .cta-form-button {
+        width: 345px;
+        margin-top: -30px;
+    }
+
+    .notify {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .cta {
+        margin-top: -70px;
     }
 }
 

@@ -20,7 +20,7 @@ let elementArray = [
 
 mobileMenuLine[1].style.width = '80%';
 
-const changing = (e) => {
+const hoverOff = (e) => {
     e.forEach(el => {
         el.forEach(ele => {
             ele.style.pointerEvents = "none";
@@ -205,16 +205,31 @@ const swiperSteps = new Swiper('.slider-steps', {
 
 const swiperBlog = new Swiper('.slider-blog', {
     speed: 400,
-    slidesPerView: 2,
+    slidesPerView: 1,
+    loop: true,
     spaceBetween: 30,
     navigation: {
         nextEl: '.blog-button-next',
         prevEl: '.blog-button-prev',
     },
+    breakpoints: {
+        374: {
+            slidesPerView: 1,
+        },
+        575: {
+            slidesPerView: 1,
+        },
+        767: {
+            slidesPerView: 1,
+        },
+        1199: {
+            slidesPerView: 2,
+        },
+    }
 });
 
-if (window.screen.width <= 992) {
-    changing(elementArray);
+if (window.screen.width <= 768) {
+    hoverOff(elementArray);
 }
 mobileMenuToggle.addEventListener('click', e => {
     navbarFunc(e);

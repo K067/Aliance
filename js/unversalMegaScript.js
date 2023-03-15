@@ -22,8 +22,8 @@ mobileMenuLine[1].style.width = '80%';
 
 const changing = (e) => {
     e.forEach(el => {
-        el.forEach(ela => {
-            ela.style.pointerEvents = "none";
+        el.forEach(ele => {
+            ele.style.pointerEvents = "none";
         })
     })
 }

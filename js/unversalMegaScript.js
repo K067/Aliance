@@ -103,7 +103,7 @@ const navbarFunc = (e) => {
             });
 
             mobileMenuLine[0].style.transform = 'rotate(45deg) translateY(7px)';
-            mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-7.5px)';
+            mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-7px)';
             mobileMenuLine[1].style.display = 'none';
         } else {
             mobileMenuLine.forEach(e => {
@@ -113,7 +113,7 @@ const navbarFunc = (e) => {
             });
 
             mobileMenuLine[0].style.transform = 'rotate(45deg) translateY(3px)';
-            mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-3.5px)';
+            mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-3px)';
             mobileMenuLine[1].style.display = 'none';
         }
     } else if (window.scrollY >= 36) {
@@ -231,6 +231,7 @@ const swiperBlog = new Swiper('.slider-blog', {
 if (window.screen.width <= 768) {
     hoverOff(elementArray);
 }
+
 mobileMenuToggle.addEventListener('click', e => {
     navbarFunc(e);
 });

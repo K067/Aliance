@@ -1143,7 +1143,7 @@ body {
         overflow-y: auto;
         z-index: 2;
         background-color: white;
-        padding-top: 5rem;
+        padding-top: 48px;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
@@ -1151,6 +1151,12 @@ body {
     .mobile-menu-nav {
         list-style: none;
         padding: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .mobile-sub-menu-item {
+        margin-bottom: 10px;
     }
 
     .mobile-menu-nav-item {
@@ -1552,9 +1558,10 @@ body {
     }
 
     .header-title {
-        margin-top: 17px;
-        font-size: 3.5rem;
-        letter-spacing: 1.5px;
+        font-size: 48px;
+        letter-spacing: 0.5px;
+        padding-left: 0;
+        line-height: 122%;
     }
 
     .header-text {
@@ -1565,7 +1572,7 @@ body {
 
     .header-content {
         margin-left: -13px;
-        padding-top: 3.2rem;
+        padding-top: 44px;
     }
 
     .card-brand {

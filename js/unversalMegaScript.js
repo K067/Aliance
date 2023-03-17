@@ -64,9 +64,9 @@ const alter = () => {
             e.style.backgroundColor = '#333';
         });
 
-        mobileMenuToggle.style.padding = "1.8rem 2.3rem";
+        mobileMenuToggle.style.padding = "1.45rem 2.5rem";
         navbar.style.backgroundColor = 'white';
-        navbar.style.height = '4.5rem';
+        navbar.style.height = '4rem';
         headerNav.style.color = '#292D33';
         logoDark.src = './img/logo-dark.svg';
         phoneLink.style.color = '#292D33';
@@ -75,7 +75,7 @@ const alter = () => {
             e.style.backgroundColor = 'white';
         });
 
-        mobileMenuToggle.style.padding = "2.05rem 2.3rem";
+        mobileMenuToggle.style.padding = "2.25rem 2.5rem";
         navbar.style.backgroundColor = '';
         navbar.style.height = '';
         headerNav.style.color = '';
@@ -91,16 +91,18 @@ const navbarFunc = (e) => {
 
     if (document.querySelector('.is-open')) {
         navbar.style.backgroundColor = 'white';
-        navbar.style.height = '4.5rem';
+        navbar.style.height = '4rem';
         headerNav.style.color = '#292D33';
         logoDark.src = './img/logo-dark.svg';
 
-        if (mobileMenuToggle.style.padding = "1.8rem 2.3rem") {
+        if (mobileMenuToggle.style.padding = "2.25rem 2.5rem") {
             mobileMenuLine.forEach(e => {
                 e.style.backgroundColor = '#333';
                 e.style.position = 'relative';
                 e.style.right = '-5px';
             });
+
+            mobileMenuToggle.style.padding = "1.55rem 2.5rem"
 
             mobileMenuLine[0].style.transform = 'rotate(45deg) translateY(7px)';
             mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-7px)';
@@ -114,7 +116,6 @@ const navbarFunc = (e) => {
 
             mobileMenuLine[0].style.transform = 'rotate(45deg) translateY(3px)';
             mobileMenuLine[2].style.transform = 'rotate(-45deg) translateY(-3px)';
-            mobileMenuLine[1].style.display = 'none';
         }
     } else if (window.scrollY >= 36) {
         mobileMenuLine.forEach(e => {
@@ -123,9 +124,9 @@ const navbarFunc = (e) => {
             e.style.right = '';
         });
 
-        mobileMenuToggle.style.padding = "1.8rem 2.3rem";
+        mobileMenuToggle.style.padding = "1.45rem 2.5rem";
         navbar.style.backgroundColor = 'white';
-        navbar.style.height = '4.5rem';
+        navbar.style.height = '4rem';
         headerNav.style.color = '#292D33';
         logoDark.src = './img/logo-dark.svg';
         phoneLink.style.color = '#292D33';
@@ -140,7 +141,7 @@ const navbarFunc = (e) => {
             e.style.right = '';
         });
 
-        mobileMenuToggle.style.padding = "2.05rem 2.3rem";
+        mobileMenuToggle.style.padding = "2.25rem 2.5rem";
         navbar.style.backgroundColor = '';
         navbar.style.height = '';
         headerNav.style.color = '';

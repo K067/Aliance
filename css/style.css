@@ -942,13 +942,13 @@ body {
     margin-left: 7px;
 }
 
+.slider-features {
+    left: 10px;
+}
+
 @media(max-width:1700px) {
     html {
         font-size: 14px;
-    }
-
-    .logo-light {
-        max-width: 9rem;
     }
 
     .header-image {
@@ -1004,11 +1004,11 @@ body {
     }
 
     .navbar {
-        height: 5.2rem;
+        height: 5.7rem;
     }
 
     .logo-light {
-        max-width: 9rem;
+        max-width: 120px;
     }
 
     .card {
@@ -1083,7 +1083,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 2.05rem 2.3rem;
+        padding: 2.25rem 2.5rem;
         border-right: 1px solid rgba(235, 235, 240, 0.2);
     }
 

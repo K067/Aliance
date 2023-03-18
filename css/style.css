@@ -961,7 +961,6 @@ body {
     color: #292D33;
     margin-top: 0;
     margin-bottom: 20px;
-    overflow-y: hidden;
 }
 
 .modal-text {
@@ -1024,9 +1023,10 @@ body {
 }
 
 .modal-form-button {
-    display: flex;
     width: 100%;
     margin-bottom: 24px;
+    padding: 20px 20px;
+    font-size: 14px;
 }
 
 @media(max-width:1700px) {
@@ -1568,6 +1568,14 @@ body {
     .footer-phone {
         margin-top: 30px;
         margin-bottom: 20px;
+    }
+
+    .modal-form-wrapper {
+        padding: 30px 30px;
+    }
+
+    .modal-gotup {
+        width: 285px;
     }
 
 }

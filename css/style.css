@@ -1572,149 +1572,187 @@ body {
 
     .modal-form-wrapper {
         padding: 30px 30px;
+        max-width: 345px;
     }
 
-    .modal-gotup {
+    .modal-group {
         width: 285px;
     }
 
-}
-
-@media(max-width:768px) {
-    .container {
-        max-width: 40rem;
+    .modal-title {
+        font-size: 40px;
+        margin-bottom: 10px;
     }
 
-    .header-title {
-        font-size: 4rem;
-    }
-
-    .header-content {
-        padding-top: 3rem;
-    }
-
-    .founder-image {
-        position: relative;
-        width: 100%;
-    }
-
-    .founder-content {
-        max-width: 100%;
-    }
-
-    .founder-image {
-        left: 0;
-    }
-
-    .blog-card-text {
-        display: none;
-    }
-
-    .blog-card {
-        min-height: 195px;
-        padding: 0.825rem;
-    }
-
-    .blog-card-title {
-        font-size: 20px;
-        line-height: 120%;
-        margin-left: 5px;
-        width: 85%;
-    }
-
-    .blog-link {
-        margin-top: -10px;
-        margin-left: 15px;
+    .modal-text {
         font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
-    .blog-slider-footer {
-        margin-top: 30px;
-    }
-
-    .blog-buttons {
-        margin-top: -10px;
+    .modal-close {
+        width: 40px;
         height: 40px;
+        top: 35px;
+        right: 30px;
     }
 
-    .blog-button-prev,
-    .blog-button-next {
-        width: 60px;
-    }
-}
-
-@media(max-width:576px) {
-    .container {
-        max-width: 90%;
+    .input-group-wrapper {
+        margin-top: 20px;
     }
 
-    .header-title {
-        font-size: 48px;
-        letter-spacing: 0.5px;
-        padding-left: 0;
-        line-height: 122%;
+    .modal-form-footer {
+        margin-top: 0;
     }
 
-    .header-text {
-        font-size: 14px;
-        margin-top: -5px;
-        padding-right: 10px;
+    .modal-form-button {
+        margin-bottom: 18px;
+        margin-top: 20px;
     }
 
-    .header-content {
-        margin-left: -13px;
-        padding-top: 44px;
+    .notify {
+        margin-top: 0;
     }
 
-    .card-brand {
-        padding: 30px;
-        grid-template-areas:
-            "a b"
-            "c c";
+    .modal-label {
+        top: 1.6rem;
     }
 
-    .card-title-brand {
-        font-size: 20px;
-        margin-left: -57px;
-        margin-top: -8px;
+    @media(max-width:768px) {
+        .container {
+            max-width: 40rem;
+        }
+
+        .header-title {
+            font-size: 4rem;
+        }
+
+        .header-content {
+            padding-top: 3rem;
+        }
+
+        .founder-image {
+            position: relative;
+            width: 100%;
+        }
+
+        .founder-content {
+            max-width: 100%;
+        }
+
+        .founder-image {
+            left: 0;
+        }
+
+        .blog-card-text {
+            display: none;
+        }
+
+        .blog-card {
+            min-height: 195px;
+            padding: 0.825rem;
+        }
+
+        .blog-card-title {
+            font-size: 20px;
+            line-height: 120%;
+            margin-left: 5px;
+            width: 85%;
+        }
+
+        .blog-link {
+            margin-top: -10px;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+
+        .blog-slider-footer {
+            margin-top: 30px;
+        }
+
+        .blog-buttons {
+            margin-top: -10px;
+            height: 40px;
+        }
+
+        .blog-button-prev,
+        .blog-button-next {
+            width: 60px;
+        }
     }
 
-    .card-text-brand {
-        font-size: 14px;
-        margin: 0;
-        margin-top: 17px;
-        margin-left: -5px;
-    }
+    @media(max-width:576px) {
+        .container {
+            max-width: 90%;
+        }
 
-    .cards-brand {
-        width: 345px;
-        height: 538px;
-    }
+        .header-title {
+            font-size: 48px;
+            letter-spacing: 0.5px;
+            padding-left: 0;
+            line-height: 122%;
+        }
 
-    .card-image-brand {
-        width: 100px;
-        height: 100px;
-        margin-left: -5px;
-    }
+        .header-text {
+            font-size: 14px;
+            margin-top: -5px;
+            padding-right: 10px;
+        }
 
-    .clients-list {
-        columns: 1;
-    }
+        .header-content {
+            margin-left: -13px;
+            padding-top: 44px;
+        }
 
-    .clients-logo {
-        flex-basis: 50%;
-    }
+        .card-brand {
+            padding: 30px;
+            grid-template-areas:
+                "a b"
+                "c c";
+        }
 
-    .clients-logo:nth-child(9) {
-        display: none;
-    }
+        .card-title-brand {
+            font-size: 20px;
+            margin-left: -57px;
+            margin-top: -8px;
+        }
 
-    .slider-features {
-        width: 115%;
-        margin-left: -30px;
-    }
+        .card-text-brand {
+            font-size: 14px;
+            margin: 0;
+            margin-top: 17px;
+            margin-left: -5px;
+        }
 
-    .header-features {
-        padding-left: 25px;
+        .cards-brand {
+            width: 345px;
+            height: 538px;
+        }
+
+        .card-image-brand {
+            width: 100px;
+            height: 100px;
+            margin-left: -5px;
+        }
+
+        .clients-list {
+            columns: 1;
+        }
+
+        .clients-logo {
+            flex-basis: 50%;
+        }
+
+        .clients-logo:nth-child(9) {
+            display: none;
+        }
+
+        .slider-features {
+            width: 115%;
+            margin-left: -30px;
+        }
+
+        .header-features {
+            padding-left: 25px;
+        }
     }
-}

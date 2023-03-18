@@ -1094,11 +1094,11 @@ body {
     }
 
     .mobile-menu-line:nth-child(1) {
-        width: 100%;
+        width: 20px;
     }
 
     .mobile-menu-line:nth-child(3) {
-        width: 100%;
+        width: 20px;
     }
 
     .navbar-button .button-text {

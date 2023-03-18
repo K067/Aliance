@@ -173,17 +173,29 @@ const modalTrigger = () => {
         });
     });
 
-    modal.addEventListener('click', e => {
-        if (!e.target.closest('.modal-form-wrapper') || e.target.closest('.modal-close')) {
-            modal.style.display = 'none';
-            modal.style.transform = 'translateX(-100%)';
-            modal.style.visibility = 'hidden';
-            modal.style.opacity = '0';
-
-            document.body.style.position = 'static';
-            document.body.style.width = '';
+    document.body.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+            defaultValue();
         }
     });
+
+    modal.addEventListener('click', e => {
+        if (!e.target.closest('.modal-form-wrapper') || e.target.closest('.modal-close')) {
+            defaultValue();
+        }
+    });
+
+    const defaultValue = () => {
+        modal.style.display = 'none';
+        modal.style.transform = 'translateX(-100%)';
+        modal.style.visibility = 'hidden';
+        modal.style.opacity = '0';
+
+        document.body.style.position = 'static';
+        document.body.style.width = '';
+    }
+
+    defaultValue();
 }
 const swiper = new Swiper('.slider-features', {
     speed: 400,

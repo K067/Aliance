@@ -7,7 +7,12 @@ const logoDark = navbar.querySelector('.logo-light');
 const phoneLink = navbar.querySelector('.header-phone');
 const mobileMenuToggle = navbar.querySelector('.mobile-menu-toggle');
 const mobileMenuLine = navbar.querySelectorAll('.mobile-menu-line');
+const modal = document.querySelector('.modal');
 
+let buttons = [
+    document.querySelectorAll('.button')[0],
+    document.querySelectorAll('.button')[1]
+];
 let elementArray = [
     document.querySelectorAll('.header-nav-link'),
     document.querySelectorAll('.button-link'),
@@ -83,6 +88,7 @@ const alter = () => {
         phoneLink.style.color = '';
     }
 }
+
 const navbarFunc = (e) => {
     e.preventDefault();
 
@@ -153,6 +159,32 @@ const navbarFunc = (e) => {
     }
 }
 
+const modalTrigger = () => {
+    buttons.forEach(e => {
+        e.addEventListener('click', () => {
+            modal.style.display = 'flex';
+            modal.style.transform = 'translateX(0)';
+            modal.style.visibility = 'visible';
+            modal.style.opacity = '1';
+
+            document.body.style.overflowY = 'scroll';
+            document.body.style.position = 'fixed';
+            document.body.style.width = '100%';
+        });
+    });
+
+    modal.addEventListener('click', e => {
+        if (!e.target.closest('.modal-form-wrapper') || e.target.closest('.modal-close')) {
+            modal.style.display = 'none';
+            modal.style.transform = 'translateX(-100%)';
+            modal.style.visibility = 'hidden';
+            modal.style.opacity = '0';
+
+            document.body.style.position = 'static';
+            document.body.style.width = '';
+        }
+    });
+}
 const swiper = new Swiper('.slider-features', {
     speed: 400,
     slidesPerView: 1,
@@ -241,5 +273,6 @@ document.addEventListener('scroll', () => {
     alter();
 });
 
+modalTrigger();
 alter();
 hover(trigger);

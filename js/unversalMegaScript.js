@@ -64,14 +64,18 @@ const hover = (elem) => {
 const alter = () => {
     let current = window.scrollY;
 
-    if (current >= 36) {
+    if (current >= 36 || !document.querySelector('.header-image')) {
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = '#333';
         });
 
         mobileMenuToggle.style.padding = "1.45rem 2.5rem";
         navbar.style.backgroundColor = 'white';
-        navbar.style.height = '4rem';
+        /*!beta!*/
+        current >= 36 ?
+            navbar.style.height = '4rem'
+            :
+            navbar.style.height = '';
         headerNav.style.color = '#292D33';
         logoDark.src = './img/logo-dark.svg';
         phoneLink.style.color = '#292D33';

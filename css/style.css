@@ -1029,6 +1029,70 @@ body {
     font-size: 14px;
 }
 
+.bg-about {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 30px;
+}
+
+.that-links {
+    text-decoration: none;
+}
+
+.abyss-links {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.span-line {
+    color: #828a99;
+    font-size: 14px;
+    margin: 4px 10px;
+}
+
+.title-about {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120%;
+    color: #292D33;
+    margin-top: 22px;
+    margin-bottom: 26px;
+    letter-spacing: 0.4px;
+}
+
+.that-links {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #292D33;
+}
+
+.that-links:last-child {
+    font-weight: 600;
+}
+
+.header-about-beta {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header-about {
+    padding-top: 5.875rem;
+}
+
+/* .image{
+    .header-image {
+        background-image: url("/img/");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0;
+    }
+} */
+
+
 @media(max-width:1700px) {
     html {
         font-size: 14px;

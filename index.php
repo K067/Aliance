@@ -543,7 +543,7 @@
         <div class="container">
             <div class="footer-wrapper">
                 <div class="footer-legal">
-                    <p class="copyright">&copy 2022 «Aliance Production». Все права защищены.</p>
+                    <p class="copyright">&copy <?php echo date("Y")?> «Aliance Production». Все права защищены.</p>
                     <a href="#" class="policy">Политики конфиденциальности</a>
                 </div>
                 <div class="footer-author">

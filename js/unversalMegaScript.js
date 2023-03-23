@@ -10,8 +10,8 @@ const mobileMenuLine = navbar.querySelectorAll('.mobile-menu-line');
 const modal = document.querySelector('.modal');
 
 let buttons = [
-    document.querySelectorAll('.button')[0],
-    document.querySelectorAll('.button')[1]
+    document.querySelector('.navbar-button'),
+    document.querySelector('.header-button')
 ];
 let elementArray = [
     document.querySelectorAll('.header-nav-link'),

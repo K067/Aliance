@@ -9,11 +9,11 @@
                         интересующие вопросы и поможем даже в самых сложных случаях!</p>
                     <div class="input-group-wrapper">
                         <div class="input-group">
-                            <input id="user-name" type="text" class="input" name="username" placeholder=" ">
+                            <input id="user-name" type="text" class="input" name="username" placeholder=" " maxlength="100" required>
                             <label for="user-name" class="label">Имя</label>
                         </div>
                         <div class="input-group">
-                            <input id="user-phone" type="tel" class="input" name="userphone" placeholder=" ">
+                            <input id="user-phone" type="tel" class="input" name="userphone" placeholder=" " required>
                             <label for="user-phone" class="label">Номер телефона</label>
                         </div>
                     </div>

@@ -2,14 +2,14 @@
         <div class="bg-grey section-cta">
             <img src="./img/__400 1.png" alt="cta" class="cta-image">
             <div class="cta-form-wrapper container">
-                <form action="/handler.php" method="POST" class="cta-form">
+                <form action="" class="cta-form">
                     <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
                     <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит
                         на все
                         интересующие вопросы и поможем даже в самых сложных случаях!</p>
                     <div class="input-group-wrapper">
                         <div class="input-group">
-                            <input id="user-name" type="text" class="input" name="username" placeholder=" " maxlength="100" required>
+                            <input id="user-name" type="text" class="input" name="username" placeholder=" " required>
                             <label for="user-name" class="label">Имя</label>
                         </div>
                         <div class="input-group">
@@ -18,7 +18,7 @@
                         </div>
                     </div>
                     <div class="cta-form-footer">
-                        <button type="submit" class="button cta-form-button">Отправить заявку</button>
+                        <button type="submit" class="button cta-form-button send-it">Отправить заявку</button>
                         <div class="notify">
                             <img src="./img/shield.svg" alt="form icon" class="notify-icon">
                             <p class="notify-text">

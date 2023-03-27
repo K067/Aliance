@@ -100,7 +100,7 @@
                 +7 (499) 686-10-14
             </a>
         </div>
-        <button class="navbar-button button">
+        <button class="navbar-button button modal-button">
             <img src="./img/white-phone.svg" alt="icon: phone" class="button-icon">
             <span class="button-text">Получить консультацию</span>
         </button>
@@ -113,7 +113,7 @@
                 <p class="header-text">Высокий уровень вовлечения представителей целевой аудитории является четким
                     доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от
                     анализа существующих паттернов поведения.</p>
-                <div class="header-button button">Подробнее о компании</div>
+                <div class="header-button button modal-button">Подробнее о компании</div>
             </div>
             <div class="swiper slider-features">
                 <ul class="swiper-wrapper header-features">
@@ -431,7 +431,7 @@
                     </div>
                 </div>
                 <div class="modal-form-footer">
-                    <button type="submit" class="button modal-form-button">Отправить заявку</button>
+                    <button type="submit" class="button modal-form-button send-it">Отправить заявку</button>
                     <div class="notify">
                         <img src="./img/shield.svg" alt="form icon" class="notify-icon">
                         <p class="notify-text">
@@ -443,6 +443,20 @@
             </form>
         </div>
     </div>
+    <div class="modal application">
+        <div class="modal-form-wrapper application-wrapper">
+            <img src="./img/thanks_illu.svg" alt="thanks-image" class="thanks">
+          <div class="application-content">
+              <h2 class="modal-title">Спасибо за заявку!</h2>
+              <a href="#" class="modal-close">
+                  <img src="./img/close.svg" alt="close" class="close-button">
+                </a>
+                <p class="modal-text">
+                    Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+                </p>
+                <button type="submit" class="button button-back">Вернуться на главную</button>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>

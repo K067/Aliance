@@ -7,12 +7,11 @@ const logoDark = navbar.querySelector('.logo-light');
 const phoneLink = navbar.querySelector('.header-phone');
 const mobileMenuToggle = navbar.querySelector('.mobile-menu-toggle');
 const mobileMenuLine = navbar.querySelectorAll('.mobile-menu-line');
-const modal = document.querySelector('.modal');
+const modal = document.querySelectorAll('.modal');
+const forms = document.querySelectorAll('form');
 
-let buttons = [
-    document.querySelector('.navbar-button'),
-    document.querySelector('.header-button')
-];
+const buttons = document.querySelectorAll('.modal-button');
+
 let elementArray = [
     document.querySelectorAll('.header-nav-link'),
     document.querySelectorAll('.button-link'),
@@ -64,7 +63,7 @@ const hover = (elem) => {
 const alter = () => {
     let current = window.scrollY;
 
-    if (current >= 36 || !document.querySelector('.header-image')) {
+    if (current >= 36 ||/*!beta!*/ document.querySelector('.crutch')) {
         mobileMenuLine.forEach(e => {
             e.style.backgroundColor = '#333';
         });
@@ -163,19 +162,15 @@ const navbarFunc = (e) => {
     }
 }
 
-const modalTrigger = () => {
-    buttons.forEach(e => {
-        e.addEventListener('click', () => {
-            modal.style.display = 'flex';
-            modal.style.transform = 'translateX(0)';
-            modal.style.visibility = 'visible';
-            modal.style.opacity = '1';
+const modalFunc = (elem = modal[0]) => {
+    elem.style.display = 'flex';
+    elem.style.transform = 'translateX(0)';
+    elem.style.visibility = 'visible';
+    elem.style.opacity = '1';
 
-            document.body.style.overflowY = 'scroll';
-            document.body.style.position = 'fixed';
-            document.body.style.width = '100%';
-        });
-    });
+    document.body.style.overflowY = 'scroll';
+    document.body.style.position = 'fixed';
+    document.body.style.width = '100%';
 
     document.body.addEventListener('keydown', e => {
         if (e.key === 'Escape') {
@@ -183,24 +178,25 @@ const modalTrigger = () => {
         }
     });
 
-    modal.addEventListener('click', e => {
-        if (!e.target.closest('.modal-form-wrapper') || e.target.closest('.modal-close')) {
+    elem.addEventListener('click', e => {
+        if (!e.target.closest('.modal-form-wrapper') || e.target.closest('.modal-close') || e.target.closest('.button-back')) {
             defaultValue();
         }
     });
 
     const defaultValue = () => {
-        modal.style.display = 'none';
-        modal.style.transform = 'translateX(-100%)';
-        modal.style.visibility = 'hidden';
-        modal.style.opacity = '0';
+        modal.forEach(e => {
+            e.style.display = 'none';
+            e.style.transform = 'translateX(-100%)';
+            e.style.visibility = 'hidden';
+            e.style.opacity = '0';
+        });
 
         document.body.style.position = 'static';
         document.body.style.width = '';
     }
-
-    defaultValue();
 }
+
 const swiper = new Swiper('.slider-features', {
     speed: 400,
     slidesPerView: 1,
@@ -277,10 +273,15 @@ const swiperBlog = new Swiper('.slider-blog', {
     }
 });
 
-const formValidation = () => {
-    const formData = document.querySelectorAll('form')
+const formSending = data => {
+    return fetch('http://aliance/handler.php', {
+        method: 'POST',
+        body: data,
+    });
+}
 
-    formData.forEach(data => {
+const submitForm = () => {
+    forms.forEach(data => {
         const validation = new JustValidate(data, {
             errorFieldCssClass: 'is-invalid',
         });
@@ -291,7 +292,7 @@ const formValidation = () => {
                     errorMessage: 'Укажите имя',
                 },
                 {
-                    rule: 'required',
+                    rule: 'maxLength',
                     value: 50,
                     errorMessage: 'Не более 50 символов',
                 },
@@ -302,9 +303,63 @@ const formValidation = () => {
                     errorMessage: 'Укажите телефон',
                 },
             ])
+            .onSuccess((event) => {
+                event.preventDefault();
+                const formElements = event.target;
+                const formData = new FormData(formElements);
+
+                formSending(formData).then(() => {
+                    modalFunc(document.querySelector('.application'));
+
+                    formElements.querySelectorAll('input').forEach(input => {
+                        input.value = '';
+                    });
+                }).catch(() => {
+                    alert('no');
+                });
+            });
     });
 }
 
+const maskPhone = (selector, masked = '+7 (___) ___-__-__') => {
+    const elems = document.querySelectorAll(selector);
+
+    const mask = event => {
+        const { keyCode, target } = event;
+        const template = masked;
+        const def = template.replace(/\D/g, '');
+        const val = target.value.replace(/\D/g, '');
+
+        let i = 0;
+        let newValue = template.replace(/[_\d]/g, (a) =>
+            i < val.length ? val.charAt(i++) || def.charAt(i) : a);
+
+        i = newValue.indexOf('_');
+
+        if (i !== -1)
+            newValue = newValue.slice(0, i);
+
+        let reg = template.substr(0, target.value.length)
+            .replace(/_+/g, ({ length }) => `\\d{1,${length}}`)
+            .replace(/[+()]/g, '\\$&');
+
+        reg = new RegExp(`^${reg}$`);
+
+        if (!reg.test(target.value) || target.value.length < 5 || keyCode > 47 && keyCode < 58) {
+            target.value = newValue;
+        }
+
+        if (event.type == 'blur' && target.value.length < 5) {
+            target.value = '';
+        }
+    };
+
+    for (const elem of elems) {
+        elem.addEventListener("input", mask);
+        elem.addEventListener("focus", mask);
+        elem.addEventListener("blur", mask);
+    }
+};
 
 if (window.screen.width <= 768) {
     hoverOff(elementArray);
@@ -318,7 +373,12 @@ document.addEventListener('scroll', () => {
     alter();
 });
 
-modalTrigger();
+buttons.forEach(e => {
+    e.addEventListener('click', () => {
+        modalFunc();
+    });
+});
 alter();
 hover(trigger);
-formValidation();
+submitForm();
+maskPhone('[name="userphone"]', '+7 (___) ___-__-__');

@@ -3,6 +3,7 @@
 
 <head>
     <script src="./js/swiper-bundle.min.js" defer></script>
+    <script src="./js/just-validate.production.min.js" defer></script>
     <script src="./js/unversalMegaScript.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -120,7 +121,7 @@
             </div>
         </div>
     </header>
-    <?php include_once('footer.php')?>
+<?php include_once('footer.php')?>
     <div class="modal">
         <div class="modal-form-wrapper">
             <h2 class="modal-title">Есть вопросы?</h2>
@@ -134,11 +135,11 @@
             <form action="" class="modal-form">
                 <div class="input-group-wrapper modal-input">
                     <div class="input-group modal-group">
-                        <input id="modal-name" type="text" class="input modal-type" placeholder=" ">
+                        <input id="modal-name" type="text" class="input modal-type" name=username placeholder=" ">
                         <label for="modal-name" class="label modal-label">Имя</label>
                     </div>
                     <div class="input-group modal-group">
-                        <input id="modal-phone" type="tel" class="input modal-type" placeholder=" ">
+                        <input id="modal-phone" type="tel" class="input modal-type" name=userphone placeholder=" ">
                         <label for="modal-phone" class="label modal-label">Номер телефона</label>
                     </div>
                 </div>

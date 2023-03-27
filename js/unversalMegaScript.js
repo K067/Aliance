@@ -277,6 +277,35 @@ const swiperBlog = new Swiper('.slider-blog', {
     }
 });
 
+const formValidation = () => {
+    const formData = document.querySelectorAll('form');
+
+    formData.forEach(data => {
+        const validation = new JustValidate(data, {
+            errorFieldCssClass: 'is-invalid',
+        });
+        validation
+            .addField('input[name=username]', [
+                {
+                    rule: 'required',
+                    errorMessage: 'Укажите имя',
+                },
+                {
+                    rule: 'required',
+                    value: 50,
+                    errorMessage: 'Не более 50 символов',
+                },
+            ])
+            .addField('input[name=userphone]', [
+                {
+                    rule: 'required',
+                    errorMessage: 'Укажите телефон',
+                },
+            ])
+    });
+}
+
+
 if (window.screen.width <= 768) {
     hoverOff(elementArray);
 }
@@ -292,3 +321,4 @@ document.addEventListener('scroll', () => {
 modalTrigger();
 alter();
 hover(trigger);
+formValidation();

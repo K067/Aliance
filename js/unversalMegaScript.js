@@ -278,7 +278,7 @@ const swiperBlog = new Swiper('.slider-blog', {
 });
 
 const formValidation = () => {
-    const formData = document.querySelectorAll('form');
+    const formData = document.querySelectorAll('form')
 
     formData.forEach(data => {
         const validation = new JustValidate(data, {

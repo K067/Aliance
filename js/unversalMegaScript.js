@@ -266,7 +266,7 @@ const swiperBlog = new Swiper('.slider-blog', {
 });
 
 const formSending = data => {
-    return fetch('http://aliance/handler.php', {
+    return fetch('https://api.telegram.org/bot6144473339:AAGEvoLd26LjgExd0hPEkxpUJig5GSLDBA8/sendMessage?chat_id=-993149160&text=""&parse_mode=html', {
         method: 'POST',
         body: data,
     });

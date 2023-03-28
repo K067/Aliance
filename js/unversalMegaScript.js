@@ -9,7 +9,6 @@ const mobileMenuToggle = navbar.querySelector('.mobile-menu-toggle');
 const mobileMenuLine = navbar.querySelectorAll('.mobile-menu-line');
 const modal = document.querySelectorAll('.modal');
 const forms = document.querySelectorAll('form');
-
 const buttons = document.querySelectorAll('.modal-button');
 
 let elementArray = [
@@ -162,15 +161,20 @@ const navbarFunc = (e) => {
     }
 }
 
-const modalFunc = (elem = modal[0]) => {
+const defaultValue = () => {
+    modal.forEach(e => {
+        e.style.display = 'none';
+        e.style.transform = 'translateX(-100%)';
+        e.style.visibility = 'hidden';
+        e.style.opacity = '0';
+    });
+}
+
+const modalFunc = (elem) => {
     elem.style.display = 'flex';
     elem.style.transform = 'translateX(0)';
     elem.style.visibility = 'visible';
     elem.style.opacity = '1';
-
-    document.body.style.overflowY = 'scroll';
-    document.body.style.position = 'fixed';
-    document.body.style.width = '100%';
 
     document.body.addEventListener('keydown', e => {
         if (e.key === 'Escape') {
@@ -183,18 +187,6 @@ const modalFunc = (elem = modal[0]) => {
             defaultValue();
         }
     });
-
-    const defaultValue = () => {
-        modal.forEach(e => {
-            e.style.display = 'none';
-            e.style.transform = 'translateX(-100%)';
-            e.style.visibility = 'hidden';
-            e.style.opacity = '0';
-        });
-
-        document.body.style.position = 'static';
-        document.body.style.width = '';
-    }
 }
 
 const swiper = new Swiper('.slider-features', {
@@ -309,7 +301,8 @@ const submitForm = () => {
                 const formData = new FormData(formElements);
 
                 formSending(formData).then(() => {
-                    modalFunc(document.querySelector('.application'));
+                    defaultValue();
+                    modalFunc(modal[1]);
 
                     formElements.querySelectorAll('input').forEach(input => {
                         input.value = '';
@@ -375,7 +368,7 @@ document.addEventListener('scroll', () => {
 
 buttons.forEach(e => {
     e.addEventListener('click', () => {
-        modalFunc();
+        modalFunc(modal[0]);
     });
 });
 alter();

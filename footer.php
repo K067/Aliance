@@ -2,18 +2,18 @@
         <div class="bg-grey section-cta">
             <img src="./img/__400 1.png" alt="cta" class="cta-image">
             <div class="cta-form-wrapper container">
-                <form action="" class="cta-form">
+                <form action="./handler.php" class="cta-form">
                     <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
                     <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит
                         на все
                         интересующие вопросы и поможем даже в самых сложных случаях!</p>
                     <div class="input-group-wrapper">
                         <div class="input-group">
-                            <input id="user-name" type="text" class="input" name="username" placeholder=" " required>
+                            <input id="user-name" type="text" class="input" name="username" placeholder=" ">
                             <label for="user-name" class="label">Имя</label>
                         </div>
                         <div class="input-group">
-                            <input id="user-phone" type="tel" class="input" name="userphone" placeholder=" " required>
+                            <input id="user-phone" type="tel" class="input" name="userphone" placeholder=" ">
                             <label for="user-phone" class="label">Номер телефона</label>
                         </div>
                     </div>

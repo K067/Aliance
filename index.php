@@ -419,7 +419,7 @@
                 Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
                 поможем даже в самых сложных случаях!
             </p>
-            <form action="" class="modal-form">
+            <form action="./handler.php" class="modal-form">
                 <div class="input-group-wrapper modal-input">
                     <div class="input-group modal-group">
                         <input id="modal-name" type="text" class="input modal-type" name=username placeholder=" ">

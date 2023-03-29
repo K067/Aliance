@@ -1,7 +1,6 @@
 const navbar = document.querySelector('.navbar');
 const mobileMenu = document.querySelector('.mobile-menu');
 const trigger = document.querySelectorAll('.card-brand');
-
 const headerNav = navbar.querySelector('.header-nav');
 const logoDark = navbar.querySelector('.logo-light');
 const phoneLink = navbar.querySelector('.header-phone');
@@ -10,6 +9,8 @@ const mobileMenuLine = navbar.querySelectorAll('.mobile-menu-line');
 const modal = document.querySelectorAll('.modal');
 const forms = document.querySelectorAll('form');
 const buttons = document.querySelectorAll('.modal-button');
+const name = document.querySelectorAll('input[name=username]');
+const invalid = document.query
 
 let elementArray = [
     document.querySelectorAll('.header-nav-link'),
@@ -22,6 +23,83 @@ let elementArray = [
 ];
 
 mobileMenuLine[1].style.width = '80%';
+
+const swiper = new Swiper('.slider-features', {
+    speed: 400,
+    slidesPerView: 1,
+    navigation: {
+        nextEl: '.slider-button-next',
+        prevEl: '.slider-button-prev',
+    },
+    breakpoints: {
+        374: {
+            slidesPerView: 1.5,
+        },
+        575: {
+            slidesPerView: 2,
+        },
+        767: {
+            slidesPerView: 3,
+        },
+        1199: {
+            slidesPerView: 4,
+        },
+        1201: {
+            slidesPerView: 5,
+        }
+    }
+});
+
+const swiperSteps = new Swiper('.slider-steps', {
+    speed: 400,
+    slidesPerView: 1,
+    navigation: {
+        nextEl: '.steps-button-next',
+        prevEl: '.steps-button-prev',
+    },
+    breakpoints: {
+        374: {
+            slidesPerView: 1.5,
+        },
+        575: {
+            slidesPerView: 2,
+        },
+        767: {
+            slidesPerView: 3,
+        },
+        1199: {
+            slidesPerView: 4,
+        },
+        1201: {
+            slidesPerView: 5,
+        }
+    }
+});
+
+const swiperBlog = new Swiper('.slider-blog', {
+    speed: 400,
+    slidesPerView: 1,
+    loop: true,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: '.blog-button-next',
+        prevEl: '.blog-button-prev',
+    },
+    breakpoints: {
+        374: {
+            slidesPerView: 1,
+        },
+        575: {
+            slidesPerView: 1,
+        },
+        767: {
+            slidesPerView: 1,
+        },
+        1199: {
+            slidesPerView: 2,
+        },
+    }
+});
 
 const hoverOff = (e) => {
     e.forEach(el => {
@@ -189,131 +267,6 @@ const modalFunc = (elem) => {
     });
 }
 
-const swiper = new Swiper('.slider-features', {
-    speed: 400,
-    slidesPerView: 1,
-    navigation: {
-        nextEl: '.slider-button-next',
-        prevEl: '.slider-button-prev',
-    },
-    breakpoints: {
-        374: {
-            slidesPerView: 1.5,
-        },
-        575: {
-            slidesPerView: 2,
-        },
-        767: {
-            slidesPerView: 3,
-        },
-        1199: {
-            slidesPerView: 4,
-        },
-        1201: {
-            slidesPerView: 5,
-        }
-    }
-});
-const swiperSteps = new Swiper('.slider-steps', {
-    speed: 400,
-    slidesPerView: 1,
-    navigation: {
-        nextEl: '.steps-button-next',
-        prevEl: '.steps-button-prev',
-    },
-    breakpoints: {
-        374: {
-            slidesPerView: 1.5,
-        },
-        575: {
-            slidesPerView: 2,
-        },
-        767: {
-            slidesPerView: 3,
-        },
-        1199: {
-            slidesPerView: 4,
-        },
-        1201: {
-            slidesPerView: 5,
-        }
-    }
-});
-
-const swiperBlog = new Swiper('.slider-blog', {
-    speed: 400,
-    slidesPerView: 1,
-    loop: true,
-    spaceBetween: 30,
-    navigation: {
-        nextEl: '.blog-button-next',
-        prevEl: '.blog-button-prev',
-    },
-    breakpoints: {
-        374: {
-            slidesPerView: 1,
-        },
-        575: {
-            slidesPerView: 1,
-        },
-        767: {
-            slidesPerView: 1,
-        },
-        1199: {
-            slidesPerView: 2,
-        },
-    }
-});
-
-const formSending = data => {
-    return fetch('https://api.telegram.org/bot6144473339:AAGEvoLd26LjgExd0hPEkxpUJig5GSLDBA8/sendMessage?chat_id=-993149160&text=""&parse_mode=html', {
-        method: 'POST',
-        body: data,
-    });
-}
-
-const submitForm = () => {
-    forms.forEach(data => {
-        const validation = new JustValidate(data, {
-            errorFieldCssClass: 'is-invalid',
-        });
-        validation
-            .addField('input[name=username]', [
-                {
-                    rule: 'required',
-                    errorMessage: 'Укажите имя',
-                },
-                {
-                    rule: 'maxLength',
-                    value: 50,
-                    errorMessage: 'Не более 50 символов',
-                },
-            ])
-            .addField('input[name=userphone]', [
-                {
-                    rule: 'required',
-                    errorMessage: 'Укажите телефон',
-                },
-            ])
-            .onSuccess((event) => {
-                event.preventDefault();
-                const formElements = event.target;
-                const formData = new FormData(formElements);
-
-                formSending(formData).then(() => {
-                    defaultValue();
-                    modalFunc(modal[1]);
-
-                    formElements.querySelectorAll('input').forEach(input => {
-                        input.value = '';
-                    });
-                }).catch(() => {
-                    alert('no');
-                });
-            });
-    });
-}
-
 const maskPhone = (selector, masked = '+7 (___) ___-__-__') => {
     const elems = document.querySelectorAll(selector);
 
@@ -354,6 +307,92 @@ const maskPhone = (selector, masked = '+7 (___) ___-__-__') => {
     }
 };
 
+const nameValidation = name => {
+    name.forEach((value) => {
+        value.addEventListener('input', e => {
+            e.target.value = e.target.value.replace(/[^а-яё\- ]/gi, '');
+        });
+    });
+}
+
+const lengthValidation = list => {
+    let success = true;
+
+    list.forEach(elem => {
+        switch (elem.getAttribute('name')) {
+            case 'username':
+                if (/^[а-яё]{2,}/gi.test(elem.value.trim())) {
+                    return;
+                }
+                break;
+            case 'userphone':
+                if (elem.value.length === 18) {
+                    return;
+                }
+                break;
+            default: return;
+        }
+
+        success = false;
+    });
+
+    return success;
+}
+
+const formSending = (data, url) => {
+    return fetch(url, {
+        method: 'POST',
+        body: data,
+    });
+}
+
+const submitForm = () => {
+    forms.forEach(data => {
+        const validation = new JustValidate(data, {
+            errorFieldCssClass: 'is-invalid',
+        });
+        validation
+            .addField('input[name=username]', [
+                {
+                    rule: 'required',
+                    errorMessage: 'Укажите имя',
+                },
+                {
+                    rule: 'maxLength',
+                    value: 50,
+                    errorMessage: 'Не более 50 символов',
+                },
+            ])
+            .addField('input[name=userphone]', [
+                {
+                    rule: 'required',
+                    errorMessage: 'Укажите телефон',
+                },
+            ])
+            .onSuccess((event) => {
+                event.preventDefault();
+                const formElements = event.target;
+                const formData = new FormData(formElements);
+
+                if (lengthValidation(formElements.querySelectorAll('input'))) {
+                    formSending(formData, formElements.getAttribute('action')).then(() => {
+                        defaultValue();
+                        modalFunc(modal[1]);
+
+                        formElements.querySelectorAll('input').forEach(input => {
+                            input.value = '';
+                        });
+
+                    }).catch(() => {
+                        alert('no');
+                    });
+                } else {
+                    alert('ну проверь');
+                }
+            });
+    });
+}
+
 if (window.screen.width <= 768) {
     hoverOff(elementArray);
 }
@@ -371,7 +410,9 @@ buttons.forEach(e => {
         modalFunc(modal[0]);
     });
 });
+
 alter();
 hover(trigger);
 submitForm();
 maskPhone('[name="userphone"]', '+7 (___) ___-__-__');
+nameValidation(name);

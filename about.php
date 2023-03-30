@@ -1,5 +1,5 @@
 <?php 
-$page_title='о компании';
+$page_title='О компании';
 $header_style='bg-grey';
 include_once('header.php');
 include_once('./templates/slider-features.php');

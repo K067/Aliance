@@ -10,6 +10,7 @@ html {
     font-family: 'Bebas Neue Book';
     src: url('../font/BebasNeueBook.woff') format('woff');
     font-weight: normal;
+    font-display: swap;
     font-style: normal;
 }
 

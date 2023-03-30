@@ -436,6 +436,8 @@ body {
 
 .card-brand:hover {
     border-color: #5C8EE6;
+    cursor: pointer;
+
 }
 
 .card-brand {
@@ -1030,13 +1032,6 @@ body {
     font-size: 14px;
 }
 
-.bg-about {
-    position: absolute;
-    z-index: -1;
-    right: 0;
-    top: 30px;
-}
-
 .that-links {
     text-decoration: none;
 }
@@ -1084,14 +1079,13 @@ body {
     padding-top: 5.875rem;
 }
 
-/* .image{
-    .header-image {
-        background-image: url("/img/");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 0;
-    }
-} */
+.bg-image-auto {
+    background-image: url(/img/avto-him-triple.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: bottom right 225px;
+}
+
 .just-validate-error-label {
     position: absolute;
     top: 0;

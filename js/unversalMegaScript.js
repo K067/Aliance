@@ -10,7 +10,6 @@ const modal = document.querySelectorAll('.modal');
 const forms = document.querySelectorAll('form');
 const buttons = document.querySelectorAll('.modal-button');
 const name = document.querySelectorAll('input[name=username]');
-const invalid = document.query
 
 let elementArray = [
     document.querySelectorAll('.header-nav-link'),
@@ -135,6 +134,19 @@ const hover = (elem) => {
             }
         })
     })
+}
+
+const /*!*/ featuresFont = () => {
+    if (document.querySelector('.crutch') && document.querySelector('.header-features')) {
+        const item = document.querySelector('.header-features');
+        const border = item.querySelectorAll('.header-features-items');
+
+        item.style.color = 'black';
+
+        border.forEach(e => {
+            e.style.border = '0.0625rem solid #EBEBF0';
+        });
+    }
 }
 
 const alter = () => {
@@ -416,3 +428,4 @@ hover(trigger);
 submitForm();
 maskPhone('[name="userphone"]', '+7 (___) ___-__-__');
 nameValidation(name);
+featuresFont();

@@ -48,33 +48,33 @@
                     </ul>
                 </div>
                 <div class="clients-logo-list">
-                    <div class="clients-logo">
+                    <a href="#" class="clients-logo">
                         <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
-                    </div>
-                    <div class="clients-logo">
+                    </a>
+                    <a href="#" class="clients-logo">
                         <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
-                    </div>
-                    <div class="clients-logo">
+                    </a>
+                    <a href="#" class="clients-logo">
                         <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
-                    </div>
-                    <div class="clients-logo">
+                    </a>
+                    <a href="#" class="clients-logo">
                         <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
-                    </div>
-                    <div class="clients-logo">
+                    </a>
+                    <a href="#" class="clients-logo">
                         <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
-                    </div>
-                    <div class="clients-logo">
+                    </a>
+                    <a href="#" class="clients-logo">
                         <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
-                    </div>
-                    <div class="clients-logo">
+                    </a>
+                    <a href="#" class="clients-logo">
                         <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
-                    </div>
-                    <div class="clients-logo">
+                    </a>
+                    <a href="#" class="clients-logo">
                         <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
-                    </div>
-                    <div class="clients-logo">
+                    </a>
+                    <a href="#" class="clients-logo">
                         <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

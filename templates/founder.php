@@ -1,5 +1,9 @@
 <section class="section founder">
-        <img src="./img/pexels-tiger-lily-44839381.png" alt="founder" class="founder-image">
+<picture  class="founder-image">
+  <source type="image/webp" srcset="./img/pexels-tiger-lily-44839381.webp">
+  <source type="image/jpeg" srcset="./img/pexels-tiger-lily-44839381.png">
+  <img src="./img/pexels-tiger-lily-44839381.png" alt="founder">
+</picture>
         <div class="container">
             <div class="founder-content-wrapper">
                 <div class="founder-content">

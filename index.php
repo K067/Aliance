@@ -8,11 +8,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Aliance Production</title>
 </head>
@@ -131,9 +126,9 @@
                 <div class="swiper-wrapper">
                     <a href="#" class="swiper-slide blog-card">
                     <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410 2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410 2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410 2.png" alt="blog">
+                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
+                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
+                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog">
                     </picture>
                         <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
                         <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую

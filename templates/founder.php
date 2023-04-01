@@ -2,7 +2,7 @@
 <picture  class="founder-image">
   <source type="image/webp" srcset="./img/pexels-tiger-lily-44839381.webp">
   <source type="image/jpeg" srcset="./img/pexels-tiger-lily-44839381.png">
-  <img src="./img/pexels-tiger-lily-44839381.png" alt="founder">
+  <img src="./img/pexels-tiger-lily-44839381.png" alt="founder" class="image-scale">
 </picture>
         <div class="container">
             <div class="founder-content-wrapper">

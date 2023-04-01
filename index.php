@@ -128,7 +128,7 @@
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog">
+                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
                     </picture>
                         <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
                         <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую
@@ -138,7 +138,7 @@
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
                     <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog">
+                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
                     </picture>
                         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
                         <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально

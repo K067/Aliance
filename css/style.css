@@ -2,6 +2,11 @@
 @import url(swiper-bundle.min.css);
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap);
 
+.image-scale {
+    height: 100%;
+    width: 100%;
+}
+
 .button,
 .button-text {
     font-weight: 600;

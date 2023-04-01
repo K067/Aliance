@@ -207,6 +207,7 @@ body {
 
 .header-content {
     padding-top: 9.375rem;
+    margin-bottom: 6.3rem;
     z-index: 1;
     color: #fff;
     left: 10px
@@ -246,7 +247,7 @@ body {
     display: flex;
     align-items: stretch;
     padding: 0;
-    margin-top: 6.3rem;
+    margin-top: 0;
     margin-bottom: auto;
     list-style: none;
     color: #fff
@@ -1104,6 +1105,56 @@ body {
 
 .application-wrapper {
     padding: 40px 50px 20px
+}
+
+.about-lay {
+    margin-top: 100px;
+    margin-bottom: 140px;
+    min-height: 0;
+}
+
+.about-lay-second {
+    margin-top: 150px;
+    margin-bottom: 297px;
+    min-height: 0;
+}
+
+.about-lay-image {
+    width: 480px;
+    height: 479px;
+    left: 208px;
+}
+
+.about-lay-content {
+    max-width: 840px;
+}
+
+.about-lay-title {
+    width: 600px;
+}
+
+.about-lay-wrapper {
+    justify-content: flex-start;
+}
+
+.about-lay-image-second {
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    right: 240px;
+}
+
+.about-lay-content-second {
+    max-width: 720px;
+}
+
+.text-beta-about {
+    margin-top: 22px;
+    margin-bottom: 38px;
+}
+
+.clients-list-about {
+    gap: 0;
 }
 
 @media(max-width:1700px) {

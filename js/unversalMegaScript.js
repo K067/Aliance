@@ -187,7 +187,7 @@ const alter = () => {
     }
 }
 
-const navbarFunc = (e) => {
+const navbarFunc = e => {
     e.preventDefault();
 
     mobileMenu.classList.toggle('is-open');

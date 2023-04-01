@@ -138,10 +138,16 @@ const hover = (elem) => {
 
 const /*!*/ featuresFont = () => {
     if (document.querySelector('.crutch') && document.querySelector('.header-features')) {
-        const item = document.querySelector('.header-features');
-        const border = item.querySelectorAll('.header-features-items');
+        const item = document.querySelector('.slider-features');
+        const font = item.querySelector('.header-features');
+        const border = item.querySelectorAll('.header-features-items, .header-arrow');
+        const arrows = item.querySelectorAll('.the-arrow');
 
-        item.style.color = 'black';
+        font.style.color = 'black';
+
+        arrows.forEach(e => {
+            e.style.filter = 'brightness(20%)';
+        })
 
         border.forEach(e => {
             e.style.border = '0.0625rem solid #EBEBF0';

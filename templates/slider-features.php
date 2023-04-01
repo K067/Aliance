@@ -22,7 +22,7 @@
                     </li>
                 </ul>
                 <div class="slider-buttons">
-                    <div class="slider-button-prev header-arrow"><img src="./img/arrow-left.svg" alt="left"></div>
-                    <div class="slider-button-next header-arrow"><img src="./img/arrow-right.svg" alt="right"></div>
+                    <div class="slider-button-prev header-arrow"><img src="./img/arrow-left.svg" alt="left" class="the-arrow"></div>
+                    <div class="slider-button-next header-arrow"><img src="./img/arrow-right.svg" alt="right" class="the-arrow"></div>
                 </div>
             </div>

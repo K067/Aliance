@@ -19,8 +19,7 @@ include_once('header.php');?>
             </div>
         </div>
     </section>
-<?php 
-include_once('./templates/slider-features.php');?>
+<?php include_once('./templates/slider-features.php');?>
 <section class="section founder about-lay-second">
             <picture  class="about-lay-image-second">
               <source type="image/webp" srcset="./img/frame39.webp">
@@ -66,8 +65,127 @@ include_once('./templates/slider-features.php');?>
             </div>
         </div>
     </section>
-<?php
-include_once('./templates/founder.php');
-include_once('./templates/clients.php');
-?>
+<?php include_once('./templates/founder.php');?>
+<section class="section blog research-section">
+        <div class="container">
+            <div class="separator"></div>
+            <h2 class="section-title research-title">Исследовательский центр Aliance production</h2>
+            <div class="text-research-content">
+                <p class="text-research">
+                    Явные признаки победы институционализации рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Приятно, граждане, наблюдать, как активно развивающиеся страны третьего мира могут быть ограничены исключительно образом мышления. Лишь независимые государства набирают популярность среди определенных слоев населения, а значит, должны быть указаны как претенденты на роль ключевых факторов. Лишь акционеры крупнейших компаний могут быть призваны к ответу.
+            </p>
+            <p class="text-research">
+                С учётом сложившейся международной обстановки, синтетическое тестирование требует определения и уточнения анализа существующих паттернов поведения. Не следует, однако, забывать, что высокотехнологичная концепция общественного уклада представляет собой интересный эксперимент проверки как самодостаточных, так и внешне зависимых концептуальных решений. Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление однозначно фиксирует необходимость стандартных подходов.
+            </p>
+        </div>
+            <div class="swiper slider-research">
+                <div class="swiper-wrapper research-wrapper">
+                    <a href="#" class="swiper-slide blog-card research-card">
+                    <picture class="blog-image">
+                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
+                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
+                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
+                    </picture>
+                    </a>
+                    <a href="#" class="swiper-slide blog-card research-card">
+                    <picture class="blog-image">
+                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
+                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
+                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
+                    </picture>
+                    </a>
+                    <a href="#" class="swiper-slide blog-card research-card">
+                    <picture class="blog-image">
+                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
+                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
+                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
+                    </picture>
+                    </a>
+                    <a href="#" class="swiper-slide blog-card research-card">
+                    <picture class="blog-image">
+                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
+                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
+                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
+                    </picture>
+                    </a>
+                    <a href="#" class="swiper-slide blog-card research-card">
+                    <picture class="blog-image">
+                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
+                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
+                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
+                    </picture>
+                    </a>
+                    <a href="#" class="swiper-slide blog-card research-card">
+                    <picture class="blog-image">
+                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
+                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
+                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
+                    </picture>
+                    </a>
+                    <a href="#" class="swiper-slide blog-card research-card">
+                    <picture class="blog-image">
+                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
+                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
+                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
+                    </picture>
+                    </a>
+                    <a href="#" class="swiper-slide blog-card research-card">
+                    <picture class="blog-image">
+                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
+                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
+                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
+                    </picture>
+                    </a>
+                </div>
+            </div>
+            <div class="blog-slider-footer">
+                <div></div>
+                <div class="blog-buttons main-buttons">
+                    <div class="blog-button-prev main-button-prev"><img src="./img/arrow-left.svg" alt="left"
+                            class="main-arrow-literally">
+                    </div>
+                    <div class="blog-button-next main-button-next"><img src="./img/arrow-right.svg" alt="right"
+                            class="main-arrow-literally"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php include_once('./templates/clients.php');?>
+<section class="cta">
+        <div class="bg-grey section-cta research-section">
+        <picture class="cta-image">
+        <source type="image/webp" srcset="./img/__400-1.webp">
+        <source type="image/png" srcset="./img/__400-1.png">
+        <img src="./img/__400-1.png" alt="cta" class="image-scale">
+        </picture>
+            <div class="cta-form-wrapper container">
+                <form action="./handler.php" class="cta-form">
+                    <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
+                    <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит
+                        на все
+                        интересующие вопросы и поможем даже в самых сложных случаях!</p>
+                    <div class="input-group-wrapper">
+                        <div class="input-group">
+                            <input id="user-name" type="text" class="input" name="username" placeholder=" ">
+                            <label for="user-name" class="label">Имя</label>
+                        </div>
+                        <div class="input-group">
+                            <input id="user-phone" type="tel" class="input" name="userphone" placeholder=" ">
+                            <label for="user-phone" class="label">Номер телефона</label>
+                        </div>
+                    </div>
+                    <div class="cta-form-footer">
+                        <button type="submit" class="button cta-form-button send-it">Отправить заявку</button>
+                        <div class="notify">
+                            <img src="./img/shield.svg" alt="form icon" class="notify-icon">
+                            <p class="notify-text">
+                                Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную
+                                конфиденциальность информации!
+                            </p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+</section>
 <?php include_once('footer.php');?>

@@ -99,6 +99,30 @@ const swiperBlog = new Swiper('.slider-blog', {
         },
     }
 });
+const swiperResearch = new Swiper('.slider-research', {
+    speed: 400,
+    slidesPerView: 1,
+    loop: true,
+    spaceBetween: 30,
+    navigation: {
+        nextEl: '.blog-button-next',
+        prevEl: '.blog-button-prev',
+    },
+    breakpoints: {
+        374: {
+            slidesPerView: 1,
+        },
+        575: {
+            slidesPerView: 1,
+        },
+        767: {
+            slidesPerView: 1,
+        },
+        1199: {
+            slidesPerView: 2.5,
+        },
+    }
+});
 
 const hoverOff = (e) => {
     e.forEach(el => {

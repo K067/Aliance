@@ -144,6 +144,26 @@
                         <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально
                             разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
+                    <a href="#" class="swiper-slide blog-card">
+                    <picture class="blog-image">
+                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
+                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
+                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
+                    </picture>
+                        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
+                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую
+                            экономическую ситуацию, в равной степени предоставлены...</p>
+                    </a>
+                    <a href="#" class="swiper-slide blog-card">
+                    <picture class="blog-image">
+                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
+                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
+                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
+                    </picture>
+                        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
+                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально
+                            разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
+                    </a>
                 </div>
                 <div class="blog-slider-footer">
                     <a href="#" class="button-link blog-link">Весь блог</a>
@@ -155,6 +175,43 @@
                                 class="main-arrow-literally"></div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <div class="bg-grey section-cta">
+        <picture class="cta-image">
+        <source type="image/webp" srcset="./img/__400-1.webp">
+        <source type="image/png" srcset="./img/__400-1.png">
+        <img src="./img/__400-1.png" alt="cta" class="image-scale">
+        </picture>
+            <div class="cta-form-wrapper container">
+                <form action="./handler.php" class="cta-form">
+                    <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
+                    <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит
+                        на все
+                        интересующие вопросы и поможем даже в самых сложных случаях!</p>
+                    <div class="input-group-wrapper">
+                        <div class="input-group">
+                            <input id="user-name" type="text" class="input" name="username" placeholder=" ">
+                            <label for="user-name" class="label">Имя</label>
+                        </div>
+                        <div class="input-group">
+                            <input id="user-phone" type="tel" class="input" name="userphone" placeholder=" ">
+                            <label for="user-phone" class="label">Номер телефона</label>
+                        </div>
+                    </div>
+                    <div class="cta-form-footer">
+                        <button type="submit" class="button cta-form-button send-it">Отправить заявку</button>
+                        <div class="notify">
+                            <img src="./img/shield.svg" alt="form icon" class="notify-icon">
+                            <p class="notify-text">
+                                Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную
+                                конфиденциальность информации!
+                            </p>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </section>

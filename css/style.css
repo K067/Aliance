@@ -42,6 +42,10 @@ body {
     font-family: 'Noto Sans', sans-serif
 }
 
+.crutch-title {
+    display: none;
+}
+
 .mobile-menu,
 .mobile-menu-toggle,
 .navbar-button .button-icon,
@@ -2012,12 +2016,17 @@ body {
         }
 
         .slider-features {
-            width: 115%;
-            margin-left: -30px
+            width: 106%;
+            margin-left: -18px;
+        }
+
+        .slider-about {
+            margin-top: 43px;
         }
 
         .header-features {
-            padding-left: 25px
+            padding-left: 25px;
+            height: 140px;
         }
 
         .about-lay-image,
@@ -2049,6 +2058,49 @@ body {
         }
 
         .founder-text {
+            width: 345px;
+        }
+
+        .slider-button-next,
+        .slider-button-prev {
+            height: 44px;
+        }
+
+        .header-features-items {
+            width: 250px !important;
+        }
+
+        .header-features-text {
+            font-size: 14px;
+        }
+
+        .crutch-ones {
+            display: none;
+        }
+
+        .crutch-title {
+            display: block;
+        }
+
+        .about-lay-second {
+            margin-top: 107px;
+        }
+
+        .text-beta-about {
+            margin-top: -7px !important;
+        }
+
+        .clients-list {
+            margin-top: -24px;
+            margin-bottom: 0;
+        }
+
+        .founder-content {
+            margin-top: 30px;
+        }
+
+        .research-title,
+        .text-research {
             width: 345px;
         }
     }

@@ -19,18 +19,51 @@ include_once('header.php');?>
             </div>
         </div>
     </section>
-<?php include_once('./templates/slider-features.php');?>
+    <div class="swiper slider-features slider-about">
+                <ul class="swiper-wrapper header-features">
+                    <li class="swiper-slide header-features-items">
+                        <img src="./img/features/timer.svg" alt="" class="header-features-icon">
+                        <p class="header-features-text">Непрерывная работа c 2017 года</p>
+                    </li>
+                    <li class="swiper-slide header-features-items">
+                        <img src="./img/features/paper.svg" alt="" class="header-features-icon">
+                        <p class="header-features-text">Вся продукция сертифицирована</p>
+                    </li>
+                    <li class="swiper-slide header-features-items">
+                        <img src="./img/features/man.svg" alt="" class="header-features-icon">
+                        <p class="header-features-text">Контроль качества на всех этапах</p>
+                    </li>
+                    <li class="swiper-slide header-features-items">
+                        <img src="./img/features/vector.svg" alt="" class="header-features-icon">
+                        <p class="header-features-text">Возможны поставки по всей России</p>
+                    </li>
+                    <li class="swiper-slide header-features-items">
+                        <img src="./img/features/speed.svg" alt="" class="header-features-icon">
+                        <p class="header-features-text">Оперативное производство</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="slider-buttons">
+                <div class="slider-button-prev header-arrow"><img src="./img/arrow-left.svg" alt="left" class="the-arrow"></div>
+                <div class="slider-button-next header-arrow"><img src="./img/arrow-right.svg" alt="right" class="the-arrow"></div>
+     </div>
 <section class="section founder about-lay-second">
+            <div class="container crutch-title">
+            <div class="founder-content about-lay-content about-lay-content-second">
+            <div class="separator"></div>
+             <h2 class="section-title founder-title about-lay-title">Наше производство</h2>
+            </div>
+            </div>
             <picture  class="about-lay-image-second">
               <source type="image/webp" srcset="./img/frame39.webp">
               <source type="image/jpeg" srcset="./img/frame39.png">
               <img src="./img/frame39.png" alt="founder" class="image-scale">
             </picture>
-    <div class="container">
+        <div class="container">
         <div class="founder-content-wrapper about-lay-wrapper">
             <div class="founder-content about-lay-content about-lay-content-second">
-                <div class="separator"></div>
-                <h2 class="section-title founder-title about-lay-title">Наше производство</h2>
+                <div class="separator crutch-ones"></div>
+                <h2 class="section-title founder-title about-lay-title crutch-ones">Наше производство</h2>
                 <p class="founder-text">Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.</p>
                 <p class="founder-text text-beta-about">
                 Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня требует анализа анализа существующих паттернов поведения.

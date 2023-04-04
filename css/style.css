@@ -2,6 +2,10 @@
 @import url(swiper-bundle.min.css);
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap);
 
+body {
+    overflow-x: hidden;
+}
+
 .image-scale {
     max-height: 100%;
     width: 100%;
@@ -832,6 +836,7 @@ body {
 }
 
 .footer-social {
+    display: flex;
     margin-left: 74px
 }
 
@@ -1069,7 +1074,7 @@ body {
     font-size: 80px;
     line-height: 120%;
     margin-top: 22px;
-    margin-bottom: 26px
+    margin-bottom: 22px
 }
 
 .that-links {
@@ -1169,7 +1174,7 @@ body {
 .text-research {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
     color: #828A99;
     width: 635px;
@@ -1198,8 +1203,8 @@ body {
     left: -493px;
 }
 
-.research-section {
-    margin-top: 17.375rem;
+.blog-research {
+    padding: 0;
 }
 
 @media(max-width:1700px) {
@@ -1225,11 +1230,31 @@ body {
     }
 
     .research-card {
-        width: 0;
+        width: 664px !important;
     }
 
     .research-wrapper {
         left: -590px;
+    }
+
+    .about-lay-second {
+        margin-bottom: 150px;
+    }
+
+    .footer-top {
+        width: 110%;
+    }
+
+    .text-research {
+        width: 600px;
+    }
+
+    .text-research-content {
+        margin-bottom: 28px;
+    }
+
+    .blog-card {
+        min-height: 380px;
     }
 }
 
@@ -1279,6 +1304,22 @@ body {
         width: 30%;
         right: 125px;
     }
+
+    .slider-research {
+        width: 1540px;
+    }
+
+    .research-card {
+        width: 598px !important;
+    }
+
+    .blog-card {
+        min-height: 340px;
+    }
+
+    .footer-phone {
+        margin-left: 80px;
+    }
 }
 
 @media(max-width:1200px) {
@@ -1325,6 +1366,37 @@ body {
     .cta-image {
         left: -150px
     }
+
+    .about-lay-image-second {
+        top: 50px;
+    }
+
+    .text-research {
+        width: 450px;
+    }
+
+    .slider-research {
+        width: 1260px;
+        left: -222px;
+    }
+
+    .research-card {
+        width: 486px !important;
+    }
+
+    .blog-card {
+        min-height: 277px;
+    }
+
+    .footer-phone {
+        width: 280px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    .bold-list {
+        width: 121px;
+    }
 }
 
 @media(max-width:992px) {
@@ -1360,10 +1432,6 @@ body {
     .header-nav,
     .navbar-button .button-text {
         display: none
-    }
-
-    .header-features {
-        margin-top: 4.3rem
     }
 
     .slider-buttons {
@@ -1778,6 +1846,35 @@ body {
         top: 1.6rem
     }
 
+    .text-research {
+        font-size: 14px;
+    }
+
+    .clients-list-about {
+        gap: 70px;
+    }
+
+    .text-research-content {
+        columns: 1;
+    }
+
+    .text-research-beta {
+        display: none;
+    }
+
+    .slider-research {
+        width: 1066px;
+        left: -209px;
+    }
+
+    .blog-card {
+        min-height: 196px;
+    }
+
+    .research-card {
+        width: 345px !important;
+    }
+
     @media(max-width:768px) {
         .container {
             max-width: 40rem
@@ -1835,6 +1932,20 @@ body {
         .blog-button-next,
         .blog-button-prev {
             width: 60px
+        }
+
+        .about-lay-image,
+        .about-lay-image-second {
+            position: relative;
+            display: block;
+            width: 80%;
+            height: auto;
+            left: 80px;
+            top: 0;
+        }
+
+        .research-title {
+            width: 540px;
         }
     }
 
@@ -1907,6 +2018,38 @@ body {
 
         .header-features {
             padding-left: 25px
+        }
+
+        .about-lay-image,
+        .about-lay-image-second {
+            left: 56px;
+        }
+
+        .title-about {
+            font-size: 48px;
+        }
+
+        .that-links {
+            font-size: 12px;
+        }
+
+        .about-lay {
+            margin-top: -28px;
+        }
+
+        .about-lay-image,
+        .about-lay-image-second {
+            width: 92%;
+            left: 15px;
+        }
+
+        .about-lay-title {
+            width: 345px;
+            padding: 0;
+        }
+
+        .founder-text {
+            width: 345px;
         }
     }
 }

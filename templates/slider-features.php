@@ -1,4 +1,4 @@
-<div class="swiper slider-features container">
+<div class="swiper slider-features">
                 <ul class="swiper-wrapper header-features">
                     <li class="swiper-slide header-features-items">
                         <img src="./img/features/timer.svg" alt="" class="header-features-icon">
@@ -21,8 +21,8 @@
                         <p class="header-features-text">Оперативное производство</p>
                     </li>
                 </ul>
-                <div class="slider-buttons">
-                    <div class="slider-button-prev header-arrow"><img src="./img/arrow-left.svg" alt="left" class="the-arrow"></div>
-                    <div class="slider-button-next header-arrow"><img src="./img/arrow-right.svg" alt="right" class="the-arrow"></div>
-                </div>
+            </div>
+            <div class="slider-buttons">
+                <div class="slider-button-prev header-arrow"><img src="./img/arrow-left.svg" alt="left" class="the-arrow"></div>
+                <div class="slider-button-next header-arrow"><img src="./img/arrow-right.svg" alt="right" class="the-arrow"></div>
             </div>

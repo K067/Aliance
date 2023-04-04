@@ -14,6 +14,56 @@
 </head>
 
 <body>
+<div class="mobile-menu">
+        <ul class="mobile-menu-nav">
+            <li class="mobile-menu-nav-item">
+                <a href="" class="mobile-menu-link">О компании</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+                <a href="#" class="mobile-menu-link">Контрактное производство</a>
+                <ul class="mobile-sub-menu">
+                    <li class="mobile-sub-menu-item">
+                        <a class="mobile-sub-menu-link" href="#">Автомобильная химия</a>
+                    </li>
+                    <li class="mobile-sub-menu-item">
+                        <a class="mobile-sub-menu-link" href="#">Бытовая химия</a>
+                    </li>
+                    <li class="mobile-sub-menu-item">
+                        <a class="mobile-sub-menu-link" href="#">Дезинфицирующие средства</a>
+                    </li>
+                    <li class="mobile-sub-menu-item">
+                        <a class="mobile-sub-menu-link" href="#">Пищевые аэрозоли</a>
+                    </li>
+                    <li class="mobile-sub-menu-item">
+                        <a class="mobile-sub-menu-link" href="#">Косметическая продукция</a>
+                    </li>
+                    <li class="mobile-sub-menu-item">
+                        <a class="mobile-sub-menu-link" href="#">Краски аэрозольные</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="mobile-menu-nav-item">
+                <a href="#" class="mobile-menu-link">Собственные торговые марки</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+                <a href="#" class="mobile-menu-link">Новости</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+                <a href="#" class="mobile-menu-link">Контакты</a>
+            </li>
+        </ul>
+        <a href="tel:+74996861014" class="mobile-phone">
+            +7 (499) 686-10-14
+        </a>
+        <div class="mobile-info">
+            <img src="./img/local.svg" alt="local" class="location-mark">
+            <address class="mobile-info-property">г. Москва, Холодильный пер. 4к1с8</address>
+        </div>
+        <div class="mobile-info">
+            <img src="./img/mail.svg" alt="local" class="location-mark">
+            <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-property">a.dragunov@tdaliance.ru</a>
+        </div>
+    </div>
     <nav class="navbar">
         <a href="" class="mobile-menu-toggle">
             <div class="mobile-menu-line"></div>

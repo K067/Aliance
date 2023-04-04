@@ -99,29 +99,16 @@ const swiperBlog = new Swiper('.slider-blog', {
         },
     }
 });
+
 const swiperResearch = new Swiper('.slider-research', {
     speed: 400,
-    slidesPerView: 1,
+    slidesPerView: 2.5,
     loop: true,
     spaceBetween: 30,
     navigation: {
         nextEl: '.blog-button-next',
         prevEl: '.blog-button-prev',
     },
-    breakpoints: {
-        374: {
-            slidesPerView: 1,
-        },
-        575: {
-            slidesPerView: 1,
-        },
-        767: {
-            slidesPerView: 1,
-        },
-        1199: {
-            slidesPerView: 2.5,
-        },
-    }
 });
 
 const hoverOff = (e) => {
@@ -160,18 +147,25 @@ const hover = (elem) => {
     })
 }
 
-const /*!*/ featuresFont = () => {
+const /*!*/ borders = () => {
     if (document.querySelector('.crutch') && document.querySelector('.header-features')) {
         const item = document.querySelector('.slider-features');
         const font = item.querySelector('.header-features');
-        const border = item.querySelectorAll('.header-features-items, .header-arrow');
-        const arrows = item.querySelectorAll('.the-arrow');
+        const border = document.querySelectorAll('.header-features-items, .header-arrow');
+        const borderNavbar = document.querySelector('.navbar');
+        const borderMobile = borderNavbar.querySelector('.mobile-menu-toggle');
+        const borderLogo = borderNavbar.querySelector('.navbar-logo');
+        const arrows = document.querySelectorAll('.the-arrow');
 
         font.style.color = 'black';
 
         arrows.forEach(e => {
             e.style.filter = 'brightness(20%)';
         })
+
+        borderNavbar.style.borderBottom = '0.0625rem solid #EBEBF0';
+        borderLogo.style.borderRight = '0.0625rem solid #EBEBF0';
+        borderMobile.style.borderRight = '0.0625rem solid #EBEBF0';
 
         border.forEach(e => {
             e.style.border = '0.0625rem solid #EBEBF0';
@@ -180,6 +174,7 @@ const /*!*/ featuresFont = () => {
 }
 
 const alter = () => {
+
     let current = window.scrollY;
 
     if (current >= 36 ||/*!beta!*/ document.querySelector('.crutch')) {
@@ -187,13 +182,22 @@ const alter = () => {
             e.style.backgroundColor = '#333';
         });
 
-        mobileMenuToggle.style.padding = "1.45rem 2.5rem";
+        document.querySelector('.crutch') ?
+            mobileMenuToggle.style.padding = "2.25rem 2.5rem"
+            :
+            mobileMenuToggle.style.padding = "1.45rem 2.5rem";
+
         navbar.style.backgroundColor = 'white';
         /*!beta!*/
-        current >= 36 ?
-            navbar.style.height = '4rem'
-            :
+        if (current >= 36) {
+            navbar.style.height = '4rem';
+            mobileMenuToggle.style.padding = "1.45rem 2.5rem";
+
+        } else {
             navbar.style.height = '';
+            mobileMenuToggle.style.padding = "2.25rem 2.5rem";
+        }
+
         headerNav.style.color = '#292D33';
         logoDark.src = './img/logo-dark.svg';
         phoneLink.style.color = '#292D33';
@@ -255,6 +259,23 @@ const navbarFunc = e => {
         mobileMenuToggle.style.padding = "1.45rem 2.5rem";
         navbar.style.backgroundColor = 'white';
         navbar.style.height = '4rem';
+        headerNav.style.color = '#292D33';
+        logoDark.src = './img/logo-dark.svg';
+        phoneLink.style.color = '#292D33';
+
+        mobileMenuLine[0].style.transform = '';
+        mobileMenuLine[2].style.transform = '';
+        mobileMenuLine[1].style.display = 'block';
+    } else if (document.querySelector('.crutch')) {
+        mobileMenuLine.forEach(e => {
+            e.style.backgroundColor = '#333';
+            e.style.position = '';
+            e.style.right = '';
+        });
+
+        mobileMenuToggle.style.padding = "2.25rem 2.5rem";
+        navbar.style.backgroundColor = 'white';
+        navbar.style.height = '';
         headerNav.style.color = '#292D33';
         logoDark.src = './img/logo-dark.svg';
         phoneLink.style.color = '#292D33';
@@ -458,4 +479,4 @@ hover(trigger);
 submitForm();
 maskPhone('[name="userphone"]', '+7 (___) ___-__-__');
 nameValidation(name);
-featuresFont();
+borders();

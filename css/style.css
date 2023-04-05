@@ -445,7 +445,7 @@ body {
 }
 
 .card {
-    height: 37rem;
+    min-height: 37rem;
     text-decoration: none;
     flex-basis: 33%;
     border: .0625rem solid #ebebf0;
@@ -1227,17 +1227,17 @@ body {
 }
 
 .seo {
-    margin-top: 0;
+    margin-top: 0 !important;
 }
 
 .seo-wrapper {
-    width: 1439px;
+    max-width: 1439px;
 }
 
 .seo-title {
     font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
+    font-weight: 400;
+    font-size: 1.75rem;
     line-height: 160%;
     color: #292D33;
     margin-bottom: 0;
@@ -1247,7 +1247,7 @@ body {
 .seo-text {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
     color: #828A99;
     margin-top: 10px;
@@ -1255,7 +1255,7 @@ body {
 }
 
 .mg-alt {
-    margin-top: 150px;
+    margin-top: 105px;
     margin-bottom: 100px;
 }
 
@@ -1627,7 +1627,7 @@ body {
 
     .card {
         flex-basis: 100%;
-        height: 429px
+        min-height: 429px
     }
 
     .section {
@@ -1732,7 +1732,7 @@ body {
 
     .cta-form-wrapper {
         margin-left: auto;
-        justify-content: normal
+        justify-content: center
     }
 
     .section-cta {
@@ -1741,11 +1741,12 @@ body {
     }
 
     .cta-form {
-        margin-left: -5px
+        margin-left: -5px;
+        max-width: 345px;
     }
 
     .cta-form-text {
-        padding-right: 60px;
+        padding-right: 0;
         font-size: 14px;
         margin-top: 14px
     }
@@ -1770,7 +1771,7 @@ body {
     }
 
     .cta {
-        margin-top: -12px
+        margin-top: -15px
     }
 
     .logo-footer {
@@ -2196,5 +2197,18 @@ body {
             margin-bottom: 6px;
         }
 
+        .mg-alt {
+            margin-top: -30px;
+            margin-bottom: 50px;
+        }
+
+        .seo-text {
+            font-size: 16px;
+            line-height: 165%;
+        }
+
+        .seo-wrapper {
+            width: 345px;
+        }
     }
 }

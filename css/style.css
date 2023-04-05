@@ -334,7 +334,6 @@ body {
 
 .section {
     margin-top: 9.375rem;
-    margin-left: 1.25rem;
     margin-bottom: 9.375rem
 }
 
@@ -1261,6 +1260,10 @@ body {
 
 .cta-alt {
     margin-top: 224px;
+}
+
+.brand {
+    margin-top: 0;
 }
 
 @media(max-width:1700px) {

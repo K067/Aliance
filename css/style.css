@@ -388,7 +388,8 @@ body {
 }
 
 .button-link,
-.steps-text {
+.steps-text,
+.button-fold {
     font-size: 1rem;
     line-height: 160%
 }
@@ -400,12 +401,14 @@ body {
 }
 
 .button-link,
+.button-fold,
 .card-brand:hover .card-title-brand,
 .card:hover .card-title {
     color: #5c8ee6
 }
 
-.button-link {
+.button-link,
+.button-fold {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -419,6 +422,14 @@ body {
     width: 2.5rem;
     margin-right: 1rem;
     transition: width .2s
+}
+
+.button-fold:before {
+    content: "";
+    background-image: url("/img/icons/load.svg");
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
 }
 
 .button-link:hover:before {
@@ -467,7 +478,7 @@ body {
 .card-image {
     max-width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: -4px;
     right: 0;
     z-index: 0
 }
@@ -1213,6 +1224,43 @@ body {
 
 .blog-research {
     padding: 0;
+}
+
+.seo {
+    margin-top: 0;
+}
+
+.seo-wrapper {
+    width: 1439px;
+}
+
+.seo-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 160%;
+    color: #292D33;
+    margin-bottom: 0;
+    letter-spacing: -0.7px;
+}
+
+.seo-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #828A99;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.mg-alt {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.cta-alt {
+    margin-top: 224px;
 }
 
 @media(max-width:1700px) {

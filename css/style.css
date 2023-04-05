@@ -46,6 +46,10 @@ body {
     display: none;
 }
 
+.mission {
+    display: none !important;
+}
+
 .mobile-menu,
 .mobile-menu-toggle,
 .navbar-button .button-icon,
@@ -1665,7 +1669,7 @@ body {
     }
 
     .clients-logo-list {
-        margin-top: -18px;
+        margin-top: -9px;
         margin-bottom: 0
     }
 
@@ -1718,7 +1722,7 @@ body {
     }
 
     .cta {
-        margin-top: -70px
+        margin-top: -12px
     }
 
     .logo-footer {
@@ -1833,7 +1837,7 @@ body {
     }
 
     .input-group-wrapper {
-        margin-top: 20px
+        margin-top: -26px
     }
 
     .modal-form-footer,
@@ -1859,7 +1863,7 @@ body {
     }
 
     .text-research-content {
-        columns: 1;
+        columns: auto;
     }
 
     .text-research-beta {
@@ -1877,6 +1881,18 @@ body {
 
     .research-card {
         width: 345px !important;
+        margin-right: 10px !important;
+    }
+
+    .research-wrapper {
+        left: -503px;
+    }
+
+    .mission {
+        display: flex !important;
+        margin-top: -11px;
+        margin-bottom: 7px;
+        font-size: 14px;
     }
 
     @media(max-width:768px) {
@@ -2103,5 +2119,34 @@ body {
         .text-research {
             width: 345px;
         }
+
+        .research-title {
+            margin-bottom: -16px;
+        }
+
+        .text-research {
+            line-height: 158%;
+        }
+
+        .slider-research {
+            margin-top: 87px;
+        }
+
+        .research-type {
+            margin-top: -6px;
+        }
+
+        .clients-title {
+            margin-bottom: 40px;
+        }
+
+        .cta-form {
+            margin-top: 28px;
+        }
+
+        .cta-form-button {
+            margin-bottom: 6px;
+        }
+
     }
 }

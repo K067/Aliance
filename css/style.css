@@ -584,12 +584,12 @@ body {
 .clients-list-item {
     display: flex;
     align-items: center;
-    gap: 1.25rem;
+    gap: 0.75rem;
     font-weight: 400;
     font-size: 1rem;
     line-height: 160%;
     color: #292d33;
-    padding-top: 20px
+    padding-top: 17px
 }
 
 .clients-wrapper {
@@ -1009,7 +1009,10 @@ body {
     margin-bottom: 30px
 }
 
-.that-links:last-child,
+.that-links:last-child {
+    color: #292d33;
+}
+
 .title-about {
     font-weight: 600
 }
@@ -1082,7 +1085,10 @@ body {
     margin: 4px 10px
 }
 
-.that-links,
+.that-links {
+    color: #828a99;
+}
+
 .title-about {
     font-style: normal;
     color: #292d33
@@ -1096,6 +1102,7 @@ body {
 }
 
 .that-links {
+    display: flex;
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
@@ -1264,6 +1271,99 @@ body {
 
 .brand {
     margin-top: 0;
+}
+
+.ali-alt {
+    left: 240px;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    height: 125%;
+}
+
+.fi-alt {
+    position: absolute;
+    right: -15px;
+    width: 840px;
+    top: 0;
+    height: 130%;
+    object-fit: cover;
+}
+
+.chem-production {
+    margin-left: 10px;
+}
+
+.alt-alt {
+    padding-right: 0;
+}
+
+.clients-list-production-type {
+    gap: 56px;
+    margin-top: 35px;
+    columns: 4 auto;
+}
+
+.clients-list-production {
+    margin-top: 0;
+    gap: 0;
+}
+
+.types {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.prod-section {
+    margin-bottom: 190px;
+}
+
+.chem-lay-wrapper {
+    justify-content: center;
+    margin-left: -40px;
+}
+
+.type-content {
+    max-width: 1384px;
+    width: 1384px;
+}
+
+.type-text {
+    width: 840px;
+}
+
+.type-list {
+    gap: 20px;
+    line-height: 175%;
+}
+
+.type-list:before {
+    content: "";
+    height: .0625rem;
+    background: #5c8ee6;
+    width: 16px;
+}
+
+.alpha-link:before {
+    content: "";
+    height: .0625rem;
+    background: #828a99;
+    width: 14px;
+    margin: 13px 10px;
+}
+
+.contract-title {
+    width: 600px;
+    padding-right: 0;
+}
+
+.contract-alpha {
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.contract-content {
+    margin-right: -10px;
 }
 
 @media(max-width:1700px) {
@@ -2019,6 +2119,10 @@ body {
         .research-title {
             width: 540px;
         }
+
+        .slider-about {
+            max-width: 50rem;
+        }
     }
 
     @media(max-width:576px) {
@@ -2090,6 +2194,7 @@ body {
 
         .slider-about {
             margin-top: 43px;
+            max-width: 103%;
         }
 
         .header-features {

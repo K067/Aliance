@@ -1,12 +1,11 @@
 <?php 
-$page_title='О компании';
-$header_style='bg-grey';?>
+$page_title='Автомобильная химия';
+$header_style='bg-grey bg-image-auto';?>
 
 <!DOCTYPE html>
 <html lang="ru">
-
-    <head>
-    <script src="./js/swiper-bundle.min.js" defer></script>
+<head>
+<script src="./js/swiper-bundle.min.js" defer></script>
     <script src="./js/just-validate.production.min.js" defer></script>
     <script src="./js/unversalMegaScript.js" defer></script>
     <meta charset="UTF-8">
@@ -15,10 +14,9 @@ $header_style='bg-grey';?>
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title><?=$page_title?> - Aliance Production</title>
-    </head>
-
-    <body>
-    <div class="mobile-menu">
+</head>
+<body>
+<div class="mobile-menu">
         <ul class="mobile-menu-nav">
             <li class="mobile-menu-nav-item">
                 <a href="" class="mobile-menu-link">О компании</a>
@@ -112,6 +110,7 @@ $header_style='bg-grey';?>
                 <h1 class="section-title title-about"><?=$page_title?></h1>
                 <div class="abyss-links">
                     <a href="./" class="that-links">Главная</a>
+                    <a href="" class="that-links alpha-link">Контрактное производство</a>
                     <a href="" class="that-links alpha-link"><?=$page_title?></a>
                 </div>
             </div>
@@ -166,24 +165,29 @@ $header_style='bg-grey';?>
             </div>
         </div>
     </div>
-<section class="section founder about-lay">
-<picture  class="founder-image about-lay-image">
-  <source type="image/webp" srcset="./img/group57.webp">
-  <source type="image/jpeg" srcset="./img/group57.png">
-  <img src="./img/group57.png" alt="founder" class="image-scale">
+<section class="section founder contract-alpha">
+<picture class="ali-alt">
+  <source type="image/webp" srcset="./img/frame391.webp">
+  <source type="image/png" srcset="./img/frame391.png">
+  <img src="./img/frame391.png" alt="founder" class="image-scale">
 </picture>
         <div class="container">
             <div class="founder-content-wrapper">
-                <div class="founder-content about-lay-content">
+                <div class="founder-content contract-content">
                     <div class="separator"></div>
-                    <h2 class="section-title founder-title about-lay-title">мы - эксперты в области производства химии</h2>
-                    <p class="founder-text">Разнообразный и богатый опыт говорит нам, что перспективное планирование однозначно фиксирует необходимость поставленных обществом задач! Есть над чем задуматься: ключевые особенности структуры проекта могут быть объединены в целые кластеры себе подобных. Интерактивные прототипы, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут описаны максимально подробно. Значимость этих проблем настолько очевидна, что перспективное планирование играет важную роль в формировании системы массового участия.
+                    <h2 class="section-title contract-title">Контрактное производство автомобильной химии</h2>
+                    <p class="founder-text">Прежде всего, начало повседневной работы по формированию позиции однозначно фиксирует необходимость приоритизации разума над эмоциями. Кстати, представители современных социальных резервов неоднозначны и будут описаны максимально подробно.
                     </p>
+                    <p class="founder-text text-beta">
+                      
+Но социально-экономическое развитие напрямую зависит от поставленных обществом задач! Безусловно, постоянный количественный рост и сфера нашей активности предоставляет широкие возможности для системы обучения кадров, соответствующей насущным потребностям. В целом, конечно, выбранный нами инновационный путь обеспечивает широкому кругу (специалистов) участие в формировании своевременного выполнения сверхзадачи. А ещё элементы политического процесса представлены в исключительно положительном свете. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высокотехнологичная концепция общественного уклада создаёт предпосылки для глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
+                    </p>
+                    <a href="./about.php" class="button-link mission">О нашей миссии</a>
                 </div>
             </div>
         </div>
-</section>
-    <div class="swiper container slider-features slider-about">
+    </section>
+    <div class="swiper slider-features container slider-about">
                 <ul class="swiper-wrapper header-features">
                     <li class="swiper-slide header-features-items">
                         <img src="./img/features/timer.svg" alt="" class="header-features-icon">
@@ -211,91 +215,129 @@ $header_style='bg-grey';?>
                 <div class="slider-button-prev header-arrow"><img src="./img/arrow-left.svg" alt="left" class="the-arrow"></div>
                 <div class="slider-button-next header-arrow"><img src="./img/arrow-right.svg" alt="right" class="the-arrow"></div>
      </div>
-<section class="section founder about-lay-second">
-            <div class="container crutch-title">
-            <div class="founder-content about-lay-content about-lay-content-second">
-            <div class="separator"></div>
-             <h2 class="section-title founder-title about-lay-title">Наше производство</h2>
-            </div>
-            </div>
-            <picture  class="about-lay-image-second">
-              <source type="image/webp" srcset="./img/frame39.webp">
-              <source type="image/jpeg" srcset="./img/frame39.png">
-              <img src="./img/frame39.png" alt="founder" class="image-scale">
+     <section class="section founder about-lay-second prod-section">
+            <picture  class="fi-alt">
+              <source type="image/webp" srcset="./img/awoman.webp">
+              <source type="image/jpeg" srcset="./img/awoman.png">
+              <img src="./img/awoman.png" alt="founder" class="image-scale">
             </picture>
         <div class="container">
         <div class="founder-content-wrapper about-lay-wrapper">
-            <div class="founder-content about-lay-content about-lay-content-second">
-                <div class="separator crutch-ones"></div>
-                <h2 class="section-title founder-title about-lay-title crutch-ones">Наше производство</h2>
-                <p class="founder-text">Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.</p>
-                <p class="founder-text text-beta-about">
-                Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня требует анализа анализа существующих паттернов поведения.
-                    </p>
-                <ul class="clients-list clients-list-about">
+            <div class="founder-content about-lay-content-second chem-production">
+                <div class="separator"></div>
+                <h2 class="section-title founder-title about-lay-title alt-alt">Изготовление автохимии</h2>
+                <p class="founder-text">Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.</p>
+                <ul class="clients-list clients-list-production">
                         <li class="clients-list-item">
-                            <img src="./img/production/car.svg" alt="logo" class="clients-image">
-                            Автомобильная химия
+                            <img src="./img/clients/him.svg" alt="logo" class="clients-image">
+                            Полное описание товаров
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/production/home.svg" alt="logo" class="clients-image">
-                            Бытовая химия
+                        <img src="./img/clients/car.svg" alt="logo" class="clients-image">
+                          Актуальные цены
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/production/dis.svg" alt="logo" class="clients-image">
-                            Дезинфицирующие средства
+                            <img src="./img/clients/him.svg" alt="logo" class="clients-image">
+                            Полное описание товаров
                         </li>
                         <li class="clients-list-item">
-                            <img src="./img/production/aerozol.svg" alt="logo" class="clients-image">
-                            Пищевые аэрозоли
-                        </li>
-                        <li class="clients-list-item">
-                            <img src="./img/production/cosmetic.svg" alt="logo" class="clients-image">
-                            Косметическая продукция
+                        <img src="./img/clients/car.svg" alt="logo" class="clients-image">
+                           Актуальные цены
                         </li>
                         <li class="clients-list-item">
                             <img src="./img/production/brush.svg" alt="logo" class="clients-image">
-                            Краски аэрозольные
+                         Лаки и краски
+                        </li>
+                        <li class="clients-list-item">
+                            <img src="./img/clients/him.svg" alt="logo" class="clients-image">
+                         Химические производства
+                        </li>
+                        <li class="clients-list-item">
+                            <img src="./img/production/brush.svg" alt="logo" class="clients-image">
+                         Лаки и краски
+                        </li>
+                        <li class="clients-list-item">
+                            <img src="./img/clients/him.svg" alt="logo" class="clients-image">
+                         Химические производства
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-<section class="section founder">
-<picture class="founder-image">
-  <source type="image/webp" srcset="./img/pexels-tiger-lily-44839381.webp">
-  <source type="image/png" srcset="./img/pexels-tiger-lily-44839381.png">
-  <img src="./img/pexels-tiger-lily-44839381.png" alt="founder" class="image-scale">
-</picture>
-        <div class="container">
-            <div class="founder-content-wrapper">
-                <div class="founder-content">
-                    <div class="separator"></div>
-                    <h2 class="section-title founder-title">Отношение к делу и к клиентам</h2>
-                    <p class="founder-text">Кстати, интерактивные прототипы описаны максимально подробно. Повседневная
-                        практика показывает, что укрепление и развитие внутренней структуры говорит о возможностях
-                        соответствующих условий активизации. Внезапно, независимые государства, которые представляют
-                        собой
-                        яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой
-                        серии
-                        независимых исследований. С учётом сложившейся международной обстановки, синтетическое
-                        тестирование
-                        выявляет срочную потребность системы массового участия.
-                    </p>
-                    <p class="founder-text text-beta">
-                        А ещё действия представителей оппозиции, превозмогая сложившуюся непростую экономическую
-                        ситуацию, в
-                        равной степени предоставлены сами себе. Не следует, однако, забывать, что выбранный нами
-                        инновационный путь в значительной степени обусловливает важность дальнейших направлений
-                        развития.
-                    </p>
-                    <a href="./about.php" class="button-link mission">О нашей миссии</a>
+    <section class="section types">
+    <div class="founder-content-wrapper chem-lay-wrapper">
+            <div class="founder-content type-content">
+                <div class="separator"></div>
+                <h2 class="section-title founder-title about-lay-title alt-alt">Виды автохимии</h2>
+                <p class="founder-text type-text">Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям.</p>
+                <ul class="clients-list clients-list-production-type">
+                        <li class="clients-list-item type-list">
+                        Антискотч
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Многоцелевая смазка
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Жидкий ключ
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Высокотемпературная смазка
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Универсальный очиститель деталей
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Силиконовая смазка
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Цепная смазка
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Медная смазка
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Графитовая смазка
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Очиститель кондиционера пенный
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Очиститель тормозных дисков
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Очиститель битумных пятен
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Очиститель кондционера
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Очиститель дросельной заслонки
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Очиститель обивки 
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Тефлоновая смазка
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Очиститель двигателя
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Универсальный очиститель
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Чернитель шин 
+                        </li>
+                        <li class="clients-list-item type-list">
+                        Чернитель шин + очистка
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
-<section class="section blog-research">
+    <section class="section blog-research research-section">
         <div class="container research-type">
             <div class="separator"></div>
             <h2 class="section-title research-title">Исследовательский центр Aliance production</h2>
@@ -379,7 +421,8 @@ $header_style='bg-grey';?>
             </div>
         </div>
     </section>
-<?php include_once('./templates/clients.php');?>
+ <?php include_once('./templates/schem.php')?>
+ <?php include_once('./templates/clients.php');?>
 <section class="cta">
         <div class="bg-grey section-cta research-section">
         <picture class="cta-image">

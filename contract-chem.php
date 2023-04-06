@@ -424,7 +424,7 @@ $header_style='bg-grey bg-image-auto';?>
  <?php include_once('./templates/schem.php')?>
  <?php include_once('./templates/clients.php');?>
 <section class="cta">
-        <div class="bg-grey section-cta research-section">
+        <div class="bg-grey section-cta">
         <picture class="cta-image">
         <source type="image/webp" srcset="./img/__400-1.webp">
         <source type="image/png" srcset="./img/__400-1.png">

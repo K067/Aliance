@@ -256,7 +256,7 @@ $header_style='bg-grey';?>
 </section>
 
 <section class="cta cta-alt">
-        <div class="bg-grey section-cta research-section">
+        <div class="bg-grey section-cta">
         <picture class="cta-image">
         <source type="image/webp" srcset="./img/__400-1.webp">
         <source type="image/png" srcset="./img/__400-1.png">

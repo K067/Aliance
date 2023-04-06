@@ -334,7 +334,8 @@ body {
 
 .section {
     margin-top: 9.375rem;
-    margin-bottom: 9.375rem
+    margin-bottom: 9.375rem;
+    margin-left: 20px;
 }
 
 .section-title {
@@ -1274,7 +1275,7 @@ body {
 }
 
 .ali-alt {
-    left: 240px;
+    left: 220px;
     position: absolute;
     top: 0;
     object-fit: cover;
@@ -1288,10 +1289,6 @@ body {
     top: 0;
     height: 130%;
     object-fit: cover;
-}
-
-.chem-production {
-    margin-left: 10px;
 }
 
 .alt-alt {
@@ -1311,16 +1308,25 @@ body {
 
 .types {
     margin-top: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 135px;
+}
+
+.slider-steps {
+    width: 1380px;
+    margin-left: 0;
 }
 
 .prod-section {
     margin-bottom: 190px;
 }
 
+.research-section {
+    margin-top: 0;
+}
+
 .chem-lay-wrapper {
     justify-content: center;
-    margin-left: -40px;
+    margin-left: -60px;
 }
 
 .type-content {
@@ -1360,10 +1366,6 @@ body {
 .contract-alpha {
     margin-top: 100px;
     margin-bottom: 120px;
-}
-
-.contract-content {
-    margin-right: -10px;
 }
 
 @media(max-width:1700px) {

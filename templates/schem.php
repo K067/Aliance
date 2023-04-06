@@ -3,7 +3,7 @@
             <div class="separator"></div>
             <h2 class="section-title">схема работы</h2>
             <div class="swiper slider-steps">
-                <ol class="swiper-wrapper steps">
+                <ol class="swiper-wrapper steps" aria-live="polite">
                     <li class="swiper-slide steps-item">
                         <span class="steps-num">01</span>
                         <h3 class="steps-title">Знакомство</h3>
@@ -30,13 +30,13 @@
                             приоритизации разума над эмоциями.</p>
                     </li>
                 </ol>
-                <div class="steps-buttons main-buttons">
-                    <div class="steps-button-prev main-button-prev"><img src="./img/arrow-left.svg" alt="left"
-                            class="main-arrow-literally">
-                    </div>
-                    <div class="steps-button-next main-button-next"><img src="./img/arrow-right.svg" alt="right"
-                            class="main-arrow-literally"></div>
+            </div>
+            <div class="steps-buttons main-buttons">
+                <div class="steps-button-prev main-button-prev"><img src="./img/arrow-left.svg" alt="left"
+                        class="main-arrow-literally">
                 </div>
+                <div class="steps-button-next main-button-next"><img src="./img/arrow-right.svg" alt="right"
+                        class="main-arrow-literally"></div>
             </div>
         </div>
     </section>

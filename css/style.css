@@ -351,10 +351,10 @@ body {
 
 .steps {
     display: flex;
-    justify-content: space-between;
     list-style: none;
     padding: 0;
-    margin: auto
+    margin: auto;
+    gap: 82px;
 }
 
 .steps-item {
@@ -397,7 +397,8 @@ body {
 .steps-text {
     font-weight: 400;
     color: #828a99;
-    margin-top: -14px
+    margin-top: -14px;
+    width: 300px;
 }
 
 .button-link,
@@ -578,19 +579,19 @@ body {
     list-style-type: none;
     padding: 0;
     columns: 2 auto;
-    margin-top: -25px;
+    margin-top: -20px;
     gap: 50px
 }
 
 .clients-list-item {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 1.25rem;
     font-weight: 400;
     font-size: 1rem;
     line-height: 160%;
     color: #292d33;
-    padding-top: 17px
+    padding-top: 20px
 }
 
 .clients-wrapper {
@@ -618,7 +619,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    cursor: pointer
+    cursor: pointer;
+    height: 160px;
 }
 
 .clients-logo:hover {
@@ -1267,7 +1269,11 @@ body {
 }
 
 .cta-alt {
-    margin-top: 224px;
+    margin-top: 275px;
+}
+
+.clients {
+    margin-top: 0;
 }
 
 .brand {
@@ -1366,6 +1372,10 @@ body {
 .contract-alpha {
     margin-top: 100px;
     margin-bottom: 120px;
+}
+
+.clients-alt {
+    margin-top: -25px;
 }
 
 @media(max-width:1700px) {

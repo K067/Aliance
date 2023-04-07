@@ -335,7 +335,6 @@ body {
 .section {
     margin-top: 9.375rem;
     margin-bottom: 9.375rem;
-    margin-left: 20px;
 }
 
 .section-title {
@@ -678,7 +677,8 @@ body {
     z-index: -2
 }
 
-.general-image {
+.general-image,
+.another-crutch-image {
     position: absolute;
     right: -15px;
     top: 0;
@@ -708,6 +708,7 @@ body {
 
 .button-download {
     display: flex;
+    align-items: center;
     margin-top: 50px;
     padding: 1.5625rem 3.55rem;
 }
@@ -1303,14 +1304,15 @@ body {
 }
 
 .ali-alt {
-    left: 220px;
+    left: 235px;
     position: absolute;
     top: 0;
     object-fit: cover;
     height: 125%;
 }
 
-.crutch-image {
+.crutch-image,
+.another-crutch-image {
     display: none;
 }
 
@@ -1422,6 +1424,15 @@ body {
         font-size: 14px
     }
 
+    .general-lay {
+        max-width: 660px;
+    }
+
+    .general-image,
+    .another-crutch-image {
+        width: 900px;
+    }
+
     .ali-alt {
         height: 100%;
     }
@@ -1481,7 +1492,16 @@ body {
         font-size: 13px
     }
 
-    .slider-steps {
+    .general-title {
+        width: 460px !important;
+    }
+
+    .general-image,
+    .another-crutch-image {
+        width: 870px;
+    }
+
+    */ .slider-steps {
         width: 1165px;
     }
 
@@ -1564,6 +1584,12 @@ body {
 @media(max-width:1200px) {
     .slider-buttons {
         display: flex
+    }
+
+    .general-image,
+    .another-crutch-image {
+        width: 677px;
+        top: 167px;
     }
 
     .main-buttons {
@@ -1662,6 +1688,15 @@ body {
     .mobile-sub-menu-link {
         text-decoration: none;
         line-height: 160%
+    }
+
+    .general-image {
+        width: 534px;
+        top: 246px;
+    }
+
+    .general-list {
+        columns: 1 auto;
     }
 
     body {
@@ -1915,10 +1950,10 @@ body {
 
     .founder-text {
         margin-top: -18px;
-        margin-left: -3px;
         font-size: 14px;
         line-height: 158%
     }
+
 
     .text-beta {
         margin-top: -5px
@@ -2174,6 +2209,26 @@ body {
             padding-top: 3rem
         }
 
+        .general-image {
+            display: none;
+        }
+
+        .general-grey {
+            padding-bottom: 0;
+        }
+
+        .another-crutch-image {
+            top: 0;
+            width: 114%;
+            right: 26px;
+            right: -77px;
+        }
+
+        .another-crutch-image {
+            position: relative;
+            display: block;
+        }
+
         .founder-image {
             position: relative;
             width: 100%;
@@ -2256,6 +2311,21 @@ body {
 
         .about-lay-content {
             margin-top: 45px !important;
+        }
+
+        .button-download {
+            margin-bottom: 46px;
+            padding: 2.2625rem 6.55rem;
+            width: 338px;
+            font-size: 16px;
+        }
+
+        .general-lay {
+            margin-top: 20px !important;
+        }
+
+        .another-crutch-image {
+            right: 26px;
         }
 
         .ali-alt {

@@ -192,7 +192,7 @@ $header_style='bg-grey bg-image-auto';?>
             <div class="founder-content-wrapper">
                 <div class="founder-content contract-content">
                     <div class="separator"></div>
-                    <h2 class="section-title contract-title">Контрактное производство автомобильной химии</h2>
+                    <h2 class="section-title contract-title">Собственное производство автохимия AG-Tech</h2>
                     <p class="founder-text">Прежде всего, начало повседневной работы по формированию позиции однозначно фиксирует необходимость приоритизации разума над эмоциями. Кстати, представители современных социальных резервов неоднозначны и будут описаны максимально подробно.
                     </p>
                     <p class="founder-text text-beta">
@@ -231,7 +231,7 @@ $header_style='bg-grey bg-image-auto';?>
                 <div class="slider-button-next header-arrow"><img src="./img/arrow-right.svg" alt="right" class="the-arrow"></div>
      </div>
      <section class="section label-general">
-        <div class="bg-grey section-cta">
+        <div class="bg-grey section-cta general-grey">
         <picture class="general-image">
               <source type="image/webp" srcset="./img/frame63.webp">
               <source type="image/png" srcset="./img/frame63.png">
@@ -241,10 +241,10 @@ $header_style='bg-grey bg-image-auto';?>
 <div class="founder-content-wrapper about-lay-wrapper">
             <div class="founder-content about-lay-content-second general-lay chem-production">
                 <div class="separator"></div>
-                <h2 class="section-title founder-title about-lay-title alt-alt">Генеральный дистрибьютор премиальной
+                <h2 class="section-title founder-title about-lay-title alt-alt general-title">Генеральный дистрибьютор премиальной
 автохимии</h2>
                 <p class="founder-text">Внезапно, активно развивающиеся страны третьего мира могут быть объявлены нарушающими общечеловеческие нормы этики и морали.</p>
-                <ul class="clients-list clients-list-production">
+                <ul class="clients-list clients-list-production general-list">
                         <li class="clients-list-item contract-list-item general-list-item">
                             <img src="./img/clients/him.svg" alt="logo" class="clients-image">
                             Полное описание товаров
@@ -263,6 +263,11 @@ $header_style='bg-grey bg-image-auto';?>
                         </li>
                     </ul>
                     <button class="button button-download">Скачать каталог</button>
+                    <picture class="general-image another-crutch-image">
+              <source type="image/webp" srcset="./img/frame63.webp">
+              <source type="image/png" srcset="./img/frame63.png">
+              <img src="./img/frame63.png" alt="founder" class="image-scale">
+            </picture>
                 </div>
             </div>
             </div>

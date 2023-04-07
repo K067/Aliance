@@ -323,31 +323,67 @@
                 </div>
                 <div class="clients-logo-list">
                     <a href="#" class="clients-logo">
-                        <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
+                    <picture class="burger-king">
+  <source type="image/webp" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.webp">
+  <source type="image/png" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.png">
+  <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="bk" class="image-scale">
+</picture>         
                     </a>
                     <a href="#" class="clients-logo">
-                        <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
+                     <picture class="burger-king">
+  <source type="image/webp" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.webp">
+  <source type="image/png" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.png">
+  <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="bk" class="image-scale">
+</picture>
                     </a>
                     <a href="#" class="clients-logo">
-                        <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
+                     <picture class="burger-king">
+  <source type="image/webp" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.webp">
+  <source type="image/png" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.png">
+  <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="bk" class="image-scale">
+</picture>
                     </a>
                     <a href="#" class="clients-logo">
-                        <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
+                     <picture class="burger-king">
+  <source type="image/webp" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.webp">
+  <source type="image/png" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.png">
+  <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="bk" class="image-scale">
+</picture>
                     </a>
                     <a href="#" class="clients-logo">
-                        <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
+                     <picture class="burger-king">
+  <source type="image/webp" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.webp">
+  <source type="image/png" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.png">
+  <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="bk" class="image-scale">
+</picture>
                     </a>
                     <a href="#" class="clients-logo">
-                        <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
+                     <picture class="burger-king">
+  <source type="image/webp" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.webp">
+  <source type="image/png" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.png">
+  <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="bk" class="image-scale">
+</picture>
                     </a>
                     <a href="#" class="clients-logo">
-                        <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
+                     <picture class="burger-king">
+  <source type="image/webp" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.webp">
+  <source type="image/png" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.png">
+  <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="bk" class="image-scale">
+</picture>
                     </a>
                     <a href="#" class="clients-logo">
-                        <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
+                     <picture class="burger-king">
+  <source type="image/webp" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.webp">
+  <source type="image/png" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.png">
+  <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="bk" class="image-scale">
+</picture>
                     </a>
                     <a href="#" class="clients-logo">
-                        <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="" class="burger-king">
+                     <picture class="burger-king">
+  <source type="image/webp" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.webp">
+  <source type="image/png" srcset="./img/9dfe03a96a3a8e492d839a0631c4d486.png">
+  <img src="./img/9dfe03a96a3a8e492d839a0631c4d486.png" alt="bk" class="image-scale">
+</picture>
                     </a>
                 </div>
             </div>

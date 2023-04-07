@@ -169,7 +169,7 @@ $header_style='bg-grey';?>
 <section class="section founder about-lay">
 <picture  class="founder-image about-lay-image">
   <source type="image/webp" srcset="./img/group57.webp">
-  <source type="image/jpeg" srcset="./img/group57.png">
+  <source type="image/png" srcset="./img/group57.png">
   <img src="./img/group57.png" alt="founder" class="image-scale">
 </picture>
         <div class="container">
@@ -220,7 +220,7 @@ $header_style='bg-grey';?>
             </div>
             <picture  class="about-lay-image-second">
               <source type="image/webp" srcset="./img/frame39.webp">
-              <source type="image/jpeg" srcset="./img/frame39.png">
+              <source type="image/png" srcset="./img/frame39.png">
               <img src="./img/frame39.png" alt="founder" class="image-scale">
             </picture>
         <div class="container">

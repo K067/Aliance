@@ -167,9 +167,9 @@ $header_style='bg-grey bg-image-auto';?>
     </div>
 <section class="section founder contract-alpha">
 <picture class="ali-alt">
-  <source type="image/webp" srcset="./img/frame391.webp">
-  <source type="image/png" srcset="./img/frame391.png">
-  <img src="./img/frame391.png" alt="founder" class="image-scale">
+  <source type="image/webp" srcset="./img/frame393.webp">
+  <source type="image/png" srcset="./img/frame393.png">
+  <img src="./img/frame393.png" alt="founder" class="image-scale">
 </picture>
         <div class="container">
             <div class="founder-content-wrapper">
@@ -213,136 +213,45 @@ $header_style='bg-grey bg-image-auto';?>
                 <div class="slider-button-prev header-arrow"><img src="./img/arrow-left.svg" alt="left" class="the-arrow"></div>
                 <div class="slider-button-next header-arrow"><img src="./img/arrow-right.svg" alt="right" class="the-arrow"></div>
      </div>
-     <section class="section founder about-lay-second prod-section">
-            <picture  class="fi-alt">
-              <source type="image/webp" srcset="./img/awoman.webp">
-              <source type="image/png" srcset="./img/awoman.png">
-              <img src="./img/awoman.png" alt="founder" class="image-scale">
+     <section class="section label-general">
+        <div class="bg-grey section-cta">
+        <picture class="general-image">
+              <source type="image/webp" srcset="./img/frame63.webp">
+              <source type="image/png" srcset="./img/frame63.png">
+              <img src="./img/frame63.png" alt="founder" class="image-scale">
             </picture>
-        <div class="container">
-        <div class="founder-content-wrapper about-lay-wrapper">
-            <div class="founder-content about-lay-content-second chem-production">
+            <div class="container">
+<div class="founder-content-wrapper about-lay-wrapper">
+            <div class="founder-content about-lay-content-second general-lay chem-production">
                 <div class="separator"></div>
-                <h2 class="section-title founder-title about-lay-title alt-alt">Изготовление автохимии</h2>
-                <p class="founder-text">Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.</p>
+                <h2 class="section-title founder-title about-lay-title alt-alt">Генеральный дистрибьютор премиальной
+автохимии</h2>
+                <p class="founder-text">Внезапно, активно развивающиеся страны третьего мира могут быть объявлены нарушающими общечеловеческие нормы этики и морали.</p>
                 <ul class="clients-list clients-list-production">
-                        <li class="clients-list-item contract-list-item">
+                        <li class="clients-list-item contract-list-item general-list-item">
                             <img src="./img/clients/him.svg" alt="logo" class="clients-image">
                             Полное описание товаров
                         </li>
-                        <li class="clients-list-item contract-list-item">
+                        <li class="clients-list-item contract-list-item general-list-item">
                         <img src="./img/clients/car.svg" alt="logo" class="clients-image">
                           Актуальные цены
                         </li>
-                        <li class="clients-list-item contract-list-item">
-                            <img src="./img/clients/him.svg" alt="logo" class="clients-image">
-                            Полное описание товаров
-                        </li>
-                        <li class="clients-list-item contract-list-item">
-                        <img src="./img/clients/car.svg" alt="logo" class="clients-image">
-                           Актуальные цены
-                        </li>
-                        <li class="clients-list-item contract-list-item">
+                        <li class="clients-list-item contract-list-item general-list-item">
                             <img src="./img/production/brush.svg" alt="logo" class="clients-image">
                          Лаки и краски
                         </li>
-                        <li class="clients-list-item contract-list-item">
-                            <img src="./img/clients/him.svg" alt="logo" class="clients-image">
-                         Химические производства
-                        </li>
-                        <li class="clients-list-item contract-list-item">
-                            <img src="./img/production/brush.svg" alt="logo" class="clients-image">
-                         Лаки и краски
-                        </li>
-                        <li class="clients-list-item contract-list-item">
+                        <li class="clients-list-item contract-list-item general-list-item">
                             <img src="./img/clients/him.svg" alt="logo" class="clients-image">
                          Химические производства
                         </li>
                     </ul>
+                    <button class="button button-download">Скачать каталог</button>
                 </div>
             </div>
-        </div>
-        <picture  class="crutch-image">
-              <source type="image/webp" srcset="./img/awoman.webp">
-              <source type="image/png" srcset="./img/awoman.png">
-              <img src="./img/awoman.png" alt="founder" class="image-scale">
-            </picture>
-    </section>
-    <section class="section types">
-        <div class="container">
-    <div class="founder-content-wrapper chem-lay-wrapper">
-            <div class="founder-content type-content">
-                <div class="separator"></div>
-                <h2 class="section-title founder-title about-lay-title alt-alt">Виды автохимии</h2>
-                <p class="founder-text type-text">Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям.</p>
-                <ul class="clients-list clients-list-production-type">
-                        <li class="clients-list-item type-list">
-                        Антискотч
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Многоцелевая смазка
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Жидкий ключ
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Высокотемпературная смазка
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Универсальный очиститель деталей
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Силиконовая смазка
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Цепная смазка
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Медная смазка
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Графитовая смазка
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Очиститель кондиционера пенный
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Очиститель тормозных дисков
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Очиститель битумных пятен
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Очиститель кондционера
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Очиститель дросельной заслонки
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Очиститель обивки 
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Тефлоновая смазка
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Очиститель двигателя
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Универсальный очиститель
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Чернитель шин 
-                        </li>
-                        <li class="clients-list-item type-list">
-                        Чернитель шин + очистка
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
-        </div>
-    </section>
-    <section class="section blog-research research-section">
+     </section>
+     <section class="section blog-research research-section">
         <div class="container research-type">
             <div class="separator"></div>
             <h2 class="section-title research-title">Исследовательский центр Aliance production</h2>
@@ -545,6 +454,6 @@ $header_style='bg-grey bg-image-auto';?>
             </div>
         </div>
 </section>
-<?php include_once('footer.php');?>
+     <?php include_once('footer.php');?>
 </body>
 </html>

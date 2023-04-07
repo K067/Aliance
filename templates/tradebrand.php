@@ -7,7 +7,7 @@
            }
            ?>
             <div class="cards-brand">
-                <div class="card-brand">
+                <a href="./agtech.php" class="card-brand">
                     <picture class="card-image-brand">
                     <source type="image/webp" srcset="./img/AGTECHA.webp">
                     <source type="image/png" srcset="./img/AGTECHA.png">
@@ -17,7 +17,7 @@
                     <p class="card-text-brand">Для современного мира разбавленное изрядной долей эмпатии,
                         рациональное
                         мышление создаёт предпосылки для поставленных обществом задач.</p>
-                </div>
+                </a>
                 <div class="card-brand">
                     <picture class="card-image-brand">
                     <source type="image/webp" srcset="./img/APA.webp">

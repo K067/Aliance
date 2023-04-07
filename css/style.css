@@ -678,6 +678,14 @@ body {
     z-index: -2
 }
 
+.general-image {
+    position: absolute;
+    right: -15px;
+    top: 0;
+    object-fit: cover;
+    width: 960px;
+}
+
 .blog-slider-footer {
     display: flex;
     align-items: center;
@@ -696,6 +704,20 @@ body {
 
 .bg-grey {
     background: #f0f2f5
+}
+
+.button-download {
+    display: flex;
+    margin-top: 50px;
+    padding: 1.5625rem 3.55rem;
+}
+
+.button-download:before {
+    content: "";
+    background-image: url("/img/icons/download.svg");
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
 }
 
 .section-cta {
@@ -1385,6 +1407,14 @@ body {
 
 .clients-alt {
     margin-top: -25px;
+}
+
+.general-list-item {
+    padding-top: 15px;
+}
+
+.general-lay {
+    margin-top: 0;
 }
 
 @media(max-width:1700px) {

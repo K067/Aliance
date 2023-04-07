@@ -40,7 +40,7 @@ $header_style='bg-grey';?>
                 <a href="./about.php" class="mobile-menu-link">О компании</a>
             </li>
             <li class="mobile-menu-nav-item">
-                <a href="./contract.php" class="mobile-menu-link">Контрактное производство</a>
+                <a href="#" class="mobile-menu-link">Контрактное производство</a>
                 <ul class="mobile-sub-menu">
                     <li class="mobile-sub-menu-item">
                         <a class="mobile-sub-menu-link" href="./contract-chem.php">Автомобильная химия</a>
@@ -98,7 +98,7 @@ $header_style='bg-grey';?>
                 <a href="/about.php" class="header-nav-link">О компании</a>
             </li>
             <li class="header-nav-item">
-                <a href="/contract.php" class="header-nav-link">Контрактное производство</a>
+                <a href="#" class="header-nav-link">Контрактное производство</a>
             </li>
             <li class="header-nav-item">
                 <a href="/brand.php" class="header-nav-link">Собственные торговые марки</a>
@@ -128,7 +128,7 @@ $header_style='bg-grey';?>
                 <h1 class="section-title title-about"><?=$page_title?></h1>
                 <div class="abyss-links">
                     <a href="./" class="that-links">Главная</a>
-                    <a href="" class="that-links alpha-link"><?=$page_title?></a>
+                    <a href="#" class="that-links alpha-link"><?=$page_title?></a>
                 </div>
             </div>
         </div>
@@ -267,7 +267,7 @@ $header_style='bg-grey';?>
             <h3 class="seo-title">SEO Заголовок</h3>
             <p class="seo-text">Также как дальнейшее развитие различных форм деятельности предполагает независимые способы реализации существующих финансовых и административных условий. Каждый из нас понимает очевидную вещь: курс на социально-ориентированный национальный проект играет важную роль в формировании как самодостаточных, так и внешне зависимых концептуальных решений. Внезапно, интерактивные прототипы набирают популярность среди определенных слоев населения, а значит, должны быть...</p>
         </div>
-            <a href="" class="button-fold">Читать больше</a>
+            <div class="button-fold">Читать больше</div>
     </div>
 </section>
 
@@ -279,7 +279,7 @@ $header_style='bg-grey';?>
         <img src="./img/__400-1.png" alt="cta" class="image-scale">
         </picture>
             <div class="cta-form-wrapper container">
-                <form action="./handler.php" class="cta-form">
+                <form action="./handler.php" class="cta-form" id="cta">
                     <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
                     <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит
                         на все

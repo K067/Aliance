@@ -484,7 +484,7 @@ $header_style='bg-grey';?>
         <img src="./img/__400-1.png" alt="cta" class="image-scale">
         </picture>
             <div class="cta-form-wrapper container">
-                <form action="./handler.php" class="cta-form">
+                <form action="./handler.php" class="cta-form" id="cta">
                     <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
                     <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит
                         на все

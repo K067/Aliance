@@ -185,47 +185,7 @@ $header_style='bg-grey';?>
         <div class="container">
             <div class="swiper slider-blog-set">
                 <div class="swiper-wrapper">
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
-                            экономическую ситуацию, в равной степени предоставлены...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
-                            разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
-                            экономическую ситуацию, в равной степени предоставлены...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
-                            разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
+                     <a href="#" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
@@ -251,16 +211,6 @@ $header_style='bg-grey';?>
                 <div class="swiper-wrapper">
                     <a href="#" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
-                            экономическую ситуацию, в равной степени предоставлены...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
                     <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
                     <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
@@ -269,7 +219,7 @@ $header_style='bg-grey';?>
                         <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
                             разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
+                     <a href="#" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
@@ -279,17 +229,11 @@ $header_style='bg-grey';?>
                         <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
                             экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
-                            разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
+                </div>
+            </div>
+            <div class="swiper slider-blog-set">
+                <div class="swiper-wrapper">
+                     <a href="#" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
@@ -315,16 +259,6 @@ $header_style='bg-grey';?>
                 <div class="swiper-wrapper">
                     <a href="#" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
-                            экономическую ситуацию, в равной степени предоставлены...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
                     <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
                     <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
@@ -333,7 +267,7 @@ $header_style='bg-grey';?>
                         <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
                             разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
+                     <a href="#" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
@@ -342,146 +276,12 @@ $header_style='bg-grey';?>
                         <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
                         <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
                             экономическую ситуацию, в равной степени предоставлены...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
-                            разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
-                            экономическую ситуацию, в равной степени предоставлены...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
-                            разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
                 </div>
             </div>
             <div class="swiper slider-blog-set">
                 <div class="swiper-wrapper">
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
-                            экономическую ситуацию, в равной степени предоставлены...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
-                            разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
-                            экономическую ситуацию, в равной степени предоставлены...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
-                            разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
-                            экономическую ситуацию, в равной степени предоставлены...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
-                            разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                    </a>
-                </div>
-            </div>
-            <div class="swiper slider-blog-set">
-                <div class="swiper-wrapper">
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
-                            экономическую ситуацию, в равной степени предоставлены...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
-                            разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
-                            экономическую ситуацию, в равной степени предоставлены...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
-                        <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
-                            разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
-                    </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
+                     <a href="#" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
@@ -504,7 +304,13 @@ $header_style='bg-grey';?>
                 </div>
                 <div class="blog-pagination-footer">
                     <div></div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination">
+                        <div class="swiper-pagination-bullet swiper-pagination-bullet-active">1</div>
+                        <div class="swiper-pagination-bullet">2</div>
+                        <div class="swiper-pagination-bullet">3</div>
+                        <div class="swiper-pagination-bullet">4</div>
+                        <div class="swiper-pagination-bullet">5</div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -518,7 +324,7 @@ $header_style='bg-grey';?>
         <img src="./img/__400-1.png" alt="cta" class="image-scale">
         </picture>
             <div class="cta-form-wrapper container">
-                <form action="./handler.php" class="cta-form">
+                <form action="./handler.php" class="cta-form" id="cta">
                     <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
                     <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит
                         на все

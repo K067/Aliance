@@ -20,7 +20,6 @@ let elementArray = [
     document.querySelectorAll('.card-title-brand'),
     document.querySelectorAll('.cliens-logo')
 ];
-let pages = ['1', '2', '3', '4', '5'];
 
 mobileMenuLine[1].style.width = '80%';
 
@@ -115,20 +114,7 @@ const swiperResearch = new Swiper('.slider-research', {
 const mySwiper = new Swiper('.slider-blog-set', {
     speed: 400,
     slidesPerView: 1,
-    // loop: true,
     spaceBetween: 30,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        type: 'bullets',
-        renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (pages[index]) + '</span>';
-        },
-    },
-    navigation: {
-        nextEl: '.blog-button-next',
-        prevEl: '.blog-button-prev',
-    },
     breakpoints: {
         374: {
             slidesPerView: 1,
@@ -137,6 +123,9 @@ const mySwiper = new Swiper('.slider-blog-set', {
             slidesPerView: 1,
         },
         767: {
+            slidesPerView: 1,
+        },
+        991: {
             slidesPerView: 1,
         },
         1199: {

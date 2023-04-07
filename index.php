@@ -359,44 +359,44 @@
             <h2 class="section-title">Блог экспертов в области производства</h2>
             <div class="swiper slider-blog">
                 <div class="swiper-wrapper">
-                    <a href="#" class="swiper-slide blog-card">
+                    <a href="#" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
                     <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
                     </picture>
                         <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую
+                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
                             экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
-                    <a href="#" class="swiper-slide blog-card">
+                    <a href="#" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
                     <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
                     <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
                     </picture>
                         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально
+                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
                             разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
-                    <a href="#" class="swiper-slide blog-card">
+                    <a href="#" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
                     <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
                     </picture>
                         <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую
+                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
                             экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
-                    <a href="#" class="swiper-slide blog-card">
+                    <a href="#" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
                     <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
                     <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
                     </picture>
                         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально
+                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
                             разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
                 </div>

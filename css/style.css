@@ -601,7 +601,7 @@ body {
 
 .founder-image {
     position: absolute;
-    left: 0;
+    left: -20px;
     width: 52.5rem;
     top: 0;
     height: 100%;
@@ -727,7 +727,11 @@ body {
     font-weight: 400;
     font-size: 1rem;
     line-height: 160%;
-    margin: 0
+    margin: 0;
+    width: 605px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .blog-image {
@@ -1237,7 +1241,7 @@ body {
 .about-lay-image {
     width: 480px;
     height: 479px;
-    left: 235px;
+    left: 208px;
 }
 
 .about-lay-content {
@@ -1256,7 +1260,7 @@ body {
     position: absolute;
     top: 0;
     object-fit: cover;
-    right: 235px;
+    right: 223px;
     height: 125%;
 }
 
@@ -1363,7 +1367,7 @@ body {
 }
 
 .ali-alt {
-    left: 235px;
+    left: 223px;
     position: absolute;
     top: 0;
     object-fit: cover;
@@ -1378,7 +1382,7 @@ body {
 .fi-alt,
 .crutch-image {
     position: absolute;
-    right: 0;
+    right: -15px;
     width: 52.5rem;
     top: 0;
     height: 130%;
@@ -1492,6 +1496,10 @@ body {
         width: 900px;
     }
 
+    .blog-card-main {
+        min-height: 350px !important;
+    }
+
     .ali-alt {
         height: 100%;
     }
@@ -1560,8 +1568,8 @@ body {
         width: 870px;
     }
 
-    */ .slider-steps {
-        width: 1165px;
+    .blog-card-main {
+        min-height: 323px !important;
     }
 
     .steps-text {
@@ -1643,6 +1651,10 @@ body {
 @media(max-width:1200px) {
     .slider-buttons {
         display: flex
+    }
+
+    .blog-card-main {
+        min-height: 249px !important;
     }
 
     .general-image,

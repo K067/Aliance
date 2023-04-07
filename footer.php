@@ -65,7 +65,7 @@
                     <h2 class="footer-menu-title">Собственные марки</h2>
                     <ul class="footer-menu-list">
                         <li class="footer-menu-item">
-                            <a href="#" class="footer-menu-link">
+                            <a href="./agtech.php" class="footer-menu-link">
                                 Автохимия AG-Tech
                             </a>
                         </li>

@@ -46,6 +46,10 @@ body {
     display: none;
 }
 
+.crutch {
+    left: 10px;
+}
+
 .mission {
     display: none !important;
 }
@@ -222,7 +226,6 @@ body {
     margin-bottom: 6.3rem;
     z-index: 1;
     color: #fff;
-    left: 10px
 }
 
 .header-title {
@@ -543,7 +546,7 @@ body {
 
 .founder-image {
     position: absolute;
-    left: -20px;
+    left: 0;
     width: 52.5rem;
     top: 0;
     height: 100%;
@@ -1178,7 +1181,7 @@ body {
 .about-lay-image {
     width: 480px;
     height: 479px;
-    left: 208px;
+    left: 235px;
 }
 
 .about-lay-content {
@@ -1197,7 +1200,7 @@ body {
     position: absolute;
     top: 0;
     object-fit: cover;
-    right: 223px;
+    right: 235px;
     height: 125%;
 }
 
@@ -1319,7 +1322,7 @@ body {
 .fi-alt,
 .crutch-image {
     position: absolute;
-    right: -15px;
+    right: 0;
     width: 52.5rem;
     top: 0;
     height: 130%;

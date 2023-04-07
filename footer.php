@@ -30,7 +30,7 @@
                     <h2 class="footer-menu-title">Контрактное производство</h2>
                     <ul class="footer-menu-list footer-menu-columns">
                         <li class="footer-menu-item">
-                            <a href="#" class="footer-menu-link">
+                            <a href="contract-chem.php" class="footer-menu-link">
                                 Автомобильная химия
                             </a>
                         </li>

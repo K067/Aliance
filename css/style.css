@@ -1456,7 +1456,7 @@ body {
     height: .0625rem;
     background: #828a99;
     width: 14px;
-    margin: 13px 10px;
+    margin: 10px 10px;
 }
 
 .contract-title {
@@ -2384,6 +2384,38 @@ body {
             max-width: 90%
         }
 
+        .abyss-links {
+            flex-wrap: wrap;
+        }
+
+        .link-one:before {
+            content: "";
+            height: .0625rem;
+            background: #828a99;
+            width: 14px;
+            margin: 10px 10px;
+        }
+
+        .link-one:after {
+            content: "";
+            height: .0625rem;
+            background: #828a99;
+            width: 14px;
+            margin: 10px 10px;
+        }
+
+        .link-two:before {
+            content: "";
+            height: .0625rem;
+            background: #828a99;
+            width: 0;
+            margin: 0;
+        }
+
+        .link-two {
+            margin-top: 8px;
+        }
+
         .blog-card-main {
             min-height: 192px !important;
         }
@@ -2472,7 +2504,7 @@ body {
         }
 
         .contract-alpha {
-            margin-top: 50px;
+            margin-top: -25px;
             margin-bottom: -20px;
         }
 

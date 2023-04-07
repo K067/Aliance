@@ -42,7 +42,7 @@ $header_style='bg-grey';?>
                 <a href="./contract.php" class="mobile-menu-link">Контрактное производство</a>
                 <ul class="mobile-sub-menu">
                     <li class="mobile-sub-menu-item">
-                        <a class="mobile-sub-menu-link" href="#">Автомобильная химия</a>
+                        <a class="mobile-sub-menu-link" href="contract-chem.php">Автомобильная химия</a>
                     </li>
                     <li class="mobile-sub-menu-item">
                         <a class="mobile-sub-menu-link" href="#">Бытовая химия</a>
@@ -127,7 +127,7 @@ $header_style='bg-grey';?>
                 <h1 class="section-title title-about"><?=$page_title?></h1>
                 <div class="abyss-links">
                     <a href="./" class="that-links">Главная</a>
-                    <a href="#" class="that-links alpha-link"><?=$page_title?></a>
+                    <a href="#" class="that-links alpha-link link-one"><?=$page_title?></a>
                 </div>
             </div>
         </div>

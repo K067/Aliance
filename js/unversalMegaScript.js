@@ -64,10 +64,10 @@ const swiperSteps = new Swiper('.slider-steps', {
             slidesPerView: 2,
         },
         767: {
-            slidesPerView: 3,
+            slidesPerView: 2.5,
         },
         1199: {
-            slidesPerView: 4,
+            slidesPerView: 3,
         },
         1201: {
             slidesPerView: 5,

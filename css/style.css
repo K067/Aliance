@@ -1291,7 +1291,7 @@ body {
 .fi-alt {
     position: absolute;
     right: -15px;
-    width: 840px;
+    width: 52.5rem;
     top: 0;
     height: 130%;
     object-fit: cover;
@@ -1323,7 +1323,7 @@ body {
 }
 
 .prod-section {
-    margin-bottom: 190px;
+    margin-bottom: 175px;
 }
 
 .research-section {
@@ -1336,17 +1336,21 @@ body {
 }
 
 .type-content {
-    max-width: 1384px;
+    max-width: 1384px !important;
     width: 1384px;
 }
 
 .type-text {
-    width: 840px;
+    max-width: 840px;
+}
+
+.clients-list-production-type {
+    columns: 2 auto;
 }
 
 .type-list {
     gap: 20px;
-    line-height: 175%;
+    line-height: 160%;
 }
 
 .type-list:before {
@@ -1365,7 +1369,7 @@ body {
 }
 
 .contract-title {
-    width: 600px;
+    max-width: 600px;
     padding-right: 0;
 }
 
@@ -1381,6 +1385,14 @@ body {
 @media(max-width:1700px) {
     html {
         font-size: 14px
+    }
+
+    .ali-alt {
+        height: 100%;
+    }
+
+    .chem-lay-wrapper {
+        margin-left: 0;
     }
 
     .header-image {
@@ -1432,6 +1444,26 @@ body {
 @media(max-width:1460px) {
     html {
         font-size: 13px
+    }
+
+    .slider-steps {
+        width: 1165px;
+    }
+
+    .steps-text {
+        width: 220px;
+    }
+
+    .chem-production {
+        width: 45%;
+    }
+
+    .fi-alt {
+        width: 50%;
+    }
+
+    .ali-alt {
+        left: 125px;
     }
 
     .header-log {
@@ -1496,6 +1528,23 @@ body {
 @media(max-width:1200px) {
     .slider-buttons {
         display: flex
+    }
+
+    .main-buttons {
+        display: flex;
+    }
+
+    .bg-image-auto {
+        background-position: bottom right 70px;
+    }
+
+    .ali-alt {
+        top: 50px;
+        width: 30%;
+    }
+
+    .clients-logo {
+        height: auto;
     }
 
     .container {
@@ -1585,6 +1634,19 @@ body {
 
     html {
         font-size: 12px
+    }
+
+    .ali-alt {
+        position: relative;
+        display: block;
+        width: 80%;
+        height: auto;
+        left: 80px;
+        top: 0;
+    }
+
+    .bg-image-auto {
+        background-image: none;
     }
 
     .steps-buttons {
@@ -2108,6 +2170,15 @@ body {
             margin-top: 30px
         }
 
+        .fi-alt {
+            position: relative;
+            left: 0;
+        }
+
+        .chem-production {
+            width: 100%;
+        }
+
         .blog-buttons {
             margin-top: -10px;
             height: 40px
@@ -2140,6 +2211,16 @@ body {
     @media(max-width:576px) {
         .container {
             max-width: 90%
+        }
+
+        .ali-alt {
+            width: 92%;
+            left: 15px;
+        }
+
+        .contract-alpha {
+            margin-top: 50px;
+            margin-bottom: -20px;
         }
 
         .header-title {

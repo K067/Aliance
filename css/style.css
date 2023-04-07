@@ -1288,7 +1288,12 @@ body {
     height: 125%;
 }
 
-.fi-alt {
+.crutch-image {
+    display: none;
+}
+
+.fi-alt,
+.crutch-image {
     position: absolute;
     right: -15px;
     width: 52.5rem;
@@ -1458,7 +1463,8 @@ body {
         width: 45%;
     }
 
-    .fi-alt {
+    .fi-alt,
+    .crutch-image {
         width: 50%;
     }
 
@@ -1873,6 +1879,10 @@ body {
         margin-top: 47px
     }
 
+    .contract-content {
+        max-width: 100%;
+    }
+
     .founder-text {
         margin-top: -18px;
         margin-left: -3px;
@@ -2170,7 +2180,8 @@ body {
             margin-top: 30px
         }
 
-        .fi-alt {
+        .fi-alt,
+        .crutch-image {
             position: relative;
             left: 0;
         }
@@ -2216,6 +2227,48 @@ body {
         .ali-alt {
             width: 92%;
             left: 15px;
+        }
+
+        .crutch-image {
+            display: inline;
+            top: 50px;
+        }
+
+        .types {
+            margin-top: 115px;
+        }
+
+        .type-text {
+            margin-bottom: 0 !important;
+        }
+
+        .clients-list-production-type {
+            margin-top: 12px !important;
+        }
+
+        .slider-steps {
+            width: 1646px;
+        }
+
+        .type-list {
+            padding-top: 19px;
+        }
+
+        .fi-alt {
+            display: none;
+        }
+
+        .prod-section {
+            margin-top: 80px !important;
+        }
+
+        .contract-list-item {
+            margin-left: -7px;
+            padding-top: 10px;
+        }
+
+        .clients-list-production {
+            margin-top: 0 !important;
         }
 
         .contract-alpha {

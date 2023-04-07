@@ -226,35 +226,35 @@ $header_style='bg-grey bg-image-auto';?>
                 <h2 class="section-title founder-title about-lay-title alt-alt">Изготовление автохимии</h2>
                 <p class="founder-text">Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.</p>
                 <ul class="clients-list clients-list-production">
-                        <li class="clients-list-item">
+                        <li class="clients-list-item contract-list-item">
                             <img src="./img/clients/him.svg" alt="logo" class="clients-image">
                             Полное описание товаров
                         </li>
-                        <li class="clients-list-item">
+                        <li class="clients-list-item contract-list-item">
                         <img src="./img/clients/car.svg" alt="logo" class="clients-image">
                           Актуальные цены
                         </li>
-                        <li class="clients-list-item">
+                        <li class="clients-list-item contract-list-item">
                             <img src="./img/clients/him.svg" alt="logo" class="clients-image">
                             Полное описание товаров
                         </li>
-                        <li class="clients-list-item">
+                        <li class="clients-list-item contract-list-item">
                         <img src="./img/clients/car.svg" alt="logo" class="clients-image">
                            Актуальные цены
                         </li>
-                        <li class="clients-list-item">
+                        <li class="clients-list-item contract-list-item">
                             <img src="./img/production/brush.svg" alt="logo" class="clients-image">
                          Лаки и краски
                         </li>
-                        <li class="clients-list-item">
+                        <li class="clients-list-item contract-list-item">
                             <img src="./img/clients/him.svg" alt="logo" class="clients-image">
                          Химические производства
                         </li>
-                        <li class="clients-list-item">
+                        <li class="clients-list-item contract-list-item">
                             <img src="./img/production/brush.svg" alt="logo" class="clients-image">
                          Лаки и краски
                         </li>
-                        <li class="clients-list-item">
+                        <li class="clients-list-item contract-list-item">
                             <img src="./img/clients/him.svg" alt="logo" class="clients-image">
                          Химические производства
                         </li>
@@ -262,6 +262,11 @@ $header_style='bg-grey bg-image-auto';?>
                 </div>
             </div>
         </div>
+        <picture  class="crutch-image">
+              <source type="image/webp" srcset="./img/awoman.webp">
+              <source type="image/jpeg" srcset="./img/awoman.png">
+              <img src="./img/awoman.png" alt="founder" class="image-scale">
+            </picture>
     </section>
     <section class="section types">
         <div class="container">

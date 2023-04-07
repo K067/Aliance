@@ -84,7 +84,7 @@
                             </a>
                         </li>
                         <li class="footer-menu-item">
-                            <a href="#" class="footer-menu-link-bold">
+                            <a href="./news.php" class="footer-menu-link-bold">
                                 Новости
                             </a>
                         </li>

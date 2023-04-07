@@ -61,7 +61,7 @@
                 <a href="#" class="mobile-menu-link">Собственные торговые марки</a>
             </li>
             <li class="mobile-menu-nav-item">
-                <a href="#" class="mobile-menu-link">Новости</a>
+                <a href="./news.php" class="mobile-menu-link">Новости</a>
             </li>
             <li class="mobile-menu-nav-item">
                 <a href="#" class="mobile-menu-link">Контакты</a>
@@ -401,7 +401,7 @@
                     </a>
                 </div>
                 <div class="blog-slider-footer">
-                    <a href="#" class="button-link blog-link">Весь блог</a>
+                    <a href="./news.php" class="button-link blog-link">Весь блог</a>
                     <div class="blog-buttons main-buttons">
                         <div class="blog-button-prev main-button-prev"><img src="./img/arrow-left.svg" alt="left"
                                 class="main-arrow-literally">

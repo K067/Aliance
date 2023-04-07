@@ -2224,6 +2224,10 @@ body {
             max-width: 90%
         }
 
+        .about-lay-content {
+            margin-top: 45px !important;
+        }
+
         .ali-alt {
             width: 92%;
             left: 15px;

@@ -21,13 +21,13 @@ $header_style='bg-grey';?>
     <div class="mobile-menu">
         <ul class="mobile-menu-nav">
             <li class="mobile-menu-nav-item">
-                <a href="" class="mobile-menu-link">О компании</a>
+                <a href="#" class="mobile-menu-link">О компании</a>
             </li>
             <li class="mobile-menu-nav-item">
-                <a href="#" class="mobile-menu-link">Контрактное производство</a>
+                <a href="./contract.php" class="mobile-menu-link">Контрактное производство</a>
                 <ul class="mobile-sub-menu">
                     <li class="mobile-sub-menu-item">
-                        <a class="mobile-sub-menu-link" href="#">Автомобильная химия</a>
+                        <a class="mobile-sub-menu-link" href="./contract-chem.php">Автомобильная химия</a>
                     </li>
                     <li class="mobile-sub-menu-item">
                         <a class="mobile-sub-menu-link" href="#">Бытовая химия</a>
@@ -47,7 +47,7 @@ $header_style='bg-grey';?>
                 </ul>
             </li>
             <li class="mobile-menu-nav-item">
-                <a href="#" class="mobile-menu-link">Собственные торговые марки</a>
+                <a href="./brand.php" class="mobile-menu-link">Собственные торговые марки</a>
             </li>
             <li class="mobile-menu-nav-item">
                 <a href="#" class="mobile-menu-link">Новости</a>
@@ -112,7 +112,7 @@ $header_style='bg-grey';?>
                 <h1 class="section-title title-about"><?=$page_title?></h1>
                 <div class="abyss-links">
                     <a href="./" class="that-links">Главная</a>
-                    <a href="" class="that-links alpha-link"><?=$page_title?></a>
+                    <a href="#" class="that-links alpha-link"><?=$page_title?></a>
                 </div>
             </div>
         </div>

@@ -79,7 +79,7 @@
                 <div class="footer-menu-wrapper">
                     <ul class="footer-menu-list bold-list">
                         <li class="footer-menu-item">
-                            <a href="#" class="footer-menu-link-bold">
+                            <a href="./about.php" class="footer-menu-link-bold">
                                 О компании
                             </a>
                         </li>

@@ -19,10 +19,10 @@
                 <a href="./about.php" class="mobile-menu-link">О компании</a>
             </li>
             <li class="mobile-menu-nav-item">
-                <a href="#" class="mobile-menu-link">Контрактное производство</a>
+                <a href="./contract.php" class="mobile-menu-link">Контрактное производство</a>
                 <ul class="mobile-sub-menu">
                     <li class="mobile-sub-menu-item">
-                        <a class="mobile-sub-menu-link" href="#">Автомобильная химия</a>
+                        <a class="mobile-sub-menu-link" href="./contract-chem.php">Автомобильная химия</a>
                     </li>
                     <li class="mobile-sub-menu-item">
                         <a class="mobile-sub-menu-link" href="#">Бытовая химия</a>
@@ -147,7 +147,7 @@
             <div class="separator"></div>
             <h2 class="section-title second">Контрактное производство</h2>
             <div class="cards">
-                <a href="#" class="card">
+                <a href="./contract-chem.php" class="card">
                     <div class="card-content">
                         <h3 class="card-title">Автомобильная химия</h3>
                         <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение

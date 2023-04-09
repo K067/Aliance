@@ -68,7 +68,7 @@ $header_style='bg-blog-more';?>
                 <a href="./brand.php" class="mobile-menu-link">Собственные торговые марки</a>
             </li>
             <li class="mobile-menu-nav-item">
-                <a href="#" class="mobile-menu-link">Новости</a>
+                <a href="./news.php" class="mobile-menu-link">Новости</a>
             </li>
             <li class="mobile-menu-nav-item">
                 <a href="#" class="mobile-menu-link">Контакты</a>
@@ -106,7 +106,7 @@ $header_style='bg-blog-more';?>
                 <a href="/brand.php" class="header-nav-link">Собственные торговые марки</a>
             </li>
             <li class="header-nav-item">
-                <a href="#" class="header-nav-link">Новости</a>
+                <a href="./news.php" class="header-nav-link">Новости</a>
             </li>
             <li class="header-nav-item">
                 <a href="/contact.php" class="header-nav-link">Контакты</a>

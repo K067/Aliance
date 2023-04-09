@@ -1686,6 +1686,19 @@ body {
     display: none;
 }
 
+.policy-text {
+    margin-bottom: 22px;
+}
+
+.policy-info {
+    max-width: 1440px;
+    width: 1440px;
+}
+
+.policy-section {
+    margin-bottom: 150px !important;
+}
+
 @media(max-width:1700px) {
     html {
         font-size: 14px
@@ -1693,6 +1706,10 @@ body {
 
     .general-lay {
         max-width: 660px;
+    }
+
+    .policy-info {
+        width: auto;
     }
 
     .bg-blog-more {
@@ -2010,6 +2027,10 @@ body {
 
     .crutch-slider-one {
         display: none;
+    }
+
+    .policy-section {
+        margin-bottom: 100px !important;
     }
 
     .blog-number-list {
@@ -2643,6 +2664,23 @@ body {
     @media(max-width:576px) {
         .container {
             max-width: 90%
+        }
+
+        .policy-info {
+            width: 345px;
+        }
+
+        .policy-header {
+            margin-bottom: 0;
+        }
+
+        .policy-text {
+            margin-bottom: 10px;
+        }
+
+        .policy-title {
+            padding-right: 35px;
+            word-break: break-word;
         }
 
         .bg-blog-more {

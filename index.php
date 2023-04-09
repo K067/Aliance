@@ -118,7 +118,7 @@
     </nav>
     <header class="header header-image">
         <div class="container">
-            <div class="header-content">
+            <div class="header-content header-main">
                 <div class="separator"></div>
                 <h1 class="header-title">Комплексное обеспечение товарами и расходными материалами бизнеса</h1>
                 <p class="header-text">Высокий уровень вовлечения представителей целевой аудитории является четким
@@ -126,7 +126,7 @@
                     анализа существующих паттернов поведения.</p>
                 <div class="header-button button modal-button">Подробнее о компании</div>
             </div>
-            <div class="swiper slider-features">
+            <div class="swiper slider-features main-sf">
                 <ul class="swiper-wrapper header-features">
                     <li class="swiper-slide header-features-items">
                         <img src="./img/features/timer.svg" alt="" class="header-features-icon">
@@ -149,12 +149,11 @@
                         <p class="header-features-text">Оперативное производство</p>
                     </li>
                 </ul>
-            </div>
-            <div class="slider-buttons">
-                <div class="slider-button-prev header-arrow"><img src="./img/arrow-left.svg" alt="left" class="the-arrow"></div>
-                <div class="slider-button-next header-arrow"><img src="./img/arrow-right.svg" alt="right" class="the-arrow"></div>
-            </div>
-
+            </div>    
+        </div>
+        <div class="slider-buttons">
+            <div class="slider-button-prev header-arrow"><img src="./img/arrow-left.svg" alt="left" class="the-arrow"></div>
+            <div class="slider-button-next header-arrow"><img src="./img/arrow-right.svg" alt="right" class="the-arrow"></div>
         </div>
     </header>
  <?php include_once('./templates/schem.php')?>
@@ -450,7 +449,7 @@
         </div>
     </section>
     <section class="cta">
-        <div class="bg-grey section-cta">
+        <div class="bg-grey section-cta cta-main">
         <picture class="cta-image">
         <source type="image/webp" srcset="./img/__400-1.webp">
         <source type="image/png" srcset="./img/__400-1.png">

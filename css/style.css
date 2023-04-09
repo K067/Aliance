@@ -501,7 +501,8 @@ body {
 
 .slider-buttons {
     display: none;
-    height: 3.5rem
+    height: 3.5rem;
+    position: relative;
 }
 
 .slider-button-next,
@@ -759,8 +760,12 @@ body {
     margin-top: 10px
 }
 
+.cta-main {
+    margin-top: 10.775rem !important;
+}
+
 .production {
-    margin-top: -42px
+    margin-top: -23px
 }
 
 .founder {
@@ -1699,6 +1704,15 @@ body {
     margin-bottom: 150px !important;
 }
 
+.header-main {
+    margin-left: 10px;
+}
+
+.main-sf {
+    width: 115% !important;
+    margin-left: -40px !important;
+}
+
 @media(max-width:1700px) {
     html {
         font-size: 14px
@@ -1734,7 +1748,8 @@ body {
     }
 
     .header-image {
-        background-position: center
+        background-size: 500%;
+        background-position: center top -244px;
     }
 
     .about-lay-content {
@@ -2099,7 +2114,7 @@ body {
     }
 
     .slider-buttons {
-        height: 3.1rem
+        height: 3.4rem;
     }
 
     .navbar-logo {
@@ -2150,7 +2165,7 @@ body {
         font-size: 14px;
         align-items: center;
         justify-content: center;
-        padding: 1.625rem 6rem;
+        padding: 1.925rem 6rem;
         margin-top: -11px
     }
 
@@ -2664,6 +2679,11 @@ body {
     @media(max-width:576px) {
         .container {
             max-width: 90%
+        }
+
+        .header-main {
+            margin-left: -5px !important;
+            margin-bottom: 4.3rem;
         }
 
         .policy-info {

@@ -142,29 +142,26 @@ const mySwiper = new Swiper('.slider-blog-set', {
 
 const hover = (elem) => {
     elem.forEach(e => {
-        const first = elem[0].querySelector('.brand-image');
-        const second = elem[1].querySelector('.brand-image');
+        const first = elem[0].querySelector('.card-image-brand');
+        const second = elem[1].querySelector('.card-image-brand');
+
         e.addEventListener('mouseover', () => {
             switch (e) {
                 case elem[0]:
-                    first.src = './img/AGTECH.png';
-                    first.src = './img/AGTECH.webp';
+                    first.src = './img/AGTECH2.svg';
                     break;
                 case elem[1]:
-                    second.src = './img/AP.png';
-                    second.src = './img/AP.webp';
+                    second.src = './img/AP2.svg';
                     break;
             }
         })
         e.addEventListener('mouseout', () => {
             switch (e) {
                 case elem[0]:
-                    first.src = './img/AGTECHA.png';
-                    first.src = './img/AGTECHA.webp';
+                    first.src = './img/AGTECH.svg';
                     break;
                 case elem[1]:
-                    second.src = './img/APA.png';
-                    second.src = './img/APA.webp';
+                    second.src = './img/AP.svg';
                     break;
             }
         })
@@ -495,7 +492,9 @@ buttons.forEach(e => {
 });
 
 alter();
-hover(trigger);
+if (window.screen.width > 992) {
+    hover(trigger);
+}
 submitForm();
 maskPhone('[name="userphone"]', '+7 (___) ___-__-__');
 nameValidation(name);

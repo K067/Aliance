@@ -131,9 +131,9 @@ $header_style='bg-blog-more';?>
                     <?=$page_title?>
                 </h1>
                 <div class="abyss-links">
-                    <a href="./" class="that-links header-color-alt">Главная</a>
-                    <a href="./news.php" class="that-links alpha-link link-one link-one-alt header-color-alt">Блог</a>
-                    <a href="#" class="that-links alpha-link link-two header-color-alt">
+                    <a href="./" class="that-links header-color-alt crutch-text">Главная</a>
+                    <a href="./news.php" class="that-links alpha-link link-one link-one-alt header-color-alt crutch-text">Блог</a>
+                    <a href="#" class="that-links alpha-link link-two header-color-alt crutch-text">
                         <?=$page_title?>
                     </a>
                 </div>
@@ -250,7 +250,6 @@ $header_style='bg-blog-more';?>
                         заданий позволяет выполнять важные задания по разработке форм развития. Задача организации, в
                         особенности же постоянный <a href="">количественный рост</a> и сфера нашей активности
                         обеспечивает широкому кругу (специалистов) участие в формировании форм развития.</p>
-                    </p>
                 </div>
                 <picture class="blog-more-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
@@ -270,7 +269,7 @@ $header_style='bg-blog-more';?>
                 </div>
             </div>
             <div class="blog-more-content-wrapper blog-third-wrapper">
-                <div class="blog-more-content container">
+                <div class="blog-more-content">
                     <h3 class="blog-more-title blog-more-title-second">Равным образом консультация с широким активом
                     </h3>
                     <p class="blog-more-text blog-more-text-beta">С другой стороны рамки и место обучения кадров влечет
@@ -307,7 +306,6 @@ $header_style='bg-blog-more';?>
                     </a>
                 </div>
             </div>
-        </div>
         </div>
     </section>
     <section class="section blog-more-slider">

@@ -111,7 +111,6 @@ body {
 }
 
 .blog-more-content {
-    max-width: 1000px;
     width: 960px;
     margin-right: -20px;
 }
@@ -155,7 +154,7 @@ body {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
     color: #828A99;
     margin-bottom: 20px;
@@ -1384,6 +1383,10 @@ body {
     color: white !important;
 }
 
+.crutch-text {
+    font-size: 14px !important;
+}
+
 .header-color-alt:before {
     background: white !important;
 }
@@ -2007,6 +2010,10 @@ body {
 
     .crutch-slider-one {
         display: none;
+    }
+
+    .blog-number-list {
+        width: auto;
     }
 
     .slider-blog-set,
@@ -2636,6 +2643,68 @@ body {
     @media(max-width:576px) {
         .container {
             max-width: 90%
+        }
+
+        .bg-blog-more {
+            background-size: 247%;
+        }
+
+        .blog-more-text {
+            font-size: 14px;
+            line-height: 158%;
+        }
+
+        .blog-more-content-wrapper {
+            width: 345px !important;
+        }
+
+        .blog-more-content {
+            margin-right: 0;
+        }
+
+        .blog-more-section {
+            margin-top: 50px !important;
+        }
+
+        .blog-second-wrapper {
+            margin-top: 27px;
+        }
+
+        .blog-more-title-second {
+            margin-bottom: -10px !important;
+        }
+
+        .blog-more-text-beta {
+            margin-top: 10px;
+        }
+
+        .blog-more-image {
+            margin-top: 30px;
+        }
+
+        .blog-more-title-third {
+            font-size: 18px;
+            margin-bottom: 20px !important;
+        }
+
+        .blog-more-title-second {
+            font-size: 18px;
+            margin-bottom: 0 !important;
+        }
+
+        .blog-more-title {
+            width: 330px;
+            line-height: 140%;
+            margin-bottom: 10px;
+        }
+
+        .blog-more-slider {
+            margin-top: 100px !important;
+            margin-bottom: 100px !important;
+        }
+
+        .link-like-alt {
+            margin-bottom: 5px;
         }
 
         .abyss-links {

@@ -395,7 +395,7 @@ $header_style='bg-grey';?>
             </div>
         </div>
     </section>
-    <section class="section clients">
+    <section class="section clients-alt">
         <div class="container">
             <div class="clients-wrapper">
                 <div class="clients-content">

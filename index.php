@@ -237,7 +237,38 @@
             </div>
         </div>
     </section>
- <?php $block_title="Собственные торговые марки"; include_once('./templates/tradebrand.php')?>
+ <section class="section brand">
+        <div class="container">
+            <div class="separator"></div>
+            <h2 class="section-title third">Собственные торговые марки</h2>
+            <h2 class="section-title third-crutch">Собственные марки</h2>
+            <div class="cards-brand">
+                <a href="./agtech.php" class="card-brand">
+                    <picture class="card-image-brand">
+                    <source type="image/webp" srcset="./img/AGTECHA.webp">
+                    <source type="image/png" srcset="./img/AGTECHA.png">
+                    <img src="./img/AGTECHA.png" alt="Автохимия AG-Tech" class="image-scale">
+                    </picture>
+                    <h3 class="card-title-brand">Автохимия AG-Tech</h3>
+                    <p class="card-text-brand">Для современного мира разбавленное изрядной долей эмпатии,
+                        рациональное
+                        мышление создаёт предпосылки для поставленных обществом задач.</p>
+                </a>
+                <div class="card-brand">
+                    <picture class="card-image-brand">
+                    <source type="image/webp" srcset="./img/APA.webp">
+                    <source type="image/png" srcset="./img/APA.png">
+                    <img src="./img/APA.png" alt="Автохимия AP" class="image-scale">
+                    </picture>
+                    <h3 class="card-title-brand">Автохимия AP</h3>
+                    <p class="card-text-brand">Для современного мира разбавленное изрядной долей
+                        эмпатии,
+                        рациональное
+                        мышление создаёт предпосылки для поставленных обществом задач.</p>
+                </div>
+            </div>
+        </div>
+    </section>
  <section class="section founder">
 <picture class="founder-image">
   <source type="image/webp" srcset="./img/pexels-tiger-lily-44839381.webp">
@@ -246,7 +277,7 @@
 </picture>
         <div class="container">
             <div class="founder-content-wrapper">
-                <div class="founder-content">
+                <div class="founder-content main-fc">
                     <div class="separator"></div>
                     <h2 class="section-title founder-title">Отношение к делу и к клиентам</h2>
                     <p class="founder-text">Кстати, интерактивные прототипы описаны максимально подробно. Повседневная
@@ -266,8 +297,7 @@
                         инновационный путь в значительной степени обусловливает важность дальнейших направлений
                         развития.
                     </p>
-                    <a href="./about.php" class="button-link">Подробнее о компании</a>
-                </div>
+                    <a href="./about.php" class="button-link mission">О нашей миссии</a>                </div>
             </div>
         </div>
     </section>

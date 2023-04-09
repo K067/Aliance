@@ -182,7 +182,35 @@ $header_style='bg-grey';?>
             </div>
         </div>
     </div>
-    <?php include_once('./templates/tradebrand.php');?>
+    <section class="section brand">
+        <div class="container">
+            <div class="cards-brand">
+                <a href="./agtech.php" class="card-brand">
+                    <picture class="card-image-brand">
+                    <source type="image/webp" srcset="./img/AGTECHA.webp">
+                    <source type="image/png" srcset="./img/AGTECHA.png">
+                    <img src="./img/AGTECHA.png" alt="Автохимия AG-Tech" class="image-scale">
+                    </picture>
+                    <h3 class="card-title-brand">Автохимия AG-Tech</h3>
+                    <p class="card-text-brand">Для современного мира разбавленное изрядной долей эмпатии,
+                        рациональное
+                        мышление создаёт предпосылки для поставленных обществом задач.</p>
+                </a>
+                <div class="card-brand">
+                    <picture class="card-image-brand">
+                    <source type="image/webp" srcset="./img/APA.webp">
+                    <source type="image/png" srcset="./img/APA.png">
+                    <img src="./img/APA.png" alt="Автохимия AP" class="image-scale">
+                    </picture>
+                    <h3 class="card-title-brand">Автохимия AP</h3>
+                    <p class="card-text-brand">Для современного мира разбавленное изрядной долей
+                        эмпатии,
+                        рациональное
+                        мышление создаёт предпосылки для поставленных обществом задач.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="cta cta-alt">
         <div class="bg-grey section-cta">
         <picture class="cta-image">

@@ -58,30 +58,174 @@ body {
     margin-top: 108px !important;
 }
 
-.swiper-pagination-bullet {
+.social-line-item {
+    padding: 13px;
+    border-radius: 0;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #EBEBF0;
+    display: flex;
+    align-items: center;
+}
+
+.social-line-item-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.blog-more-section {
+    margin-left: 240px !important;
+    margin-right: 240px;
+    margin-top: 100px !important;
+}
+
+.social-line-item-active {
+    margin-right: 0 !important;
+}
+
+.blog-more-content-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blog-more-content {
+    max-width: 1000px;
+    width: 960px;
+    margin-right: -20px;
+}
+
+.blog-more-title {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 160%;
+    color: #292D33;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.blog-more-text {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #292D33;
+    margin: 0;
+}
+
+.blog-more-text-beta {
+    margin-top: 22px;
+}
+
+.social-content {
+    position: absolute;
+    max-width: 280px;
+}
+
+.social-line {
+    display: flex;
+    gap: 10px;
+}
+
+.share-text {
+    font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 160%;
-    text-align: center;
-    color: #292D33;
-    padding: 10px 10px;
-    border-radius: 0;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 30px;
-    color: #000;
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.0);
-    margin-left: -10px;
+    color: #828A99;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 
-.swiper-pagination-bullet-active {
+.blog-more-title-second {
+    font-size: 28px;
+}
+
+.blog-more-title-third {
+    font-size: 20px;
+}
+
+.link-like {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.link-like:before {
+    content: '';
+    height: .0625rem;
+    background: #5c8ee6;
+    width: 16px;
+    margin: 13px;
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.link-like-alt {
+    margin-bottom: 10px;
+}
+
+.blog-number-list {
+    width: 965px;
+    list-style: none;
+    counter-reset: num;
+}
+
+.blog-more-slider {
+    margin-top: 137px !important;
+    margin-bottom: 224px !important;
+}
+
+.blog-more-section {
+    margin-bottom: 0 !important;
+}
+
+.blog-third-wrapper {
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.blog-number-list .link-like-alt {
+    counter-increment: num;
+}
+
+.blog-number-list .link-like-alt::before {
+    content: "0" counter(num) ". ";
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #5C8EE6;
+    margin-right: 10px;
+}
+
+.blog-number-list {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.blog-second-wrapper {
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.blog-more-image {
+    position: relative;
+    width: 960px;
+    left: 20px;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet-active,
+.social-line-item-active {
     border: solid 1px #5c8ee5;
     color: #5C8EE5;
     margin-right: 25px;
 }
+
 
 .swiper-pagination {
     position: absolute;
@@ -1209,6 +1353,32 @@ body {
     background-position: bottom right 225px
 }
 
+.header-color-alt {
+    color: white !important;
+}
+
+.header-color-alt:before {
+    background: white !important;
+}
+
+.bg-blog-more {
+    background-image: url(/img/pexels-pixabay-2086611.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom -420px;
+}
+
+.bg-blog-more:before {
+    content: '';
+    position: absolute;
+    background: rgba(41, 45, 51, .6);
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+}
+
 .just-validate-error-label {
     position: absolute;
     top: 0;
@@ -1456,7 +1626,7 @@ body {
     height: .0625rem;
     background: #828a99;
     width: 14px;
-    margin: 10px 10px;
+    margin: 13px 10px;
 }
 
 .contract-title {

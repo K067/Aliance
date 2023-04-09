@@ -185,7 +185,7 @@ $header_style='bg-grey';?>
         <div class="container">
             <div class="swiper slider-blog-set">
                 <div class="swiper-wrapper">
-                     <a href="#" class="swiper-slide blog-card blog-card-main">
+                     <a href="./blog-more.php" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
@@ -195,7 +195,7 @@ $header_style='bg-grey';?>
                         <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
                             экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
+                    <a href="./blog-more.php" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
                     <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
@@ -209,7 +209,7 @@ $header_style='bg-grey';?>
             </div>
             <div class="swiper slider-blog-set">
                 <div class="swiper-wrapper">
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
+                    <a href="./blog-more.php" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
                     <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
@@ -219,7 +219,7 @@ $header_style='bg-grey';?>
                         <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
                             разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
-                     <a href="#" class="swiper-slide blog-card blog-card-main">
+                     <a href="./blog-more.php" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
@@ -233,7 +233,7 @@ $header_style='bg-grey';?>
             </div>
             <div class="swiper slider-blog-set">
                 <div class="swiper-wrapper">
-                     <a href="#" class="swiper-slide blog-card blog-card-main">
+                     <a href="./blog-more.php" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
@@ -243,7 +243,7 @@ $header_style='bg-grey';?>
                         <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
                             экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
+                    <a href="./blog-more.php" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
                     <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
@@ -257,7 +257,7 @@ $header_style='bg-grey';?>
             </div>
             <div class="swiper slider-blog-set">
                 <div class="swiper-wrapper">
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
+                    <a href="./blog-more.php" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
                     <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
@@ -267,7 +267,7 @@ $header_style='bg-grey';?>
                         <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
                             разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
-                     <a href="#" class="swiper-slide blog-card blog-card-main">
+                     <a href="./blog-more.php" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
@@ -281,7 +281,7 @@ $header_style='bg-grey';?>
             </div>
             <div class="swiper slider-blog-set">
                 <div class="swiper-wrapper">
-                     <a href="#" class="swiper-slide blog-card blog-card-main">
+                     <a href="./blog-more.php" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
                     <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
@@ -291,7 +291,7 @@ $header_style='bg-grey';?>
                         <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
                             экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
-                    <a href="#" class="swiper-slide blog-card blog-card-main">
+                    <a href="./blog-more.php" class="swiper-slide blog-card blog-card-main">
                     <picture class="blog-image">
                     <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
                     <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">

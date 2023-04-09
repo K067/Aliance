@@ -2011,6 +2011,10 @@ html {
         display: block
     }
 
+    .header-image {
+        background-position: center bottom 0px;
+    }
+
     .crutch-slider-one,
     .cta-image,
     .header-nav,

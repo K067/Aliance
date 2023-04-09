@@ -127,8 +127,8 @@ $header_style='bg-grey';?>
                 <div class="separator"></div>
                 <h1 class="section-title title-about"><?=$page_title?></h1>
                 <div class="abyss-links">
-                    <a href="./" class="that-links link-one">Главная</a>
-                    <a href="#" class="that-links alpha-link link-two"><?=$page_title?></a>
+                    <a href="./" class="that-links">Главная</a>
+                    <a href="#" class="that-links alpha-link"><?=$page_title?></a>
                 </div>
             </div>
         </div>

@@ -133,7 +133,7 @@ $header_style='bg-grey';?>
                 </h1>
                 <div class="abyss-links">
                     <a href="./" class="that-links">Главная</a>
-                    <a href="#" class="that-links alpha-link link-one">
+                    <a href="#" class="that-links alpha-link">
                         <?=$page_title?>
                     </a>
                 </div>

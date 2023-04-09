@@ -1,7 +1,9 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-top">
-                <img src="./img/logo-dark.svg" alt="Aliance Production" class="logo-footer">
+                <a href="./">
+                    <img src="./img/logo-dark.svg" alt="Aliance Production" class="logo-footer">
+                </a>
                 <a href="tel:+78006861014" class="footer-phone">
                     +7 (800) 686-10-14
                 </a>

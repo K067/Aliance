@@ -2377,7 +2377,6 @@ body {
     }
 
     .cta-form {
-        margin-left: -5px;
         max-width: 345px;
     }
 
@@ -2703,6 +2702,10 @@ body {
             display: block;
         }
 
+        .founder-content-wrapper {
+            justify-content: center;
+        }
+
         .third {
             display: none;
         }
@@ -2849,7 +2852,7 @@ body {
 
         .slider-blog-set,
         .slider-blog {
-            width: auto;
+            width: 340px;
             margin-bottom: 14px;
         }
 
@@ -2959,7 +2962,7 @@ body {
         }
 
         .cards-brand {
-            width: 345px;
+            max-width: 500px;
             height: 538px
         }
 
@@ -3111,6 +3114,46 @@ body {
 
         .seo-wrapper {
             width: 345px;
+        }
+    }
+
+    @media(max-width:350px) {
+        .navbar-logo {
+            padding: 1.5625rem 2.625rem;
+        }
+
+        .logo-light {
+            max-width: 100px;
+        }
+
+        .header-button {
+            padding: 1.925rem 5rem;
+        }
+
+        .founder-text {
+            width: 290px;
+        }
+
+        .blog-card-main {
+            min-height: 164px !important;
+        }
+
+        .blog-card-title {
+            margin-bottom: 0;
+        }
+
+        .cta-form {
+            margin-left: 5px;
+            max-width: 290px;
+        }
+
+        .cta-form-button {
+            width: 290px;
+        }
+
+        .slider-blog-set,
+        .slider-blog {
+            width: auto;
         }
     }
 }

@@ -58,6 +58,28 @@ body {
     margin-top: 108px !important;
 }
 
+.swiper-pagination-bullet {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 0;
+    width: 50px;
+    height: 50px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.0);
+    margin-left: -8px;
+}
+
+.swiper-pagination-bullet-active {
+    border: solid 1px #5c8ee5;
+    color: #5C8EE5;
+    margin-right: 15px !important;
+}
+
 .social-line-item {
     padding: 13px;
     border-radius: 0;
@@ -98,7 +120,7 @@ body {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 160%;
     color: #292D33;
     margin: 0;
@@ -109,7 +131,7 @@ body {
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 160%;
     color: #292D33;
     margin: 0;
@@ -141,11 +163,11 @@ body {
 }
 
 .blog-more-title-second {
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .blog-more-title-third {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .link-like {
@@ -171,6 +193,7 @@ body {
     width: 965px;
     list-style: none;
     counter-reset: num;
+    margin-bottom: 0;
 }
 
 .blog-more-slider {
@@ -528,7 +551,7 @@ body {
 }
 
 .blog-beta {
-    margin-top: 100px !important;
+    margin-top: 50px !important;
     padding: 0 !important;
 }
 
@@ -536,6 +559,10 @@ body {
     margin-top: 9.375rem;
     margin-bottom: 9.375rem;
     margin-left: 15px;
+}
+
+.crutch-slider {
+    display: none
 }
 
 .section-title {
@@ -1366,6 +1393,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center bottom -420px;
+    position: relative;
 }
 
 .bg-blog-more:before {
@@ -1376,7 +1404,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 35%;
+    height: 100%;
 }
 
 .just-validate-error-label {
@@ -1651,6 +1679,10 @@ body {
     margin-top: 0;
 }
 
+.crutch-social {
+    display: none;
+}
+
 @media(max-width:1700px) {
     html {
         font-size: 14px
@@ -1658,6 +1690,10 @@ body {
 
     .general-lay {
         max-width: 660px;
+    }
+
+    .bg-blog-more {
+        background-position: center bottom -321px;
     }
 
     .general-image,
@@ -1735,6 +1771,15 @@ body {
     .general-image,
     .another-crutch-image {
         width: 870px;
+    }
+
+    .bg-blog-more {
+        background-position: center bottom -227px
+    }
+
+    .blog-more-section {
+        margin-left: 100px !important;
+        margin-right: 100px;
     }
 
     .blog-card-main {
@@ -1826,8 +1871,30 @@ body {
         display: none
     }
 
+    .bg-blog-more {
+        background-position: center bottom -24px
+    }
+
+    .blog-more-image {
+        left: 0;
+    }
+
+    .blog-more-content-wrapper {
+        justify-content: center;
+    }
+
     .blog-card-main {
         min-height: 249px !important;
+    }
+
+    .crutch-social {
+        position: relative;
+        display: block !important;
+        margin-top: 50px;
+    }
+
+    .social-content {
+        display: none;
     }
 
     .general-image,
@@ -1934,7 +2001,16 @@ body {
         line-height: 160%
     }
 
-    .slider-blog-set {
+    .crutch-slider {
+        display: block;
+    }
+
+    .crutch-slider-one {
+        display: none;
+    }
+
+    .slider-blog-set,
+    .slider-blog {
         width: 439px;
     }
 
@@ -1962,6 +2038,14 @@ body {
         height: auto;
         left: 80px;
         top: 0;
+    }
+
+    .blog-more-section {
+        margin-left: 0 !important;
+    }
+
+    .blog-number-list {
+        max-width: 800px;
     }
 
     .bg-image-auto {
@@ -2574,6 +2658,10 @@ body {
             margin: 10px 10px;
         }
 
+        .link-one-alt:after {
+            background: white !important;
+        }
+
         .link-two:before {
             content: "";
             height: .0625rem;
@@ -2602,7 +2690,8 @@ body {
             margin-top: -20px !important;
         }
 
-        .slider-blog-set {
+        .slider-blog-set,
+        .slider-blog {
             width: auto;
             margin-bottom: 14px;
         }

@@ -5,7 +5,7 @@ $header_style='bg-blog-more';?>
 <!DOCTYPE html>
 <html lang="ru">
 
-    <head>
+<head>
     <script src="./js/swiper-bundle.min.js" defer></script>
     <script src="./js/just-validate.production.min.js" defer></script>
     <script src="./js/unversalMegaScript.js" defer></script>
@@ -15,25 +15,27 @@ $header_style='bg-blog-more';?>
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-    <title><?=$page_title?> - Aliance Production</title>
-    </head>
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>
+        <?=$page_title?> - Aliance Production
+    </title>
+</head>
 
-    <body>
+<body>
     <div class="mobile-menu">
         <ul class="mobile-menu-nav">
             <li class="mobile-menu-nav-item">
@@ -94,7 +96,7 @@ $header_style='bg-blog-more';?>
             <img src="./img/logo-light.svg" alt="Aliance Production" class="logo-light">
         </a>
         <ul class="header-nav">
-        <li class="header-nav-item">
+            <li class="header-nav-item">
                 <a href="/about.php" class="header-nav-link">О компании</a>
             </li>
             <li class="header-nav-item">
@@ -125,11 +127,15 @@ $header_style='bg-blog-more';?>
         <div class="container">
             <div class="header-content header-about-beta crutch header-blog">
                 <div class="separator"></div>
-                <h1 class="section-title title-about header-color-alt"><?=$page_title?></h1>
+                <h1 class="section-title title-about header-color-alt">
+                    <?=$page_title?>
+                </h1>
                 <div class="abyss-links">
-                <a href="./" class="that-links header-color-alt">Главная</a>
-                    <a href="./news.php" class="that-links alpha-link link-one header-color-alt">Блог</a>
-                    <a href="#" class="that-links alpha-link link-two header-color-alt"><?=$page_title?></a>
+                    <a href="./" class="that-links header-color-alt">Главная</a>
+                    <a href="./news.php" class="that-links alpha-link link-one link-one-alt header-color-alt">Блог</a>
+                    <a href="#" class="that-links alpha-link link-two header-color-alt">
+                        <?=$page_title?>
+                    </a>
                 </div>
             </div>
         </div>
@@ -171,23 +177,24 @@ $header_style='bg-blog-more';?>
     <div class="modal application">
         <div class="modal-form-wrapper application-wrapper">
             <img src="./img/thanks_illu.svg" alt="thanks-image" class="thanks">
-          <div class="application-content">
-              <h2 class="modal-title">Спасибо за заявку!</h2>
-              <a href="#" class="modal-close">
-                  <img src="./img/close.svg" alt="close" class="close-button">
+            <div class="application-content">
+                <h2 class="modal-title">Спасибо за заявку!</h2>
+                <a href="#" class="modal-close">
+                    <img src="./img/close.svg" alt="close" class="close-button">
                 </a>
                 <p class="modal-text">
-                    Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+                    Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в
+                    самых сложных случаях!
                 </p>
                 <button type="submit" class="button button-back">Вернуться на главную</button>
             </div>
         </div>
-    </div> 
+    </div>
     <section class="section blog-more-section">
-    <div class="social-content">
-<p class="share-text">Поделиться:</p>
-        <div class="social-line">
-            <a href="" class="social-line-item">
+        <div class="social-content">
+            <p class="share-text">Поделиться:</p>
+            <div class="social-line">
+                <a href="" class="social-line-item">
                     <img class="social-line-item-icon" src="./img/social/vk.svg" alt="social-icon">
                 </a>
                 <a href="" class="social-line-item social-line-item-active">
@@ -200,98 +207,162 @@ $header_style='bg-blog-more';?>
                     <img class="social-line-item-icon" src="./img/social/google-plus.svg" alt="social-icon">
                 </a>
             </div>
-        </div>        
-            <div class="container">
+        </div>
+        <div class="container">
             <div class="blog-more-content-wrapper">
                 <div class="blog-more-content">
                     <h2 class="blog-more-title">Реализация намеченных плановых заданий</h2>
-                    <p class="blog-more-text">Значимость этих проблем настолько очевидна, что постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенности же укрепление и развитие структуры в значительной степени обуславливает создание форм развития. С другой стороны укрепление и развитие структуры способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач.
+                    <p class="blog-more-text">Значимость этих проблем настолько очевидна, что постоянное
+                        информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы
+                        обучения кадров, соответствует насущным потребностям. Задача организации, в особенности же
+                        укрепление и развитие структуры в значительной степени обуславливает создание форм развития. С
+                        другой стороны укрепление и развитие структуры способствует подготовки и реализации системы
+                        обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что
+                        укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким
+                        образом начало повседневной работы по формированию позиции позволяет выполнять важные задания по
+                        разработке позиций, занимаемых участниками в отношении поставленных задач.
                     </p>
-                 </div>
+                </div>
             </div>
             <div class="blog-more-content-wrapper blog-second-wrapper">
                 <div class="blog-more-content">
-                    <h3 class="blog-more-title blog-more-title-second">Равным образом консультация с широким активом</h3>
-                    <p class="blog-more-text blog-more-text-beta">Таким образом постоянный количественный рост и сфера нашей активности позволяет оценить значение дальнейших направлений развития. Разнообразный и богатый опыт реализация намеченных плановых заданий влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. С другой стороны консультация с широким активом позволяет оценить значение форм развития. Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке соответствующий условий активизации. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании соответствующий условий активизации.</p>
-                        <p class="blog-more-text blog-more-text-beta">С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации систем массового участия. Равным образом консультация с широким активом в значительной степени обуславливает создание дальнейших направлений развития. Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации дальнейших направлений развития.</p>
-                        <p class="blog-more-text blog-more-text-beta">Разнообразный и богатый опыт начало повседневной работы по формированию позиции позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Задача организации, в особенности же постоянный <a href="">количественный рост</a> и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.</p>
+                    <h3 class="blog-more-title blog-more-title-second">Равным образом консультация с широким активом
+                    </h3>
+                    <p class="blog-more-text blog-more-text-beta">Таким образом постоянный количественный рост и сфера
+                        нашей активности позволяет оценить значение дальнейших направлений развития. Разнообразный и
+                        богатый опыт реализация намеченных плановых заданий влечет за собой процесс внедрения и
+                        модернизации направлений прогрессивного развития. С другой стороны консультация с широким
+                        активом позволяет оценить значение форм развития. Идейные соображения высшего порядка, а также
+                        постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять
+                        важные задания по разработке соответствующий условий активизации. Разнообразный и богатый опыт
+                        дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов)
+                        участие в формировании соответствующий условий активизации.</p>
+                    <p class="blog-more-text blog-more-text-beta">С другой стороны рамки и место обучения кадров влечет
+                        за собой процесс внедрения и модернизации систем массового участия. Равным образом консультация
+                        с широким активом в значительной степени обуславливает создание дальнейших направлений развития.
+                        Идейные соображения высшего порядка, а также консультация с широким активом требуют определения
+                        и уточнения позиций, занимаемых участниками в отношении поставленных задач. Равным образом
+                        дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации
+                        дальнейших направлений развития.</p>
+                    <p class="blog-more-text blog-more-text-beta">Разнообразный и богатый опыт начало повседневной
+                        работы по формированию позиции позволяет оценить значение позиций, занимаемых участниками в
+                        отношении поставленных задач. Разнообразный и богатый опыт реализация намеченных плановых
+                        заданий позволяет выполнять важные задания по разработке форм развития. Задача организации, в
+                        особенности же постоянный <a href="">количественный рост</a> и сфера нашей активности
+                        обеспечивает широкому кругу (специалистов) участие в формировании форм развития.</p>
                     </p>
-                 </div>
-                 <picture class="blog-more-image">
-                             <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                             <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                             <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                             </picture>
                 </div>
-        </div>
-        <div class="blog-more-content-wrapper blog-second-wrapper">
-            <div class="blog-more-content">
-                        <h3 class="blog-more-title blog-more-title-third">Равным образом консультация с широким активом</h3>
-                        <p class="blog-more-text link-like">Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций.</p>
-                        <p class="blog-more-text link-like">С другой стороны консультация с широким активом позволяет оценить значение форм развития.</p>
-                        <p class="blog-more-text link-like">Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет выполнять важные задания.</p>
+                <picture class="blog-more-image">
+                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
+                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
+                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
+                </picture>
+            </div>
+            <div class="blog-more-content-wrapper blog-second-wrapper">
+                <div class="blog-more-content">
+                    <h3 class="blog-more-title blog-more-title-third">Равным образом консультация с широким активом:</h3>
+                    <p class="blog-more-text link-like">Идейные соображения высшего порядка, а также консультация с
+                        широким активом требуют определения и уточнения позиций.</p>
+                    <p class="blog-more-text link-like">С другой стороны консультация с широким активом позволяет
+                        оценить значение форм развития.</p>
+                    <p class="blog-more-text link-like">Разнообразный и богатый опыт реализация намеченных плановых
+                        заданий позволяет выполнять важные задания.</p>
+                </div>
+            </div>
+            <div class="blog-more-content-wrapper blog-third-wrapper">
+                <div class="blog-more-content container">
+                    <h3 class="blog-more-title blog-more-title-second">Равным образом консультация с широким активом
+                    </h3>
+                    <p class="blog-more-text blog-more-text-beta">С другой стороны рамки и место обучения кадров влечет
+                        за собой процесс внедрения и модернизации систем массового участия. <b>Равным образом
+                            консультация</b> с широким активом в значительной степени обуславливает создание дальнейших
+                        направлений развития. Идейные соображения высшего порядка, а также консультация с широким
+                        активом требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных
+                        задач. Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс
+                        внедрения и модернизации дальнейших направлений развития.</p>
+                    <ol class="blog-number-list">
+                        <li class="blog-more-text link-like-alt">Идейные соображения высшего порядка, а также
+                            консультация с широким активом требуют определения и уточнения позиций.</li>
+                        <li class="blog-more-text link-like-alt">С другой стороны консультация с широким активом
+                            позволяет оценить значение форм развития.</li>
+                        <li class="blog-more-text link-like-alt">Разнообразный и богатый опыт реализация намеченных
+                            плановых заданий позволяет выполнять важные задания.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="social-content crutch-social">
+                <p class="share-text">Поделиться:</p>
+                <div class="social-line">
+                    <a href="" class="social-line-item">
+                        <img class="social-line-item-icon" src="./img/social/vk.svg" alt="social-icon">
+                    </a>
+                    <a href="" class="social-line-item social-line-item-active">
+                        <img class="social-line-item-icon" src="./img/social/facebook.svg" alt="social-icon">
+                    </a>
+                    <a href="" class="social-line-item">
+                        <img class="social-line-item-icon" src="./img/social/twitter.svg" alt="social-icon">
+                    </a>
+                    <a href="" class="social-line-item">
+                        <img class="social-line-item-icon" src="./img/social/google-plus.svg" alt="social-icon">
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="blog-more-content-wrapper blog-third-wrapper">
-                <div class="blog-more-content">
-                    <h3 class="blog-more-title blog-more-title-second">Равным образом консультация с широким активом</h3>
-                    <p class="blog-more-text blog-more-text-beta">С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации систем массового участия. Равным образом консультация с широким активом в значительной степени обуславливает создание дальнейших направлений развития. Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации дальнейших направлений развития.</p>
-                    <ol class="blog-number-list">
-                        <li class="blog-more-text link-like-alt">Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций.</li>
-                        <li class="blog-more-text link-like-alt">С другой стороны консультация с широким активом позволяет оценить значение форм развития.</li>
-                        <li class="blog-more-text link-like-alt">Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет выполнять важные задания.</li>
-                    </ol>    
-                 </div>
+        </div>
     </section>
-        <section class="section blog-more-slider">
+    <section class="section blog-more-slider">
         <div class="container">
             <div class="separator"></div>
             <h2 class="section-title">Так же вас может заинтересовать:</h2>
             <div class="swiper slider-blog">
                 <div class="swiper-wrapper">
                     <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
+                        <picture class="blog-image">
+                            <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
+                            <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
+                            <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
+                        </picture>
                         <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
+                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br>
+                            непростую
                             экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
                     <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
+                        <picture class="blog-image">
+                            <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
+                            <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
+                            <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
+                        </picture>
                         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
+                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса
+                            функционально<br>
                             разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
                     <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
-                    <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
-                    <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
-                    </picture>
+                        <picture class="blog-image">
+                            <source type="image/webp" srcset="./img/pexels-tima-miroshnichenko-9574410-2.webp">
+                            <source type="image/png" srcset="./img/pexels-tima-miroshnichenko-9574410-2.png">
+                            <img src="./img/pexels-tima-miroshnichenko-9574410-2.png" alt="blog" class="image-scale">
+                        </picture>
                         <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
-                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br> непростую
+                        <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся<br>
+                            непростую
                             экономическую ситуацию, в равной степени предоставлены...</p>
                     </a>
                     <a href="#" class="swiper-slide blog-card blog-card-main">
-                    <picture class="blog-image">
-                    <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
-                    <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
-                    <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
-                    </picture>
+                        <picture class="blog-image">
+                            <source type="image/webp" srcset="./img/pexels-pixabay-2086611.webp">
+                            <source type="image/png" srcset="./img/pexels-pixabay-2086611.png">
+                            <img src="./img/pexels-pixabay-2086611.png" alt="blog" class="image-scale">
+                        </picture>
                         <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
-                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально<br>
+                        <p class="blog-card-text">Сложно сказать, почему элементы политического процесса
+                            функционально<br>
                             разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
                     </a>
                 </div>
                 <div class="blog-slider-footer">
-                <div></div>
+                    <div></div>
                     <div class="blog-buttons main-buttons">
                         <div class="blog-button-prev main-button-prev"><img src="./img/arrow-left.svg" alt="left"
                                 class="main-arrow-literally">
@@ -305,11 +376,11 @@ $header_style='bg-blog-more';?>
     </section>
     <section class="cta">
         <div class="bg-grey section-cta">
-        <picture class="cta-image">
-        <source type="image/webp" srcset="./img/__400-1.webp">
-        <source type="image/png" srcset="./img/__400-1.png">
-        <img src="./img/__400-1.png" alt="cta" class="image-scale">
-        </picture>
+            <picture class="cta-image">
+                <source type="image/webp" srcset="./img/__400-1.webp">
+                <source type="image/png" srcset="./img/__400-1.png">
+                <img src="./img/__400-1.png" alt="cta" class="image-scale">
+            </picture>
             <div class="cta-form-wrapper container">
                 <form action="./handler.php" class="cta-form" id="cta">
                     <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
@@ -340,7 +411,7 @@ $header_style='bg-blog-more';?>
             </div>
         </div>
     </section>
-<?php include_once('footer.php')?>
+    <?php include_once('footer.php')?>
     <div class="modal">
         <div class="modal-form-wrapper">
             <h2 class="modal-title">Есть вопросы?</h2>
@@ -378,17 +449,19 @@ $header_style='bg-blog-more';?>
     <div class="modal application">
         <div class="modal-form-wrapper application-wrapper">
             <img src="./img/thanks_illu.svg" alt="thanks-image" class="thanks">
-          <div class="application-content">
-              <h2 class="modal-title">Спасибо за заявку!</h2>
-              <a href="#" class="modal-close">
-                  <img src="./img/close.svg" alt="close" class="close-button">
+            <div class="application-content">
+                <h2 class="modal-title">Спасибо за заявку!</h2>
+                <a href="#" class="modal-close">
+                    <img src="./img/close.svg" alt="close" class="close-button">
                 </a>
                 <p class="modal-text">
-                    Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+                    Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в
+                    самых сложных случаях!
                 </p>
                 <button type="submit" class="button button-back">Вернуться на главную</button>
             </div>
         </div>
     </div>
-    </body>
+</body>
+
 </html>

@@ -2,19 +2,35 @@
 @import url(swiper-bundle.min.css);
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap);
 
+.button,
+.button-text,
+.swiper-pagination-bullet {
+    font-weight: 600;
+    line-height: 160%
+}
+
+.blog-card,
+.button-fold,
+.button-link,
+.card,
+.card-brand,
+.footer-info,
+.footer-info-property,
+.footer-menu-link,
+.footer-menu-link-bold,
+.footer-social-link,
+.that-links {
+    text-decoration: none
+}
+
 body {
     overflow-x: hidden;
+    font-family: 'Noto Sans', sans-serif
 }
 
 .image-scale {
     max-height: 100%;
-    width: 100%;
-}
-
-.button,
-.button-text {
-    font-weight: 600;
-    line-height: 160%
+    width: 100%
 }
 
 .footer-phone,
@@ -38,46 +54,56 @@ html {
     font-style: normal
 }
 
-body {
-    font-family: 'Noto Sans', sans-serif
+.another-crutch-image,
+.crutch-image,
+.crutch-slider,
+.crutch-social,
+.crutch-title,
+.mobile-menu,
+.mobile-menu-toggle,
+.navbar-button .button-icon,
+.steps-buttons,
+.third-crutch {
+    display: none
 }
 
-.crutch-title {
-    display: none;
-}
-
-.crutch {
-    left: 10px;
+.crutch,
+.slider-features {
+    left: 10px
 }
 
 .slider-blog-set {
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
 .blog-pagination-footer {
-    margin-top: 108px !important;
+    margin-top: 108px !important
 }
 
 .swiper-pagination-bullet {
     font-style: normal;
-    font-weight: 600;
     font-size: 16px;
-    line-height: 160%;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px;
     border-radius: 0;
     width: 50px;
     height: 50px;
     color: #000;
     opacity: 1;
-    background: rgba(0, 0, 0, 0.0);
-    margin-left: -8px;
+    background: rgba(0, 0, 0, 0);
+    margin-left: -8px
+}
+
+.blog-more-text,
+.blog-more-title {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: #292d33
 }
 
 .swiper-pagination-bullet-active {
-    border: solid 1px #5c8ee5;
-    color: #5C8EE5;
-    margin-right: 15px !important;
+    margin-right: 15px !important
 }
 
 .social-line-item {
@@ -85,93 +111,100 @@ body {
     border-radius: 0;
     width: 50px;
     height: 50px;
-    border: 1px solid #EBEBF0;
+    border: 1px solid #ebebf0;
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .social-line-item-icon {
     width: 24px;
-    height: 24px;
+    height: 24px
 }
 
 .blog-more-section {
     margin-left: 240px !important;
     margin-right: 240px;
-    margin-top: 100px !important;
+    margin-top: 100px !important
 }
 
 .social-line-item-active {
-    margin-right: 0 !important;
+    margin-right: 0 !important
 }
 
-.blog-more-content-wrapper {
+.blog-more-content-wrapper,
+.founder-content-wrapper {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-end
 }
 
 .blog-more-content {
     width: 960px;
-    margin-right: -20px;
+    margin-right: -20px
 }
 
 .blog-more-title {
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 2.25rem;
     line-height: 160%;
-    color: #292D33;
-    margin: 0;
-    margin-bottom: 20px;
+    margin: 0 0 20px
 }
 
 .blog-more-text {
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 1rem;
     line-height: 160%;
-    color: #292D33;
-    margin: 0;
+    margin: 0
+}
+
+.blog-number-list .link-like-alt::before,
+.share-text {
+    font-family: 'Noto Sans';
+    font-weight: 600;
+    line-height: 160%;
+    font-style: normal
 }
 
 .blog-more-text-beta {
-    margin-top: 22px;
+    margin-top: 22px
 }
 
 .social-content {
     position: absolute;
-    max-width: 280px;
+    max-width: 280px
 }
 
 .social-line {
     display: flex;
-    gap: 10px;
+    gap: 10px
 }
 
 .share-text {
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 1rem;
-    line-height: 160%;
-    color: #828A99;
+    color: #828a99;
     margin-bottom: 20px;
-    margin-top: 0;
+    margin-top: 0
+}
+
+.header-title,
+.modal-title,
+.section-title,
+.steps-num {
+    font-family: 'Bebas Neue Book'
+}
+
+.link-like,
+.link-like-alt {
+    margin-bottom: 10px
 }
 
 .blog-more-title-second {
-    font-size: 1.75rem;
+    font-size: 1.75rem
 }
 
 .blog-more-title-third {
-    font-size: 1.25rem;
+    font-size: 1.25rem
 }
 
 .link-like {
-    display: flex;
-    margin-bottom: 10px;
+    display: flex
 }
 
 .link-like:before {
@@ -179,59 +212,50 @@ body {
     height: .0625rem;
     background: #5c8ee6;
     width: 16px;
-    margin: 13px;
-    margin-right: 15px;
-    margin-left: 0;
-}
-
-.link-like-alt {
-    margin-bottom: 10px;
+    margin: 13px 15px 13px 0
 }
 
 .blog-number-list {
     width: 965px;
     list-style: none;
     counter-reset: num;
-    margin-bottom: 0;
+    margin-bottom: 0
 }
 
 .blog-more-slider {
     margin-top: 137px !important;
-    margin-bottom: 224px !important;
+    margin-bottom: 224px !important
 }
 
-.blog-more-section {
-    margin-bottom: 0 !important;
+.blog-more-section,
+.header-blog {
+    margin-bottom: 0 !important
 }
 
 .blog-third-wrapper {
     margin-top: 15px;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .blog-number-list .link-like-alt {
-    counter-increment: num;
+    counter-increment: num
 }
 
 .blog-number-list .link-like-alt::before {
     content: "0" counter(num) ". ";
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 600;
     font-size: 16px;
-    line-height: 160%;
-    color: #5C8EE6;
-    margin-right: 10px;
+    color: #5c8ee6;
+    margin-right: 10px
 }
 
 .blog-number-list {
     padding: 0;
-    margin-top: 20px;
+    margin-top: 20px
 }
 
 .blog-second-wrapper {
     margin-top: 50px;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .blog-more-image {
@@ -239,37 +263,29 @@ body {
     width: 960px;
     left: 20px;
     object-fit: cover;
-    margin-top: 30px;
+    margin-top: 30px
 }
 
-.swiper-pagination-bullet-active,
-.social-line-item-active {
-    border: solid 1px #5c8ee5;
-    color: #5C8EE5;
-    margin-right: 25px;
+.social-line-item-active,
+.swiper-pagination-bullet-active {
+    border: 1px solid #5c8ee5;
+    color: #5c8ee5;
+    margin-right: 25px
 }
-
 
 .swiper-pagination {
     position: absolute;
     bottom: 7px;
     right: 0;
-    margin: 0;
+    margin: 0
 }
 
 .cta-blog {
-    margin-top: 215px !important;
+    margin-top: 215px !important
 }
 
 .mission {
-    display: none !important;
-}
-
-.mobile-menu,
-.mobile-menu-toggle,
-.navbar-button .button-icon,
-.steps-buttons {
-    display: none
+    display: none !important
 }
 
 .navbar,
@@ -295,19 +311,20 @@ body {
     transition: background-color .2s, height .2s
 }
 
+.card,
+.header-content,
+.header-features,
+.header-image,
+.header-nav-link,
+.slider-buttons {
+    position: relative
+}
+
 .header-nav-link,
 .header-phone-link {
     color: inherit;
     font-size: 1rem;
     text-decoration: none
-}
-
-.card,
-.header-content,
-.header-features,
-.header-image,
-.header-nav-link {
-    position: relative
 }
 
 .header,
@@ -436,12 +453,11 @@ body {
     padding-top: 9.375rem;
     margin-bottom: 6.3rem;
     z-index: 1;
-    color: #fff;
+    color: #fff
 }
 
 .header-title {
     max-width: 67.5rem;
-    font-family: 'Bebas Neue Book';
     font-weight: 800;
     font-size: 4.6875rem;
     line-height: 127%;
@@ -496,14 +512,12 @@ body {
 
 .section-title,
 .steps-num {
-    line-height: 120%;
-    font-family: 'Bebas Neue Book'
+    line-height: 120%
 }
 
 .slider-buttons {
     display: none;
-    height: 3.5rem;
-    position: relative;
+    height: 3.5rem
 }
 
 .slider-button-next,
@@ -547,23 +561,15 @@ body {
     height: 20px
 }
 
-.header-blog {
-    margin-bottom: 0 !important;
-}
-
 .blog-beta {
     margin-top: 100px !important;
-    padding: 0 !important;
+    padding: 0 !important
 }
 
 .section {
     margin-top: 9.375rem;
     margin-bottom: 9.375rem;
-    margin-left: 15px;
-}
-
-.crutch-slider {
-    display: none
+    margin-left: 15px
 }
 
 .section-title {
@@ -582,7 +588,7 @@ body {
     list-style: none;
     padding: 0;
     margin: auto;
-    gap: 82px;
+    gap: 82px
 }
 
 .steps-item {
@@ -615,9 +621,9 @@ body {
     width: 6.25rem
 }
 
+.button-fold,
 .button-link,
-.steps-text,
-.button-fold {
+.steps-text {
     font-size: 1rem;
     line-height: 160%
 }
@@ -626,31 +632,40 @@ body {
     font-weight: 400;
     color: #828a99;
     margin-top: -14px;
-    width: 300px;
+    width: 300px
 }
 
-.button-link,
 .button-fold,
+.button-link,
 .card-brand:hover .card-title-brand,
 .card:hover .card-title {
     color: #5c8ee6
 }
 
-.button-link,
-.button-fold {
+.button-fold,
+.button-link {
     display: flex;
     align-items: center;
-    text-decoration: none;
     font-weight: 600
+}
+
+.blog-card-text,
+.blog-card-title,
+.card-text-brand,
+.card-title-brand,
+.clients-list-item,
+.founder-text {
+    font-weight: 400;
+    line-height: 160%
 }
 
 .button-link:before {
     content: "";
-    height: 0.0625rem;
+    height: .0625rem;
     background: #5c8ee6;
     width: 3.2rem;
     margin-right: 1.4rem;
-    transition: width .2s;
+    transition: width .2s
 }
 
 .button-fold:before {
@@ -658,7 +673,7 @@ body {
     background-image: url("/img/icons/load.svg");
     width: 24px;
     height: 24px;
-    margin-right: 15px;
+    margin-right: 15px
 }
 
 .button-link:hover:before {
@@ -675,7 +690,6 @@ body {
 
 .card {
     min-height: 37rem;
-    text-decoration: none;
     flex-basis: 33%;
     border: .0625rem solid #ebebf0;
     transition: border .2s
@@ -722,7 +736,6 @@ body {
 
 .card-brand {
     padding: 3.163rem;
-    text-decoration: none;
     flex-basis: 50%;
     border: 1px solid #ebebf0;
     transition: border .2s;
@@ -740,9 +753,7 @@ body {
 
 .card-title-brand {
     grid-area: b;
-    font-weight: 400;
     font-size: 1.75rem;
-    line-height: 160%;
     color: #292d33;
     margin: 0
 }
@@ -750,9 +761,7 @@ body {
 .card-text-brand,
 .founder-text {
     color: #828a99;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 160%
+    font-size: 1rem
 }
 
 .card-text-brand {
@@ -762,7 +771,7 @@ body {
 }
 
 .cta-main {
-    margin-top: 10.775rem !important;
+    margin-top: 10.775rem !important
 }
 
 .production {
@@ -793,11 +802,6 @@ body {
     padding-right: 100px
 }
 
-.founder-content-wrapper {
-    display: flex;
-    justify-content: flex-end
-}
-
 .founder-text {
     margin-top: -25px
 }
@@ -819,9 +823,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1.25rem;
-    font-weight: 400;
     font-size: 1rem;
-    line-height: 160%;
     color: #292d33;
     padding-top: 20px
 }
@@ -852,7 +854,7 @@ body {
     justify-content: center;
     padding: 1rem;
     cursor: pointer;
-    height: 160px;
+    height: 160px
 }
 
 .clients-logo:hover {
@@ -870,7 +872,6 @@ body {
     position: relative;
     min-height: 400px;
     flex-direction: column;
-    text-decoration: none;
     color: #fff;
     justify-content: flex-end;
     padding: 3.125rem
@@ -892,21 +893,17 @@ body {
 }
 
 .blog-card-title {
-    font-weight: 400;
     font-size: 1.75rem;
-    line-height: 160%;
     margin-bottom: 10px
 }
 
 .blog-card-text {
-    font-weight: 400;
     font-size: 1rem;
-    line-height: 160%;
     margin: 0;
     width: 605px;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis
 }
 
 .blog-image {
@@ -914,17 +911,17 @@ body {
     z-index: -2
 }
 
-.general-image,
-.another-crutch-image {
+.another-crutch-image,
+.general-image {
     position: absolute;
     right: -15px;
     top: 0;
     object-fit: cover;
-    width: 960px;
+    width: 960px
 }
 
-.blog-slider-footer,
-.blog-pagination-footer {
+.blog-pagination-footer,
+.blog-slider-footer {
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -944,7 +941,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 50px;
-    padding: 1.5625rem 3.55rem;
+    padding: 1.5625rem 3.55rem
 }
 
 .button-download:before {
@@ -952,7 +949,7 @@ body {
     background-image: url("/img/icons/download.svg");
     width: 24px;
     height: 24px;
-    margin-right: 15px;
+    margin-right: 15px
 }
 
 .section-cta {
@@ -1102,7 +1099,6 @@ body {
 .footer-info {
     display: flex;
     align-items: center;
-    text-decoration: none;
     font-style: normal;
     color: #292d33;
     gap: 10px;
@@ -1120,8 +1116,16 @@ body {
 
 .footer-info-property {
     font-style: inherit;
-    text-decoration: none;
     color: inherit
+}
+
+.footer-wrapper,
+.modal-title,
+.seo-text,
+.seo-title,
+.text-research,
+.title-about {
+    font-style: normal
 }
 
 .footer-menu-title,
@@ -1138,10 +1142,6 @@ body {
 .footer-phone {
     font-size: 32px;
     margin-left: 160px
-}
-
-.footer-social-link {
-    text-decoration: none
 }
 
 .footer-social-link:last-child {
@@ -1167,7 +1167,6 @@ body {
 }
 
 .footer-menu-link {
-    text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
@@ -1188,7 +1187,6 @@ body {
 }
 
 .footer-menu-link-bold {
-    text-decoration: none;
     display: block;
     font-style: normal;
     font-weight: 600;
@@ -1230,8 +1228,12 @@ body {
 .footer-wrapper {
     padding-top: 5px;
     padding-bottom: 5px;
-    font-style: normal;
     color: #828a99
+}
+
+.modal-title,
+.that-links:last-child {
+    color: #292d33
 }
 
 .footer-legal,
@@ -1246,35 +1248,25 @@ body {
     margin-left: 7px
 }
 
-.slider-features {
-    left: 10px
-}
-
 .modal-title {
-    font-family: 'Bebas Neue Book';
-    font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 120%;
-    color: #292d33;
     margin-top: 0;
     margin-bottom: 20px
+}
+
+.modal-text,
+.span-line,
+.that-links {
+    color: #828a99
 }
 
 .modal-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
-    color: #828a99;
     margin-bottom: 30px
-}
-
-.that-links:last-child {
-    color: #292d33;
-}
-
-.title-about {
-    font-weight: 600
 }
 
 .modal {
@@ -1340,33 +1332,37 @@ body {
 }
 
 .span-line {
-    color: #828a99;
     font-size: 14px;
     margin: 4px 10px
 }
 
-.that-links {
-    color: #828a99;
-}
-
 .title-about {
-    font-style: normal;
-    color: #292d33
-}
-
-.title-about {
+    font-weight: 600;
+    color: #292d33;
     font-size: 80px;
     line-height: 120%;
     margin-top: 22px;
     margin-bottom: 22px
 }
 
+.seo-text,
+.seo-title,
+.text-research,
+.that-links {
+    font-weight: 400
+}
+
+.seo-text,
+.seo-title,
+.text-research,
+.that-links,
+.type-list {
+    line-height: 160%
+}
+
 .that-links {
     display: flex;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 160%
+    font-size: 14px
 }
 
 .header-about-beta {
@@ -1382,15 +1378,15 @@ body {
 }
 
 .header-color-alt {
-    color: white !important;
+    color: #fff !important
 }
 
 .crutch-text {
-    font-size: 14px !important;
+    font-size: 14px !important
 }
 
 .header-color-alt:before {
-    background: white !important;
+    background: #fff !important
 }
 
 .bg-blog-more {
@@ -1398,7 +1394,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center bottom -420px;
-    position: relative;
+    position: relative
 }
 
 .bg-blog-more:before {
@@ -1409,7 +1405,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 
 .just-validate-error-label {
@@ -1428,34 +1424,40 @@ body {
     padding: 40px 50px 20px
 }
 
+.alt-alt,
+.contract-title {
+    padding-right: 0
+}
+
 .about-lay {
     margin-top: 100px;
     margin-bottom: 140px;
-    min-height: 0;
+    min-height: 0
 }
 
 .about-lay-second {
     margin-top: 150px;
     margin-bottom: 297px;
-    min-height: 0;
+    min-height: 0
 }
 
 .about-lay-image {
     width: 480px;
     height: 479px;
-    left: 208px;
+    left: 208px
 }
 
-.about-lay-content {
-    max-width: 840px;
+.about-lay-content,
+.type-text {
+    max-width: 840px
 }
 
 .about-lay-title {
-    width: 600px;
+    width: 600px
 }
 
 .about-lay-wrapper {
-    justify-content: flex-start;
+    justify-content: flex-start
 }
 
 .about-lay-image-second {
@@ -1463,20 +1465,20 @@ body {
     top: 0;
     object-fit: cover;
     right: 223px;
-    height: 125%;
+    height: 125%
 }
 
 .about-lay-content-second {
-    max-width: 720px;
+    max-width: 720px
 }
 
 .text-beta-about {
     margin-top: 22px;
-    margin-bottom: 38px;
+    margin-bottom: 38px
 }
 
 .clients-list-about {
-    gap: 0;
+    gap: 0
 }
 
 .text-research-content {
@@ -1484,88 +1486,78 @@ body {
     column-gap: 30px;
     height: 100%;
     margin-top: 28px;
-    margin-bottom: 50px;
+    margin-bottom: 50px
 }
 
 .text-research {
-    font-style: normal;
-    font-weight: 400;
     font-size: 1rem;
-    line-height: 160%;
-    color: #828A99;
+    color: #828a99;
     width: 635px;
-    margin: 0;
+    margin: 0
 }
 
 .research-title {
     width: 630px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
 
 .slider-research {
     width: 1900px;
-    left: -242px;
+    left: -242px
 }
 
 .research-card {
-    width: 705px !important;
+    width: 705px !important
 }
 
 .research-card::before {
-    background: none;
+    background: 0 0
 }
 
 .research-wrapper {
-    left: -493px;
+    left: -493px
 }
 
 .blog-research {
-    padding: 0;
+    padding: 0
 }
 
 .seo {
-    margin-top: 0 !important;
+    margin-top: 0 !important
 }
 
 .seo-wrapper {
-    max-width: 1439px;
+    max-width: 1439px
 }
 
 .seo-title {
-    font-style: normal;
-    font-weight: 400;
     font-size: 1.75rem;
-    line-height: 160%;
-    color: #292D33;
+    color: #292d33;
     margin-bottom: 0;
-    letter-spacing: -0.7px;
+    letter-spacing: -.7px
 }
 
 .seo-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 1rem;
-    line-height: 160%;
-    color: #828A99;
+    color: #828a99;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
 
 .mg-alt {
     margin-top: 105px;
-    margin-bottom: 100px;
+    margin-bottom: 100px
 }
 
 .cta-alt {
-    margin-top: 224px;
+    margin-top: 224px
 }
 
-.clients {
-    margin-top: 0;
-}
-
-.brand {
-    margin-top: 0;
+.brand,
+.clients,
+.general-lay,
+.research-section {
+    margin-top: 0
 }
 
 .ali-alt {
@@ -1573,81 +1565,63 @@ body {
     position: absolute;
     top: 0;
     object-fit: cover;
-    height: 125%;
+    height: 125%
 }
 
 .crutch-image,
-.another-crutch-image {
-    display: none;
-}
-
-.fi-alt,
-.crutch-image {
+.fi-alt {
     position: absolute;
     right: -15px;
     width: 52.5rem;
     top: 0;
     height: 130%;
-    object-fit: cover;
-}
-
-.alt-alt {
-    padding-right: 0;
+    object-fit: cover
 }
 
 .clients-list-production-type {
     gap: 56px;
     margin-top: 35px;
-    columns: 4 auto;
+    columns: 4 auto
 }
 
 .clients-list-production {
     margin-top: 0;
-    gap: 0;
+    gap: 0
 }
 
 .types {
     margin-top: 150px;
-    margin-bottom: 135px;
+    margin-bottom: 135px
 }
 
 .slider-steps {
     width: 1380px;
-    margin-left: 0;
+    margin-left: 0
 }
 
 .prod-section {
-    margin-bottom: 175px;
-}
-
-.research-section {
-    margin-top: 0;
+    margin-bottom: 175px
 }
 
 .chem-lay-wrapper {
     justify-content: center;
-    margin-left: -60px;
+    margin-left: -60px
 }
 
 .type-content {
     max-width: 1384px !important;
-    width: 1384px;
-}
-
-.type-text {
-    max-width: 840px;
+    width: 1384px
 }
 
 .type-list {
-    gap: 20px;
-    line-height: 160%;
+    gap: 20px
 }
 
 .type-list:before {
     content: "";
     height: .0625rem;
     background: #5c8ee6;
-    width: 16px;
+    width: 16px
 }
 
 .alpha-link:before {
@@ -1655,60 +1629,47 @@ body {
     height: .0625rem;
     background: #828a99;
     width: 14px;
-    margin: 10px 10px;
+    margin: 10px
 }
 
 .contract-title {
-    max-width: 600px;
-    padding-right: 0;
+    max-width: 600px
 }
 
 .contract-alpha {
     margin-top: 100px;
-    margin-bottom: 120px;
+    margin-bottom: 120px
 }
 
 .clients-alt {
     margin-top: -25px;
-    margin-bottom: 276px;
+    margin-bottom: 276px
 }
 
 .general-list-item {
-    padding-top: 15px;
-}
-
-.general-lay {
-    margin-top: 0;
-}
-
-.crutch-social {
-    display: none;
+    padding-top: 15px
 }
 
 .policy-text {
-    margin-bottom: 22px;
+    margin-bottom: 22px
 }
 
 .policy-info {
     max-width: 1440px;
-    width: 1440px;
+    width: 1440px
 }
 
 .policy-section {
-    margin-bottom: 150px !important;
+    margin-bottom: 150px !important
 }
 
 .header-main {
-    margin-left: 10px;
+    margin-left: 10px
 }
 
 .main-sf {
     width: 115% !important;
-    margin-left: -40px !important;
-}
-
-.third-crutch {
-    display: none;
+    margin-left: -40px !important
 }
 
 @media(max-width:1700px) {
@@ -1717,88 +1678,87 @@ body {
     }
 
     .general-lay {
-        max-width: 660px;
+        max-width: 660px
     }
 
     .social-content {
-        left: 20px;
+        left: 20px
     }
 
-    .fi-alt,
-    .crutch-image {
-        right: -20px;
+    .crutch-image,
+    .fi-alt {
+        right: -20px
     }
 
     .about-lay-content-second {
-        max-width: 650px;
+        max-width: 650px
     }
 
     .policy-info {
-        width: auto;
+        width: auto
     }
 
     .bg-blog-more {
-        background-position: center bottom -321px;
+        background-position: center bottom -321px
     }
 
-    .general-image,
-    .another-crutch-image {
-        width: 900px;
+    .another-crutch-image,
+    .general-image {
+        width: 900px
     }
 
     .blog-card-main {
-        min-height: 350px !important;
+        min-height: 350px !important
     }
 
     .ali-alt {
         left: 185px;
-        height: 100%;
+        height: 100%
     }
 
     .chem-lay-wrapper {
-        margin-left: 0;
+        margin-left: 0
     }
 
-
     .about-lay-content {
-        max-width: 46rem;
+        max-width: 46rem
     }
 
     .about-lay-image-second {
         height: 100%;
-        right: 200px;
+        right: 200px
     }
 
     .slider-research {
-        width: 1705px;
+        width: 1705px
     }
 
     .research-card {
-        width: 664px !important;
+        width: 664px !important
     }
 
     .research-wrapper {
-        left: -590px;
+        left: -590px
     }
 
     .about-lay-second {
-        margin-bottom: 150px;
+        margin-bottom: 150px
     }
 
     .footer-top {
-        width: 110%;
+        width: 110%
     }
 
     .text-research {
-        width: 600px;
+        width: 600px
     }
 
     .text-research-content {
-        margin-bottom: 28px;
+        margin-bottom: 28px
     }
 
     .blog-card {
-        min-height: 380px;
+        min-height: 380px
     }
 }
 
@@ -1808,12 +1768,12 @@ body {
     }
 
     .general-title {
-        width: 460px !important;
+        width: 460px !important
     }
 
-    .general-image,
-    .another-crutch-image {
-        width: 870px;
+    .another-crutch-image,
+    .general-image {
+        width: 870px
     }
 
     .bg-blog-more {
@@ -1822,33 +1782,34 @@ body {
 
     .blog-more-section {
         margin-left: 100px !important;
-        margin-right: 100px;
+        margin-right: 100px
     }
 
     .social-line {
-        display: block;
+        display: block
     }
 
     .blog-card-main {
-        min-height: 323px !important;
+        min-height: 323px !important
     }
 
     .steps-text {
-        width: 220px;
+        width: 220px
     }
 
     .chem-production {
-        width: 45%;
+        width: 45%
     }
 
+    .crutch-image,
     .fi-alt,
-    .crutch-image {
-        width: 50%;
+    .founder-image {
+        width: 50%
     }
 
     .ali-alt {
         width: 30%;
-        left: 125px;
+        left: 125px
     }
 
     .header-log {
@@ -1867,10 +1828,6 @@ body {
         margin-right: 2rem
     }
 
-    .founder-image {
-        width: 50%
-    }
-
     .founder-title {
         width: 441px
     }
@@ -1880,46 +1837,51 @@ body {
     }
 
     .about-lay {
-        margin-bottom: 80px;
+        margin-bottom: 80px
     }
 
     .about-lay-image {
         width: 30%;
-        left: 150px;
+        left: 150px
     }
 
     .about-lay-image-second {
         width: 30%;
-        right: 125px;
+        right: 125px
     }
 
     .slider-research {
-        width: 1540px;
+        width: 1540px
     }
 
     .research-card {
-        width: 598px !important;
+        width: 598px !important
     }
 
     .blog-card {
-        min-height: 340px;
+        min-height: 340px
     }
 
     .footer-phone {
-        margin-left: 80px;
+        margin-left: 80px
     }
 }
 
 @media(max-width:1200px) {
-    .slider-buttons {
+
+    .main-buttons,
+    .slider-buttons,
+    .social-line {
         display: flex
     }
 
     .clients-list-production-type {
-        columns: 2 auto;
+        columns: 2 auto
     }
 
-    .blog-card-text {
+    .blog-card-text,
+    .header-phone,
+    .social-content {
         display: none
     }
 
@@ -1928,60 +1890,48 @@ body {
     }
 
     .blog-more-image {
-        left: 0;
+        left: 0
     }
 
     .blog-more-content-wrapper {
-        justify-content: center;
+        justify-content: center
     }
 
     .blog-card-main {
-        min-height: 249px !important;
-    }
-
-    .social-content {
-        display: none;
+        min-height: 249px !important
     }
 
     .crutch-social {
         position: relative;
         display: block !important;
-        margin-top: 50px;
+        margin-top: 50px
     }
 
-    .social-line {
-        display: flex;
-    }
-
-    .general-image,
-    .another-crutch-image {
+    .another-crutch-image,
+    .general-image {
         width: 677px;
-        top: 167px;
+        top: 167px
     }
 
-    .main-buttons {
-        display: flex;
+    .about-lay-image-second,
+    .ali-alt {
+        top: 50px
     }
 
     .bg-image-auto {
-        background-position: bottom right 70px;
+        background-position: bottom right 70px
     }
 
     .ali-alt {
-        top: 50px;
-        width: 30%;
+        width: 30%
     }
 
     .clients-logo {
-        height: auto;
+        height: auto
     }
 
     .container {
         max-width: 70rem
-    }
-
-    .header-phone {
-        display: none
     }
 
     .navbar {
@@ -2016,35 +1966,31 @@ body {
         left: -150px
     }
 
-    .about-lay-image-second {
-        top: 50px;
-    }
-
     .text-research {
-        width: 450px;
+        width: 450px
     }
 
     .slider-research {
         width: 1260px;
-        left: -222px;
+        left: -222px
     }
 
     .research-card {
-        width: 486px !important;
+        width: 486px !important
     }
 
     .blog-card {
-        min-height: 277px;
+        min-height: 277px
     }
 
     .footer-phone {
         width: 280px;
         font-size: 20px;
-        margin-left: 50px;
+        margin-left: 50px
     }
 
     .bold-list {
-        width: 121px;
+        width: 121px
     }
 }
 
@@ -2057,34 +2003,43 @@ body {
         line-height: 160%
     }
 
-    .crutch-slider {
-        display: block;
+    .crutch-slider,
+    .footer-legal,
+    .footer-wrapper,
+    .is-open,
+    .mobile-phone {
+        display: block
     }
 
-    .crutch-slider-one {
-        display: none;
+    .crutch-slider-one,
+    .cta-image,
+    .header-nav,
+    .navbar-button .button-text,
+    .text-research-beta {
+        display: none
     }
 
     .policy-section {
-        margin-bottom: 100px !important;
+        margin-bottom: 100px !important
     }
 
     .blog-number-list {
         width: auto;
+        max-width: 800px
     }
 
-    .slider-blog-set,
-    .slider-blog {
-        width: 439px;
+    .slider-blog,
+    .slider-blog-set {
+        width: 439px
     }
 
     .general-image {
         width: 534px;
-        top: 246px;
+        top: 246px
     }
 
     .general-list {
-        columns: 1 auto;
+        columns: 1 auto
     }
 
     body {
@@ -2101,23 +2056,20 @@ body {
         width: 80%;
         height: auto;
         left: 80px;
-        top: 0;
+        top: 0
+    }
+
+    .navbar-logo,
+    .steps-buttons {
+        display: flex
     }
 
     .blog-more-section {
-        margin-left: 0 !important;
-    }
-
-    .blog-number-list {
-        max-width: 800px;
+        margin-left: 0 !important
     }
 
     .bg-image-auto {
-        background-image: none;
-    }
-
-    .steps-buttons {
-        display: flex
+        background-image: none
     }
 
     .bye {
@@ -2128,18 +2080,11 @@ body {
         max-width: 60rem
     }
 
-    .cta-image,
-    .header-nav,
-    .navbar-button .button-text {
-        display: none
-    }
-
     .slider-buttons {
-        height: 3.4rem;
+        height: 3.4rem
     }
 
     .navbar-logo {
-        display: flex;
         align-items: center;
         flex-grow: 1;
         justify-content: center
@@ -2188,13 +2133,6 @@ body {
         justify-content: center;
         padding: 1.925rem 6rem;
         margin-top: -11px
-    }
-
-    .footer-legal,
-    .footer-wrapper,
-    .is-open,
-    .mobile-phone {
-        display: block
     }
 
     .mobile-menu {
@@ -2295,7 +2233,8 @@ body {
     .footer-menu-link,
     .footer-menu-link-bold,
     .footer-menu-title,
-    .steps-text {
+    .steps-text,
+    .text-research {
         font-size: 14px
     }
 
@@ -2341,7 +2280,7 @@ body {
     }
 
     .contract-content {
-        max-width: 100%;
+        max-width: 100%
     }
 
     .founder-text {
@@ -2349,7 +2288,6 @@ body {
         font-size: 14px;
         line-height: 158%
     }
-
 
     .text-beta {
         margin-top: -5px
@@ -2389,7 +2327,7 @@ body {
     }
 
     .cta-form {
-        max-width: 345px;
+        max-width: 345px
     }
 
     .cta-form-text {
@@ -2477,6 +2415,7 @@ body {
         margin: 0
     }
 
+    .bold-list,
     .policy {
         margin-left: 0
     }
@@ -2492,10 +2431,6 @@ body {
         margin-top: 20px;
         margin-bottom: 30px;
         margin-left: 20px
-    }
-
-    .bold-list {
-        margin-left: 0
     }
 
     .footer-top {
@@ -2550,48 +2485,48 @@ body {
         top: 1.6rem
     }
 
-    .text-research {
-        font-size: 14px;
-    }
-
     .clients-list-about {
-        gap: 70px;
+        gap: 70px
     }
 
     .text-research-content {
-        columns: auto;
-    }
-
-    .text-research-beta {
-        display: none;
+        columns: auto
     }
 
     .slider-research {
         width: 1066px;
-        left: -209px;
+        left: -209px
     }
 
     .blog-card {
-        min-height: 196px;
+        min-height: 196px
     }
 
     .research-card {
         width: 345px !important;
-        margin-right: 10px !important;
+        margin-right: 10px !important
     }
 
     .research-wrapper {
-        left: -503px;
+        left: -503px
     }
 
     .mission {
         display: flex !important;
         margin-top: -11px;
         margin-bottom: 7px;
-        font-size: 14px;
+        font-size: 14px
     }
 
     @media(max-width:768px) {
+
+        .crutch-image,
+        .fi-alt,
+        .founder-image {
+            left: 0;
+            position: relative
+        }
+
         .container {
             max-width: 40rem
         }
@@ -2601,7 +2536,7 @@ body {
         }
 
         .blog-beta {
-            margin-top: 50px !important;
+            margin-top: 50px !important
         }
 
         .header-content {
@@ -2609,29 +2544,23 @@ body {
         }
 
         .general-image {
-            display: none;
+            display: none
         }
 
         .general-grey {
-            padding-bottom: 0;
+            padding-bottom: 0
         }
 
         .another-crutch-image {
             top: 0;
             width: 114%;
-            right: 26px;
             right: -77px;
-        }
-
-        .another-crutch-image {
             position: relative;
-            display: block;
+            display: block
         }
 
         .founder-image {
-            position: relative;
-            width: 100%;
-            left: 0
+            width: 100%
         }
 
         .founder-content {
@@ -2656,19 +2585,13 @@ body {
             font-size: 14px
         }
 
-        .blog-slider-footer,
-        .blog-pagination-footer {
+        .blog-pagination-footer,
+        .blog-slider-footer {
             margin-top: 30px
         }
 
-        .fi-alt,
-        .crutch-image {
-            position: relative;
-            left: 0;
-        }
-
         .chem-production {
-            width: 100%;
+            width: 100%
         }
 
         .blog-buttons {
@@ -2688,15 +2611,15 @@ body {
             width: 80%;
             height: auto;
             left: 80px;
-            top: 0;
+            top: 0
         }
 
         .research-title {
-            width: 540px;
+            width: 540px
         }
 
         .slider-about {
-            max-width: 50rem;
+            max-width: 50rem
         }
     }
 
@@ -2705,144 +2628,138 @@ body {
             max-width: 90%
         }
 
+        .header-features-text,
         .share-text {
-            font-size: 14px;
+            font-size: 14px
         }
 
         .crutch-social {
             margin-top: 43px;
-            margin-left: -25px;
+            margin-left: -25px
         }
 
         .header-image {
             background-size: 500%;
-            background-position: center top -244px;
+            background-position: center top -244px
         }
 
+        .crutch-title,
         .third-crutch {
-            display: block;
+            display: block
         }
 
         .founder-content-wrapper {
-            justify-content: center;
+            justify-content: center
         }
 
+        .clients-logo:nth-child(9),
+        .crutch-ones,
+        .fi-alt,
         .third {
-            display: none;
+            display: none
         }
 
         .cta-main {
-            margin-top: 9.475rem !important;
+            margin-top: 9.475rem !important
         }
 
+        .blog-more-section,
         .main-fc {
-            margin-top: 50px !important;
+            margin-top: 50px !important
         }
 
         .header-main {
             margin-left: -5px !important;
-            margin-bottom: 4.3rem;
+            margin-bottom: 4.3rem
         }
 
-        .policy-info {
-            width: 345px;
+        .founder-text,
+        .policy-info,
+        .research-title,
+        .seo-wrapper,
+        .text-research {
+            width: 345px
         }
 
         .policy-header {
-            margin-bottom: 0;
+            margin-bottom: 0
         }
 
         .policy-text {
-            margin-bottom: 10px;
+            margin-bottom: 10px
         }
 
         .policy-title {
             padding-right: 35px;
-            word-break: break-word;
+            word-break: break-word
         }
 
         .bg-blog-more {
-            background-size: 247%;
+            background-size: 247%
         }
 
         .blog-more-text {
             width: 345px;
             font-size: 14px;
-            line-height: 158%;
+            line-height: 158%
         }
 
         .link-like {
-            margin-left: 10px;
-
+            margin-left: 10px
         }
 
         .blog-more-content {
-            max-width: 345px;
-        }
-
-        .blog-more-section {
-            margin-top: 50px !important;
+            max-width: 345px
         }
 
         .blog-second-wrapper {
-            margin-top: 27px;
-        }
-
-        .blog-more-title-second {
-            margin-bottom: -10px !important;
+            margin-top: 27px
         }
 
         .blog-more-text-beta {
-            margin-top: 10px;
+            margin-top: 10px
         }
 
         .blog-more-title-third {
             font-size: 18px;
-            margin-bottom: 20px !important;
+            margin-bottom: 20px !important
         }
 
         .blog-more-title-second {
             font-size: 20px;
-            margin-bottom: 0 !important;
+            margin-bottom: 0 !important
         }
 
         .blog-more-title {
             width: 330px;
             line-height: 140%;
-            margin-bottom: 10px;
+            margin-bottom: 10px
         }
 
         .blog-more-slider {
             margin-top: 100px !important;
-            margin-bottom: 100px !important;
+            margin-bottom: 100px !important
         }
 
         .link-like-alt {
-            margin-bottom: 5px;
+            margin-bottom: 5px
         }
 
         .abyss-links {
-            flex-wrap: wrap;
+            flex-wrap: wrap
         }
 
+        .link-one:after,
         .link-one:before {
             content: "";
             height: .0625rem;
             background: #828a99;
             width: 14px;
-            margin: 10px 10px;
-        }
-
-        .link-one:after {
-            content: "";
-            height: .0625rem;
-            background: #828a99;
-            width: 14px;
-            margin: 10px 10px;
+            margin: 10px
         }
 
         .link-one-alt:after {
-            background: white !important;
+            background: #fff !important
         }
 
         .link-two:before {
@@ -2850,104 +2767,102 @@ body {
             height: .0625rem;
             background: #828a99;
             width: 0;
-            margin: 0;
+            margin: 0
         }
 
         .link-two {
-            margin-top: 8px;
+            margin-top: 8px
         }
 
         .blog-card-main {
-            min-height: 192px !important;
+            min-height: 192px !important
         }
 
         .swiper-pagination {
-            right: 35px;
+            right: 35px
         }
 
         .swiper-pagination-bullet-active {
-            height: 46px;
+            height: 46px
         }
 
         .cta-blog {
-            margin-top: -20px !important;
+            margin-top: -20px !important
         }
 
-        .slider-blog-set,
-        .slider-blog {
+        .slider-blog,
+        .slider-blog-set {
             width: 340px;
-            margin-bottom: 14px;
+            margin-bottom: 14px
         }
 
         .about-lay-content {
-            margin-top: 45px !important;
+            margin-top: 45px !important
         }
 
         .button-download {
             margin-bottom: 46px;
             padding: 2.2625rem 6.55rem;
             width: 338px;
-            font-size: 16px;
+            font-size: 16px
         }
 
         .general-lay {
-            margin-top: 20px !important;
+            margin-top: 20px !important
         }
 
         .another-crutch-image {
-            right: 26px;
+            right: 26px
         }
 
+        .about-lay-image,
+        .about-lay-image-second,
         .ali-alt {
             width: 92%;
-            left: 15px;
+            left: 15px
         }
 
         .crutch-image {
             display: inline;
-            top: 50px;
+            top: 50px
         }
 
         .types {
-            margin-top: 115px;
+            margin-top: 115px
         }
 
         .type-text {
-            margin-bottom: 0 !important;
+            margin-bottom: 0 !important
         }
 
         .clients-list-production-type {
-            margin-top: 12px !important;
+            margin-top: 12px !important
         }
 
         .slider-steps {
-            width: 1646px;
+            width: 1646px
         }
 
         .type-list {
-            padding-top: 19px;
-        }
-
-        .fi-alt {
-            display: none;
+            padding-top: 19px
         }
 
         .prod-section {
-            margin-top: 80px !important;
+            margin-top: 80px !important
         }
 
         .contract-list-item {
             margin-left: -7px;
-            padding-top: 10px;
+            padding-top: 10px
         }
 
         .clients-list-production {
-            margin-top: 0 !important;
+            margin-top: 0 !important
         }
 
         .contract-alpha {
             margin-top: -25px;
-            margin-bottom: -20px;
+            margin-bottom: -20px
         }
 
         .header-title {
@@ -2995,212 +2910,160 @@ body {
             margin-left: -5px
         }
 
-        .clients-list {
-            columns: 1
-        }
-
         .clients-logo {
             flex-basis: 50%
         }
 
-        .clients-logo:nth-child(9) {
-            display: none
-        }
-
         .slider-features {
             width: 106%;
-            margin-left: -18px;
+            margin-left: -18px
         }
 
         .slider-about {
             margin-top: 43px;
-            max-width: 103%;
+            max-width: 103%
         }
 
         .header-features {
             padding-left: 25px;
-            height: 140px;
-        }
-
-        .about-lay-image,
-        .about-lay-image-second {
-            left: 56px;
+            height: 140px
         }
 
         .title-about {
-            font-size: 48px;
+            font-size: 48px
         }
 
         .that-links {
-            font-size: 12px;
+            font-size: 12px
         }
 
         .about-lay {
-            margin-top: -28px;
-        }
-
-        .about-lay-image,
-        .about-lay-image-second {
-            width: 92%;
-            left: 15px;
+            margin-top: -28px
         }
 
         .about-lay-title {
             width: 345px;
-            padding: 0;
-        }
-
-        .founder-text {
-            width: 345px;
+            padding: 0
         }
 
         .slider-button-next,
         .slider-button-prev {
-            height: 44px;
+            height: 44px
         }
 
         .header-features-items {
-            width: 250px !important;
-        }
-
-        .header-features-text {
-            font-size: 14px;
-        }
-
-        .crutch-ones {
-            display: none;
-        }
-
-        .crutch-title {
-            display: block;
+            width: 250px !important
         }
 
         .about-lay-second {
-            margin-top: 107px;
+            margin-top: 107px
         }
 
         .text-beta-about {
-            margin-top: -7px !important;
+            margin-top: -7px !important
         }
 
         .clients-list {
+            columns: 1;
             margin-top: -24px;
-            margin-bottom: 0;
+            margin-bottom: 0
         }
 
         .founder-content {
-            margin-top: 30px;
-        }
-
-        .research-title,
-        .text-research {
-            width: 345px;
+            margin-top: 30px
         }
 
         .research-title {
-            margin-bottom: -16px;
+            margin-bottom: -16px
         }
 
         .text-research {
-            line-height: 158%;
+            line-height: 158%
         }
 
+        .cta-form,
         .slider-research {
-            margin-top: 28px;
+            margin-top: 28px
         }
 
         .research-type {
-            margin-top: -6px;
+            margin-top: -6px
         }
 
         .clients-title {
-            margin-bottom: 40px;
-        }
-
-        .cta-form {
-            margin-top: 28px;
+            margin-bottom: 40px
         }
 
         .cta-form-button {
-            margin-bottom: 6px;
+            margin-bottom: 6px
         }
 
         .mg-alt {
             margin-top: -30px;
-            margin-bottom: 50px;
+            margin-bottom: 50px
         }
 
         .seo-text {
             font-size: 16px;
-            line-height: 165%;
-        }
-
-        .seo-wrapper {
-            width: 345px;
+            line-height: 165%
         }
     }
 
     @media(max-width:362px) {
         .navbar-logo {
-            padding: 1.5625rem 2.625rem;
+            padding: 1.5625rem 2.625rem
         }
 
         .research-title,
         .text-research {
             width: auto;
-            max-width: 300px;
+            max-width: 300px
         }
 
-        .about-lay-title {
-            width: 300px;
+        .about-lay-title,
+        .blog-more-text,
+        .blog-more-title {
+            width: 300px
         }
 
         .type-content {
-            max-width: 290px !important;
-        }
-
-        .blog-more-title,
-        .blog-more-text {
-            width: 300px;
+            max-width: 290px !important
         }
 
         .seo-wrapper {
             width: auto;
-            max-width: 345px;
+            max-width: 345px
         }
 
         .logo-light {
-            max-width: 100px;
+            max-width: 100px
         }
 
         .header-button {
-            padding: 1.925rem 5rem;
+            padding: 1.925rem 5rem
         }
 
+        .cta-form-button,
         .founder-text {
-            width: 290px;
+            width: 290px
         }
 
         .blog-card-main {
-            min-height: 164px !important;
+            min-height: 164px !important
         }
 
         .blog-card-title {
-            margin-bottom: 0;
+            margin-bottom: 0
         }
 
         .cta-form {
             margin-left: 5px;
-            max-width: 290px;
+            max-width: 290px
         }
 
-        .cta-form-button {
-            width: 290px;
-        }
-
-        .slider-blog-set,
-        .slider-blog {
-            width: auto;
+        .slider-blog,
+        .slider-blog-set {
+            width: auto
         }
     }
 }

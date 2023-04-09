@@ -410,56 +410,6 @@ $header_style='bg-blog-more';?>
         </div>
     </section>
     <?php include_once('footer.php')?>
-    <div class="modal">
-        <div class="modal-form-wrapper">
-            <h2 class="modal-title">Есть вопросы?</h2>
-            <a href="#" class="modal-close">
-                <img src="./img/close.svg" alt="close" class="close-button">
-            </a>
-            <p class="modal-text">
-                Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и
-                поможем даже в самых сложных случаях!
-            </p>
-            <form action="./handler.php" class="modal-form">
-                <div class="input-group-wrapper modal-input">
-                    <div class="input-group modal-group">
-                        <input id="modal-name" type="text" class="input modal-type" name=username placeholder=" ">
-                        <label for="modal-name" class="label modal-label">Имя</label>
-                    </div>
-                    <div class="input-group modal-group">
-                        <input id="modal-phone" type="tel" class="input modal-type" name=userphone placeholder=" ">
-                        <label for="modal-phone" class="label modal-label">Номер телефона</label>
-                    </div>
-                </div>
-                <div class="modal-form-footer">
-                    <button type="submit" class="button modal-form-button send-it">Отправить заявку</button>
-                    <div class="notify">
-                        <img src="./img/shield.svg" alt="form icon" class="notify-icon">
-                        <p class="notify-text">
-                            Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную
-                            конфиденциальность информации!
-                        </p>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-    <div class="modal application">
-        <div class="modal-form-wrapper application-wrapper">
-            <img src="./img/thanks_illu.svg" alt="thanks-image" class="thanks">
-            <div class="application-content">
-                <h2 class="modal-title">Спасибо за заявку!</h2>
-                <a href="#" class="modal-close">
-                    <img src="./img/close.svg" alt="close" class="close-button">
-                </a>
-                <p class="modal-text">
-                    Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в
-                    самых сложных случаях!
-                </p>
-                <button type="submit" class="button button-back">Вернуться на главную</button>
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>

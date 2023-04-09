@@ -110,7 +110,7 @@
                 </div>
                 <div class="footer-author">
                     <span class="made-in">Сделано в</span>
-                    <img src="./img/Group 48.svg" alt="made-in-logo" class="made-in-logo">
+                    <img src="./img/Group48.svg" alt="made-in-logo" class="made-in-logo">
                 </div>
             </div>
         </div>

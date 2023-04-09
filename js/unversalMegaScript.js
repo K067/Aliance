@@ -94,6 +94,9 @@ const swiperBlog = new Swiper('.slider-blog', {
         767: {
             slidesPerView: 1,
         },
+        1001: {
+            slidesPerView: 2,
+        },
         1199: {
             slidesPerView: 2,
         },

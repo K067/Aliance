@@ -1720,6 +1720,15 @@ body {
         max-width: 660px;
     }
 
+    .fi-alt,
+    .crutch-image {
+        right: -20px;
+    }
+
+    .about-lay-content-second {
+        max-width: 650px;
+    }
+
     .policy-info {
         width: auto;
     }
@@ -1738,6 +1747,7 @@ body {
     }
 
     .ali-alt {
+        left: 185px;
         height: 100%;
     }
 
@@ -1829,6 +1839,7 @@ body {
     }
 
     .ali-alt {
+        width: 30%;
         left: 125px;
     }
 

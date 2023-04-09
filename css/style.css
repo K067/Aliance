@@ -2003,6 +2003,27 @@ html {
         line-height: 160%
     }
 
+    .card-brand:hover,
+    .card:hover {
+        border-color: #EBEBF0;
+    }
+
+    .button-link:hover:before {
+        width: 3.2rem
+    }
+
+    .header-nav-link:hover::after {
+        width: 0%;
+        right: auto;
+        left: 0
+    }
+
+    .button-fold,
+    .card-brand:hover .card-title-brand,
+    .card:hover .card-title {
+        color: #292D33
+    }
+
     .crutch-slider,
     .footer-legal,
     .footer-wrapper,

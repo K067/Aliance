@@ -140,26 +140,19 @@ const mySwiper = new Swiper('.slider-blog-set', {
     }
 })
 
-const hoverOff = (e) => {
-    e.forEach(el => {
-        el.forEach(ele => {
-            ele.style.pointerEvents = "none";
-        })
-    })
-}
-
 const hover = (elem) => {
     elem.forEach(e => {
-        const first = elem[0].querySelector('.card-image-brand');
-        const second = elem[1].querySelector('.card-image-brand');
-
+        const first = elem[0].querySelector('.brand-image');
+        const second = elem[1].querySelector('.brand-image');
         e.addEventListener('mouseover', () => {
             switch (e) {
                 case elem[0]:
                     first.src = './img/AGTECH.png';
+                    first.src = './img/AGTECH.webp';
                     break;
                 case elem[1]:
                     second.src = './img/AP.png';
+                    second.src = './img/AP.webp';
                     break;
             }
         })
@@ -167,9 +160,11 @@ const hover = (elem) => {
             switch (e) {
                 case elem[0]:
                     first.src = './img/AGTECHA.png';
+                    first.src = './img/AGTECHA.webp';
                     break;
                 case elem[1]:
                     second.src = './img/APA.png';
+                    second.src = './img/APA.webp';
                     break;
             }
         })
@@ -483,10 +478,6 @@ const submitForm = () => {
                 }
             });
     });
-}
-
-if (window.screen.width <= 768) {
-    hoverOff(elementArray);
 }
 
 mobileMenuToggle.addEventListener('click', e => {

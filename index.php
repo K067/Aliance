@@ -247,7 +247,7 @@
                     <picture class="card-image-brand">
                     <source type="image/webp" srcset="./img/AGTECHA.webp">
                     <source type="image/png" srcset="./img/AGTECHA.png">
-                    <img src="./img/AGTECHA.png" alt="Автохимия AG-Tech" class="image-scale">
+                    <img src="./img/AGTECHA.png" alt="Автохимия AG-Tech" class="image-scale brand-image">
                     </picture>
                     <h3 class="card-title-brand">Автохимия AG-Tech</h3>
                     <p class="card-text-brand">Для современного мира разбавленное изрядной долей эмпатии,
@@ -258,7 +258,7 @@
                     <picture class="card-image-brand">
                     <source type="image/webp" srcset="./img/APA.webp">
                     <source type="image/png" srcset="./img/APA.png">
-                    <img src="./img/APA.png" alt="Автохимия AP" class="image-scale">
+                    <img src="./img/APA.png" alt="Автохимия AP" class="image-scale brand-image">
                     </picture>
                     <h3 class="card-title-brand">Автохимия AP</h3>
                     <p class="card-text-brand">Для современного мира разбавленное изрядной долей
